@@ -3,7 +3,7 @@
 
   <p align="center">
     <img src="https://img.shields.io/badge/Format-Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white" alt="Markdown" />
-    <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT" />
+    <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT" /></a>
     <img src="https://img.shields.io/badge/Fiches-44-38BDF8?style=for-the-badge" alt="44 fiches" />
   </p>
   <p align="center">
