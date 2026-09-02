@@ -34,10 +34,110 @@ async function initApp() {
   }
 
   setupEventListeners();
+  setupCustomDropdowns();
   populateFilterOptions();
   renderLanguages();
   updateStats();
   lucide.createIcons();
+}
+
+function setupCustomDropdowns() {
+  // Toggle dropdowns
+  const dropdowns = document.querySelectorAll('.custom-dropdown');
+  
+  dropdowns.forEach(dropdown => {
+    const trigger = dropdown.querySelector('.dropdown-trigger');
+    if (!trigger) return;
+
+    trigger.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const isOpen = dropdown.classList.contains('open');
+      
+      // Close all other dropdowns
+      dropdowns.forEach(d => {
+        if (d !== dropdown) {
+          d.classList.remove('open');
+          d.querySelector('.dropdown-trigger')?.setAttribute('aria-expanded', 'false');
+        }
+      });
+
+      if (isOpen) {
+        dropdown.classList.remove('open');
+        trigger.setAttribute('aria-expanded', 'false');
+      } else {
+        dropdown.classList.add('open');
+        trigger.setAttribute('aria-expanded', 'true');
+        const searchInp = dropdown.querySelector('.dropdown-search-input');
+        if (searchInp) {
+          setTimeout(() => searchInp.focus(), 50);
+        }
+      }
+    });
+  });
+
+  // Close when clicking outside
+  document.addEventListener('click', (e) => {
+    if (!e.target.closest('.custom-dropdown')) {
+      dropdowns.forEach(d => {
+        d.classList.remove('open');
+        d.querySelector('.dropdown-trigger')?.setAttribute('aria-expanded', 'false');
+      });
+    }
+  });
+
+  // Category search filter inside dropdown
+  const catSearchInput = document.getElementById('category-search-input');
+  if (catSearchInput) {
+    catSearchInput.addEventListener('input', (e) => {
+      const q = e.target.value.toLowerCase().trim();
+      const options = document.querySelectorAll('#category-options-list .dropdown-option');
+      options.forEach(opt => {
+        const text = opt.textContent.toLowerCase();
+        opt.style.display = text.includes(q) ? 'flex' : 'none';
+      });
+    });
+    catSearchInput.addEventListener('click', (e) => e.stopPropagation());
+  }
+
+  // Sort dropdown options
+  const sortOptions = document.querySelectorAll('#sort-options-list .dropdown-option');
+  sortOptions.forEach(opt => {
+    opt.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const val = opt.dataset.value;
+      SORT_BY = val;
+
+      sortOptions.forEach(o => o.classList.remove('active'));
+      opt.classList.add('active');
+
+      const label = opt.querySelector('span')?.textContent || 'Trier';
+      document.getElementById('sort-label').textContent = label;
+
+      document.getElementById('sort-dropdown').classList.remove('open');
+      CURRENT_PAGE = 1;
+      renderLanguages();
+    });
+  });
+
+  // Page size dropdown options
+  const pageSizeOptions = document.querySelectorAll('#pagesize-options-list .dropdown-option');
+  pageSizeOptions.forEach(opt => {
+    opt.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const val = opt.dataset.value;
+      PAGE_SIZE = val === 'all' ? 9999 : parseInt(val, 10);
+
+      pageSizeOptions.forEach(o => o.classList.remove('active'));
+      opt.classList.add('active');
+
+      const label = val === 'all' ? 'Tous' : val;
+      document.getElementById('pagesize-label').textContent = label;
+
+      document.getElementById('pagesize-dropdown').classList.remove('open');
+      CURRENT_PAGE = 1;
+      renderLanguages();
+    });
+  });
 }
 
 function setupEventListeners() {
@@ -49,27 +149,14 @@ function setupEventListeners() {
   });
 
   document.addEventListener('keydown', (e) => {
-    if (e.key === '/' && document.activeElement !== searchInput) {
+    if (e.key === '/' && document.activeElement !== searchInput && !document.activeElement.classList.contains('dropdown-search-input')) {
       e.preventDefault();
       searchInput.focus();
     }
     if (e.key === 'Escape') {
       closeModal();
+      document.querySelectorAll('.custom-dropdown').forEach(d => d.classList.remove('open'));
     }
-  });
-
-  const sortSelect = document.getElementById('sort-select');
-  sortSelect.addEventListener('change', (e) => {
-    SORT_BY = e.target.value;
-    CURRENT_PAGE = 1;
-    renderLanguages();
-  });
-
-  const categorySelect = document.getElementById('category-select');
-  categorySelect.addEventListener('change', (e) => {
-    ACTIVE_CATEGORY = e.target.value;
-    CURRENT_PAGE = 1;
-    renderLanguages();
   });
 
   const githubToggle = document.getElementById('github-toggle');
@@ -78,15 +165,6 @@ function setupEventListeners() {
     CURRENT_PAGE = 1;
     renderLanguages();
   });
-
-  const pageSizeSelect = document.getElementById('page-size-select');
-  if (pageSizeSelect) {
-    pageSizeSelect.addEventListener('change', (e) => {
-      PAGE_SIZE = e.target.value === 'all' ? 9999 : parseInt(e.target.value, 10);
-      CURRENT_PAGE = 1;
-      renderLanguages();
-    });
-  }
 
   // Modal overlay click
   const modalOverlay = document.getElementById('modal-overlay');
@@ -142,13 +220,58 @@ function populateFilterOptions() {
     renderLanguages();
   });
 
-  // Populate Category select
-  const categorySelect = document.getElementById('category-select');
+  // Populate Custom Category dropdown list
+  const categoryOptionsList = document.getElementById('category-options-list');
+  const totalCategoriesCount = Object.keys(categoryCounts).length;
+  
+  let categoryListHtml = `
+    <div class="dropdown-option active" data-value="all">
+      <div class="option-left">
+        <i data-lucide="grid" style="width: 15px; color: var(--accent-cyan);"></i>
+        <span>Toutes les catégories</span>
+      </div>
+      <div style="display: flex; align-items: center; gap: 0.4rem;">
+        <span class="option-badge">${ALL_LANGUAGES.length}</span>
+        <i data-lucide="check" class="option-check"></i>
+      </div>
+    </div>
+  `;
+
   Object.keys(categoryCounts).sort().forEach(cat => {
-    const opt = document.createElement('option');
-    opt.value = cat;
-    opt.textContent = `${cat} (${categoryCounts[cat]})`;
-    categorySelect.appendChild(opt);
+    categoryListHtml += `
+      <div class="dropdown-option" data-value="${cat}">
+        <div class="option-left">
+          <i data-lucide="folder" style="width: 15px; color: var(--accent-purple);"></i>
+          <span>${cat}</span>
+        </div>
+        <div style="display: flex; align-items: center; gap: 0.4rem;">
+          <span class="option-badge">${categoryCounts[cat]}</span>
+          <i data-lucide="check" class="option-check"></i>
+        </div>
+      </div>
+    `;
+  });
+
+  categoryOptionsList.innerHTML = categoryListHtml;
+
+  // Add click listeners to category custom options
+  categoryOptionsList.querySelectorAll('.dropdown-option').forEach(opt => {
+    opt.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const val = opt.dataset.value;
+      ACTIVE_CATEGORY = val;
+
+      categoryOptionsList.querySelectorAll('.dropdown-option').forEach(o => o.classList.remove('active'));
+      opt.classList.add('active');
+
+      const label = val === 'all' ? `Toutes les catégories (${totalCategoriesCount})` : val;
+      document.getElementById('category-label').textContent = label;
+
+      document.getElementById('category-dropdown').classList.remove('open');
+      CURRENT_PAGE = 1;
+      renderLanguages();
+      lucide.createIcons();
+    });
   });
 
   // Render Era Pills
