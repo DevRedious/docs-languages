@@ -17,3 +17,4 @@
 ## CoffeeScript — ressources
 
 - Site officiel : [https://coffeescript.org](https://coffeescript.org)
+- Dépôt GitHub : [https://github.com/jashkenas/coffeescript](https://github.com/jashkenas/coffeescript)

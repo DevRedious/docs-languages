@@ -17,3 +17,4 @@
 ## Csound — ressources
 
 - Site officiel : [https://csound.com](https://csound.com)
+- Dépôt GitHub : [https://github.com/csound/csound](https://github.com/csound/csound)

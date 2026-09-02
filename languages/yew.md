@@ -17,3 +17,4 @@
 ## Yew — ressources
 
 - Site officiel : [https://yew.rs](https://yew.rs)
+- Dépôt GitHub : [https://github.com/yewstack/yew](https://github.com/yewstack/yew)

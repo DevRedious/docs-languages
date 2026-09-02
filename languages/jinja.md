@@ -17,3 +17,4 @@
 ## Jinja — ressources
 
 - Site officiel : [https://jinja.palletsprojects.com](https://jinja.palletsprojects.com)
+- Dépôt GitHub : [https://github.com/pallets/jinja](https://github.com/pallets/jinja)

@@ -15,3 +15,4 @@
 ## Ur/Web — ressources
 
 - Site officiel : [http://www.impredicative.com/ur/](http://www.impredicative.com/ur/)
+- Dépôt GitHub : [https://github.com/urweb/urweb](https://github.com/urweb/urweb)

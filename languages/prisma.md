@@ -17,3 +17,4 @@
 ## Prisma — ressources
 
 - Site officiel : [https://www.prisma.io](https://www.prisma.io)
+- Dépôt GitHub : [https://github.com/prisma/prisma](https://github.com/prisma/prisma)

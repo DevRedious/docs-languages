@@ -17,3 +17,4 @@
 ## Viem — ressources
 
 - Site officiel : [https://viem.sh](https://viem.sh)
+- Dépôt GitHub : [https://github.com/wevm/viem](https://github.com/wevm/viem)

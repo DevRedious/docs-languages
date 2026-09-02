@@ -17,3 +17,4 @@
 ## Tailwind CSS — ressources
 
 - Site officiel : [https://tailwindcss.com](https://tailwindcss.com)
+- Dépôt GitHub : [https://github.com/tailwindlabs/tailwindcss](https://github.com/tailwindlabs/tailwindcss)

@@ -17,3 +17,4 @@
 ## GraphQL (SDL) — ressources
 
 - Site officiel : [https://graphql.org](https://graphql.org)
+- Dépôt GitHub : [https://github.com/graphql/graphql-spec](https://github.com/graphql/graphql-spec)

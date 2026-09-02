@@ -16,3 +16,4 @@
 ## Fantom — ressources
 
 - Site officiel : [https://fantom.org](https://fantom.org)
+- Dépôt GitHub : [https://github.com/fantom-lang/fantom](https://github.com/fantom-lang/fantom)

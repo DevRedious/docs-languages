@@ -17,3 +17,4 @@
 ## Laravel — ressources
 
 - Site officiel : [https://laravel.com](https://laravel.com)
+- Dépôt GitHub : [https://github.com/laravel/laravel](https://github.com/laravel/laravel)

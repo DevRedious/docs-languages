@@ -17,3 +17,4 @@
 ## Event-B (Rodin) — ressources
 
 - Site officiel : [http://www.event-b.org](http://www.event-b.org)
+- Dépôt GitHub : [https://github.com/rodin-b-sharp/rodin](https://github.com/rodin-b-sharp/rodin)

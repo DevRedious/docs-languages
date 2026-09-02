@@ -17,3 +17,4 @@
 ## Wyvern — ressources
 
 - Site officiel : [http://wyvern-lang.org](http://wyvern-lang.org)
+- Dépôt GitHub : [https://github.com/wyvernlang/wyvern](https://github.com/wyvernlang/wyvern)

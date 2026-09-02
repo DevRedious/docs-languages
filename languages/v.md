@@ -17,3 +17,4 @@
 ## V — ressources
 
 - Site officiel : [https://vlang.io](https://vlang.io)
+- Dépôt GitHub : [https://github.com/vlang/v](https://github.com/vlang/v)

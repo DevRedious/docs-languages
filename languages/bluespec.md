@@ -17,3 +17,4 @@
 ## Bluespec (BSV) — ressources
 
 - Site officiel : [https://bluespec.com](https://bluespec.com)
+- Dépôt GitHub : [https://github.com/B-Lang-org/bsc](https://github.com/B-Lang-org/bsc)

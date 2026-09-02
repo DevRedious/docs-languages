@@ -17,3 +17,4 @@
 ## GNAT Ada — ressources
 
 - Site officiel : [https://www.adacore.com/gnatpro](https://www.adacore.com/gnatpro)
+- Dépôt GitHub : [https://github.com/AdaCore/gnatcoll-core](https://github.com/AdaCore/gnatcoll-core)

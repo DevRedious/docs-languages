@@ -17,3 +17,4 @@
 ## Pharo — ressources
 
 - Site officiel : [https://pharo.org](https://pharo.org)
+- Dépôt GitHub : [https://github.com/pharo-project/pharo](https://github.com/pharo-project/pharo)

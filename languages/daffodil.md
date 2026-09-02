@@ -17,3 +17,4 @@
 ## Apache Daffodil — ressources
 
 - Site officiel : [https://daffodil.apache.org](https://daffodil.apache.org)
+- Dépôt GitHub : [https://github.com/apache/daffodil](https://github.com/apache/daffodil)

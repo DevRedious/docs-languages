@@ -17,3 +17,4 @@
 ## Clasp — ressources
 
 - Site officiel : [https://github.com/clasp-developers/clasp](https://github.com/clasp-developers/clasp)
+- Dépôt GitHub : [https://github.com/clasp-developers/clasp](https://github.com/clasp-developers/clasp)

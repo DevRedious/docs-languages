@@ -16,3 +16,4 @@
 ## Curry — ressources
 
 - Site officiel : [https://curry-lang.org](https://curry-lang.org)
+- Dépôt GitHub : [https://github.com/kics2/kics2](https://github.com/kics2/kics2)

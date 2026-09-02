@@ -17,3 +17,4 @@
 ## Odin — ressources
 
 - Site officiel : [https://odin-lang.org](https://odin-lang.org)
+- Dépôt GitHub : [https://github.com/odin-lang/Odin](https://github.com/odin-lang/Odin)

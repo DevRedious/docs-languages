@@ -17,3 +17,4 @@
 ## BQN — ressources
 
 - Site officiel : [https://mlochbaum.github.io/BQN/](https://mlochbaum.github.io/BQN/)
+- Dépôt GitHub : [https://github.com/mlochbaum/BQN](https://github.com/mlochbaum/BQN)

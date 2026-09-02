@@ -16,3 +16,4 @@
 ## Prisma Accelerate — ressources
 
 - Site officiel : [https://www.prisma.io/accelerate](https://www.prisma.io/accelerate)
+- Dépôt GitHub : [https://github.com/prisma/prisma](https://github.com/prisma/prisma)

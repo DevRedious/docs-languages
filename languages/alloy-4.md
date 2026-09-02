@@ -17,3 +17,4 @@
 ## Alloy 4 — ressources
 
 - Site officiel : [https://alloytools.org](https://alloytools.org)
+- Dépôt GitHub : [https://github.com/AlloyTools/org.alloytools.alloy](https://github.com/AlloyTools/org.alloytools.alloy)

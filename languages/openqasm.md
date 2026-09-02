@@ -17,3 +17,4 @@
 ## OpenQASM — ressources
 
 - Site officiel : [https://openqasm.com](https://openqasm.com)
+- Dépôt GitHub : [https://github.com/openqasm/openqasm](https://github.com/openqasm/openqasm)

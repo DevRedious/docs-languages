@@ -17,3 +17,4 @@
 ## PureScript — ressources
 
 - Site officiel : [https://www.purescript.org](https://www.purescript.org)
+- Dépôt GitHub : [https://github.com/purescript/purescript](https://github.com/purescript/purescript)

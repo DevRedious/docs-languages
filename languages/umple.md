@@ -17,3 +17,4 @@
 ## Umple — ressources
 
 - Site officiel : [https://cruise.umple.org/umple/](https://cruise.umple.org/umple/)
+- Dépôt GitHub : [https://github.com/umple/umple](https://github.com/umple/umple)

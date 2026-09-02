@@ -17,3 +17,4 @@
 ## Racket — ressources
 
 - Site officiel : [https://racket-lang.org](https://racket-lang.org)
+- Dépôt GitHub : [https://github.com/racket/racket](https://github.com/racket/racket)

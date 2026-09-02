@@ -17,3 +17,4 @@
 ## Red — ressources
 
 - Site officiel : [https://www.red-lang.org](https://www.red-lang.org)
+- Dépôt GitHub : [https://github.com/red/red](https://github.com/red/red)

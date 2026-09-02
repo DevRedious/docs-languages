@@ -17,3 +17,4 @@
 ## NetLogo — ressources
 
 - Site officiel : [https://ccl.northwestern.edu/netlogo/](https://ccl.northwestern.edu/netlogo/)
+- Dépôt GitHub : [https://github.com/NetLogo/NetLogo](https://github.com/NetLogo/NetLogo)

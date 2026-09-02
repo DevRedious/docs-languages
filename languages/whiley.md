@@ -17,3 +17,4 @@
 ## Whiley — ressources
 
 - Site officiel : [https://whiley.org](https://whiley.org)
+- Dépôt GitHub : [https://github.com/Whiley/WhileyCompiler](https://github.com/Whiley/WhileyCompiler)

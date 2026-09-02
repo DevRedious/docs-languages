@@ -17,3 +17,4 @@
 ## Wren — ressources
 
 - Site officiel : [https://wren.io](https://wren.io)
+- Dépôt GitHub : [https://github.com/wren-lang/wren](https://github.com/wren-lang/wren)

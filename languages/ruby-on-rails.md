@@ -17,3 +17,4 @@
 ## Ruby on Rails — ressources
 
 - Site officiel : [https://rubyonrails.org](https://rubyonrails.org)
+- Dépôt GitHub : [https://github.com/rails/rails](https://github.com/rails/rails)

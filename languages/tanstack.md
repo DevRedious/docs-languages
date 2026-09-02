@@ -17,3 +17,4 @@
 ## TanStack — ressources
 
 - Site officiel : [https://tanstack.com](https://tanstack.com)
+- Dépôt GitHub : [https://github.com/TanStack/query](https://github.com/TanStack/query)

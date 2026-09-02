@@ -16,3 +16,4 @@
 ## Pike — ressources
 
 - Site officiel : [https://pike.lysator.liu.se](https://pike.lysator.liu.se)
+- Dépôt GitHub : [https://github.com/pikelang/Pike](https://github.com/pikelang/Pike)

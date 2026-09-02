@@ -17,3 +17,4 @@
 ## Chapel — ressources
 
 - Site officiel : [https://chapel-lang.org](https://chapel-lang.org)
+- Dépôt GitHub : [https://github.com/chapel-lang/chapel](https://github.com/chapel-lang/chapel)

@@ -17,3 +17,4 @@
 ## Java — ressources
 
 - Site officiel : [https://www.oracle.com/java/](https://www.oracle.com/java/)
+- Dépôt GitHub : [https://github.com/openjdk/jdk](https://github.com/openjdk/jdk)

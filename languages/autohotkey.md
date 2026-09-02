@@ -17,3 +17,4 @@
 ## AutoHotkey — ressources
 
 - Site officiel : [https://www.autohotkey.com](https://www.autohotkey.com)
+- Dépôt GitHub : [https://github.com/AutoHotkey/AutoHotkey](https://github.com/AutoHotkey/AutoHotkey)

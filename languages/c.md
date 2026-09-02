@@ -17,3 +17,4 @@
 ## C — ressources
 
 - Site officiel : [https://www.iso.org/standard/74528.html](https://www.iso.org/standard/74528.html)
+- Dépôt GitHub : [https://github.com/llvm/llvm-project](https://github.com/llvm/llvm-project)

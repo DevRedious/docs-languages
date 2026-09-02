@@ -17,3 +17,4 @@
 ## Plutus (Cardano) — ressources
 
 - Site officiel : [https://plutus.readthedocs.io](https://plutus.readthedocs.io)
+- Dépôt GitHub : [https://github.com/IntersectMBO/plutus](https://github.com/IntersectMBO/plutus)

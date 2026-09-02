@@ -17,3 +17,4 @@
 ## PHP — ressources
 
 - Site officiel : [https://www.php.net](https://www.php.net)
+- Dépôt GitHub : [https://github.com/php/php-src](https://github.com/php/php-src)

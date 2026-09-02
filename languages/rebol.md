@@ -17,3 +17,4 @@
 ## Rebol — ressources
 
 - Site officiel : [http://www.rebol.com](http://www.rebol.com)
+- Dépôt GitHub : [https://github.com/Oldes/Rebol3](https://github.com/Oldes/Rebol3)

@@ -17,3 +17,4 @@
 ## Haxe — ressources
 
 - Site officiel : [https://haxe.org](https://haxe.org)
+- Dépôt GitHub : [https://github.com/HaxeFoundation/haxe](https://github.com/HaxeFoundation/haxe)

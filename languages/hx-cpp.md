@@ -17,3 +17,4 @@
 ## Haxe hxcpp — ressources
 
 - Site officiel : [https://haxe.org](https://haxe.org)
+- Dépôt GitHub : [https://github.com/HaxeFoundation/hxcpp](https://github.com/HaxeFoundation/hxcpp)

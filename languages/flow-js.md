@@ -17,3 +17,4 @@
 ## Flow (JavaScript) — ressources
 
 - Site officiel : [https://flow.org](https://flow.org)
+- Dépôt GitHub : [https://github.com/facebook/flow](https://github.com/facebook/flow)

@@ -16,3 +16,4 @@
 ## Io — ressources
 
 - Site officiel : [https://iolanguage.org](https://iolanguage.org)
+- Dépôt GitHub : [https://github.com/IoLanguage/io](https://github.com/IoLanguage/io)

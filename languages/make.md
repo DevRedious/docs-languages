@@ -17,3 +17,4 @@
 ## GNU Make — ressources
 
 - Site officiel : [https://www.gnu.org/software/make/](https://www.gnu.org/software/make/)
+- Dépôt GitHub : [https://github.com/mirror/make](https://github.com/mirror/make)

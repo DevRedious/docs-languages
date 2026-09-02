@@ -17,3 +17,4 @@
 ## KiCS2 (Curry) — ressources
 
 - Site officiel : [https://www-ps.informatik.uni-kiel.de/kics2/](https://www-ps.informatik.uni-kiel.de/kics2/)
+- Dépôt GitHub : [https://github.com/kics2/kics2](https://github.com/kics2/kics2)

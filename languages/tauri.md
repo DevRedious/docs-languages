@@ -17,3 +17,4 @@
 ## Tauri — ressources
 
 - Site officiel : [https://tauri.app](https://tauri.app)
+- Dépôt GitHub : [https://github.com/tauri-apps/tauri](https://github.com/tauri-apps/tauri)

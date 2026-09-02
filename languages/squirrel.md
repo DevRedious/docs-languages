@@ -17,3 +17,4 @@
 ## Squirrel — ressources
 
 - Site officiel : [http://www.squirrel-lang.org](http://www.squirrel-lang.org)
+- Dépôt GitHub : [https://github.com/albertodemichelis/squirrel](https://github.com/albertodemichelis/squirrel)

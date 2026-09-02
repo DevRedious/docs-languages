@@ -17,3 +17,4 @@
 ## Cuneiform — ressources
 
 - Site officiel : [https://www.cuneiform-lang.org](https://www.cuneiform-lang.org)
+- Dépôt GitHub : [https://github.com/joergenb/cuneiform](https://github.com/joergenb/cuneiform)

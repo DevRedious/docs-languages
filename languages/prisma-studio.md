@@ -17,3 +17,4 @@
 ## Prisma Studio — ressources
 
 - Site officiel : [https://www.prisma.io/studio](https://www.prisma.io/studio)
+- Dépôt GitHub : [https://github.com/prisma/studio](https://github.com/prisma/studio)

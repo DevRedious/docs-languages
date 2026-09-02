@@ -17,3 +17,4 @@
 ## BioJava — ressources
 
 - Site officiel : [https://biojava.org](https://biojava.org)
+- Dépôt GitHub : [https://github.com/biojava/biojava](https://github.com/biojava/biojava)

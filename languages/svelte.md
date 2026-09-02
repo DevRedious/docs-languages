@@ -17,3 +17,4 @@
 ## Svelte — ressources
 
 - Site officiel : [https://svelte.dev](https://svelte.dev)
+- Dépôt GitHub : [https://github.com/sveltejs/svelte](https://github.com/sveltejs/svelte)

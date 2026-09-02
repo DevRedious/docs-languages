@@ -16,3 +16,4 @@
 ## Malbolge — ressources
 
 - Site officiel : [https://esolangs.org/wiki/Malbolge](https://esolangs.org/wiki/Malbolge)
+- Dépôt GitHub : [https://github.com/ksprotte/malbolge](https://github.com/ksprotte/malbolge)

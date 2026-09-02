@@ -17,3 +17,4 @@
 ## Kemal — ressources
 
 - Site officiel : [https://kemalcr.com](https://kemalcr.com)
+- Dépôt GitHub : [https://github.com/kemalcr/kemal](https://github.com/kemalcr/kemal)

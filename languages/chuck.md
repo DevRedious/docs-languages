@@ -17,3 +17,4 @@
 ## ChucK — ressources
 
 - Site officiel : [https://chuck.stanford.edu](https://chuck.stanford.edu)
+- Dépôt GitHub : [https://github.com/ccrma/chuck](https://github.com/ccrma/chuck)

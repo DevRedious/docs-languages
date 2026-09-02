@@ -17,3 +17,4 @@
 ## Actix — ressources
 
 - Site officiel : [https://actix.rs](https://actix.rs)
+- Dépôt GitHub : [https://github.com/actix/actix-web](https://github.com/actix/actix-web)

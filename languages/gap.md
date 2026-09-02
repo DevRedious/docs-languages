@@ -17,3 +17,4 @@
 ## GAP — ressources
 
 - Site officiel : [https://www.gap-system.org](https://www.gap-system.org)
+- Dépôt GitHub : [https://github.com/gap-system/gap](https://github.com/gap-system/gap)

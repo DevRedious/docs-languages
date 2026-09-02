@@ -17,3 +17,4 @@
 ## Ruby — ressources
 
 - Site officiel : [https://www.ruby-lang.org](https://www.ruby-lang.org)
+- Dépôt GitHub : [https://github.com/ruby/ruby](https://github.com/ruby/ruby)

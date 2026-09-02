@@ -17,3 +17,4 @@
 ## CBQN — ressources
 
 - Site officiel : [https://github.com/dzaima/CBQN](https://github.com/dzaima/CBQN)
+- Dépôt GitHub : [https://github.com/dzaima/CBQN](https://github.com/dzaima/CBQN)

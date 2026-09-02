@@ -17,3 +17,4 @@
 ## TTCN-3 — ressources
 
 - Site officiel : [https://www.ttcn-3.org](https://www.ttcn-3.org)
+- Dépôt GitHub : [https://github.com/eclipse/titan.core](https://github.com/eclipse/titan.core)

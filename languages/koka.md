@@ -17,3 +17,4 @@
 ## Koka — ressources
 
 - Site officiel : [https://koka-lang.github.io/koka/doc/index.html](https://koka-lang.github.io/koka/doc/index.html)
+- Dépôt GitHub : [https://github.com/koka-lang/koka](https://github.com/koka-lang/koka)

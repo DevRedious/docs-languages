@@ -17,3 +17,4 @@
 ## Pure Data (Pd) — ressources
 
 - Site officiel : [https://puredata.info](https://puredata.info)
+- Dépôt GitHub : [https://github.com/pure-data/pure-data](https://github.com/pure-data/pure-data)

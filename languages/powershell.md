@@ -17,3 +17,4 @@
 ## PowerShell — ressources
 
 - Site officiel : [https://learn.microsoft.com/powershell/](https://learn.microsoft.com/powershell/)
+- Dépôt GitHub : [https://github.com/PowerShell/PowerShell](https://github.com/PowerShell/PowerShell)

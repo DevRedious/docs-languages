@@ -17,3 +17,4 @@
 ## Fastlane — ressources
 
 - Site officiel : [https://fastlane.tools](https://fastlane.tools)
+- Dépôt GitHub : [https://github.com/fastlane/fastlane](https://github.com/fastlane/fastlane)

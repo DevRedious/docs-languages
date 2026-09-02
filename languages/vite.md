@@ -17,3 +17,4 @@
 ## Vite — ressources
 
 - Site officiel : [https://vite.dev](https://vite.dev)
+- Dépôt GitHub : [https://github.com/vitejs/vite](https://github.com/vitejs/vite)

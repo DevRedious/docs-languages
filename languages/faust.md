@@ -17,3 +17,4 @@
 ## FAUST — ressources
 
 - Site officiel : [https://faust.grame.fr](https://faust.grame.fr)
+- Dépôt GitHub : [https://github.com/grame-cncm/faust](https://github.com/grame-cncm/faust)

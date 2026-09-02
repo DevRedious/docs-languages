@@ -16,3 +16,4 @@
 ## KQL (Kusto) — ressources
 
 - Site officiel : [https://learn.microsoft.com/azure/data-explorer/kusto/query/](https://learn.microsoft.com/azure/data-explorer/kusto/query/)
+- Dépôt GitHub : [https://github.com/microsoft/Kusto-Query-Language](https://github.com/microsoft/Kusto-Query-Language)

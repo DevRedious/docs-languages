@@ -17,3 +17,4 @@
 ## FastAPI — ressources
 
 - Site officiel : [https://fastapi.tiangolo.com](https://fastapi.tiangolo.com)
+- Dépôt GitHub : [https://github.com/fastapi/fastapi](https://github.com/fastapi/fastapi)

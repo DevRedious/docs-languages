@@ -17,3 +17,4 @@
 ## ISO GQL — ressources
 
 - Site officiel : [https://www.iso.org/standard/76120.html](https://www.iso.org/standard/76120.html)
+- Dépôt GitHub : [https://github.com/opencypher/openCypher](https://github.com/opencypher/openCypher)

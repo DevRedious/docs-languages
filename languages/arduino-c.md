@@ -17,3 +17,4 @@
 ## Arduino C/C++ — ressources
 
 - Site officiel : [https://www.arduino.cc](https://www.arduino.cc)
+- Dépôt GitHub : [https://github.com/arduino/ArduinoCore-avr](https://github.com/arduino/ArduinoCore-avr)

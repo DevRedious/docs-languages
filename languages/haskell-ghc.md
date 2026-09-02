@@ -17,3 +17,4 @@
 ## Glasgow Haskell Compiler (GHC) — ressources
 
 - Site officiel : [https://www.haskell.org/ghc/](https://www.haskell.org/ghc/)
+- Dépôt GitHub : [https://github.com/ghc/ghc](https://github.com/ghc/ghc)

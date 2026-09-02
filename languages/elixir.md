@@ -17,3 +17,4 @@
 ## Elixir — ressources
 
 - Site officiel : [https://elixir-lang.org](https://elixir-lang.org)
+- Dépôt GitHub : [https://github.com/elixir-lang/elixir](https://github.com/elixir-lang/elixir)

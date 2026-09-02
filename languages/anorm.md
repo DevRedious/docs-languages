@@ -17,3 +17,4 @@
 ## Anorm — ressources
 
 - Site officiel : [https://playframework.github.io/anorm/](https://playframework.github.io/anorm/)
+- Dépôt GitHub : [https://github.com/playframework/anorm](https://github.com/playframework/anorm)

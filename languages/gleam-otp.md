@@ -17,3 +17,4 @@
 ## Gleam OTP — ressources
 
 - Site officiel : [https://gleam.run](https://gleam.run)
+- Dépôt GitHub : [https://github.com/gleam-lang/otp](https://github.com/gleam-lang/otp)

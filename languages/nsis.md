@@ -17,3 +17,4 @@
 ## NSIS (Nullsoft Scriptable) — ressources
 
 - Site officiel : [https://nsis.sourceforge.io](https://nsis.sourceforge.io)
+- Dépôt GitHub : [https://github.com/kichik/nsis](https://github.com/kichik/nsis)

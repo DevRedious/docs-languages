@@ -17,3 +17,4 @@
 ## Zsh (Z Shell) — ressources
 
 - Site officiel : [https://www.zsh.org](https://www.zsh.org)
+- Dépôt GitHub : [https://github.com/zsh-users/zsh](https://github.com/zsh-users/zsh)

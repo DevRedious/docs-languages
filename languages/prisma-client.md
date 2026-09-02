@@ -17,3 +17,4 @@
 ## Prisma Client — ressources
 
 - Site officiel : [https://www.prisma.io/client](https://www.prisma.io/client)
+- Dépôt GitHub : [https://github.com/prisma/prisma](https://github.com/prisma/prisma)

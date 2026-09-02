@@ -17,3 +17,4 @@
 ## Frama-C — ressources
 
 - Site officiel : [https://frama-c.com](https://frama-c.com)
+- Dépôt GitHub : [https://github.com/Frama-C/Frama-C-snapshot](https://github.com/Frama-C/Frama-C-snapshot)

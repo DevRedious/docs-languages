@@ -17,3 +17,4 @@
 ## LiveScript — ressources
 
 - Site officiel : [https://livescript.net](https://livescript.net)
+- Dépôt GitHub : [https://github.com/gkz/LiveScript](https://github.com/gkz/LiveScript)

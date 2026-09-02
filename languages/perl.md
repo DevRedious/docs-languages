@@ -17,3 +17,4 @@
 ## Perl — ressources
 
 - Site officiel : [https://www.perl.org](https://www.perl.org)
+- Dépôt GitHub : [https://github.com/Perl/perl5](https://github.com/Perl/perl5)

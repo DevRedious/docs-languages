@@ -17,3 +17,4 @@
 ## Leptos — ressources
 
 - Site officiel : [https://leptos.dev](https://leptos.dev)
+- Dépôt GitHub : [https://github.com/leptos-rs/leptos](https://github.com/leptos-rs/leptos)

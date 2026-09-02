@@ -17,3 +17,4 @@
 ## V UI — ressources
 
 - Site officiel : [https://github.com/vlang/ui](https://github.com/vlang/ui)
+- Dépôt GitHub : [https://github.com/vlang/ui](https://github.com/vlang/ui)

@@ -17,3 +17,4 @@
 ## C++ — ressources
 
 - Site officiel : [https://isocpp.org](https://isocpp.org)
+- Dépôt GitHub : [https://github.com/isocpp/CppCoreGuidelines](https://github.com/isocpp/CppCoreGuidelines)

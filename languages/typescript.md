@@ -17,3 +17,4 @@
 ## TypeScript — ressources
 
 - Site officiel : [https://www.typescriptlang.org](https://www.typescriptlang.org)
+- Dépôt GitHub : [https://github.com/microsoft/TypeScript](https://github.com/microsoft/TypeScript)

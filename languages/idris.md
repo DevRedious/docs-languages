@@ -17,3 +17,4 @@
 ## Idris — ressources
 
 - Site officiel : [https://www.idris-lang.org](https://www.idris-lang.org)
+- Dépôt GitHub : [https://github.com/idris-lang/Idris2](https://github.com/idris-lang/Idris2)

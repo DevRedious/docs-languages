@@ -17,3 +17,4 @@
 ## XOD — ressources
 
 - Site officiel : [https://xod.io](https://xod.io)
+- Dépôt GitHub : [https://github.com/xodio/xod](https://github.com/xodio/xod)

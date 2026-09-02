@@ -17,3 +17,4 @@
 ## Scilla (Zilliqa) — ressources
 
 - Site officiel : [https://scilla-lang.org](https://scilla-lang.org)
+- Dépôt GitHub : [https://github.com/Zilliqa/scilla](https://github.com/Zilliqa/scilla)

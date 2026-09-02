@@ -17,3 +17,4 @@
 ## Lantern — ressources
 
 - Site officiel : [https://github.com/feiwang3311/Lantern](https://github.com/feiwang3311/Lantern)
+- Dépôt GitHub : [https://github.com/feiwang3311/Lantern](https://github.com/feiwang3311/Lantern)

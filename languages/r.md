@@ -17,3 +17,4 @@
 ## R — ressources
 
 - Site officiel : [https://www.r-project.org](https://www.r-project.org)
+- Dépôt GitHub : [https://github.com/r-devel/r-svn](https://github.com/r-devel/r-svn)

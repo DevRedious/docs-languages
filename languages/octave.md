@@ -17,3 +17,4 @@
 ## GNU Octave — ressources
 
 - Site officiel : [https://octave.org](https://octave.org)
+- Dépôt GitHub : [https://github.com/gnu-octave/octave](https://github.com/gnu-octave/octave)

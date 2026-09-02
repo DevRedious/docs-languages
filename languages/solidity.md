@@ -17,3 +17,4 @@
 ## Solidity — ressources
 
 - Site officiel : [https://soliditylang.org](https://soliditylang.org)
+- Dépôt GitHub : [https://github.com/ethereum/solidity](https://github.com/ethereum/solidity)

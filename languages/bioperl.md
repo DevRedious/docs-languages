@@ -17,3 +17,4 @@
 ## BioPerl — ressources
 
 - Site officiel : [https://bioperl.org](https://bioperl.org)
+- Dépôt GitHub : [https://github.com/bioperl/bioperl-live](https://github.com/bioperl/bioperl-live)

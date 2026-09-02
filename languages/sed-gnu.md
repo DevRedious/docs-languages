@@ -17,3 +17,4 @@
 ## GNU Sed — ressources
 
 - Site officiel : [https://www.gnu.org/software/sed/](https://www.gnu.org/software/sed/)
+- Dépôt GitHub : [https://github.com/mirror/sed](https://github.com/mirror/sed)

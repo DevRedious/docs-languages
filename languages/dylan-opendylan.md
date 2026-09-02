@@ -17,3 +17,4 @@
 ## OpenDylan — ressources
 
 - Site officiel : [https://opendylan.org](https://opendylan.org)
+- Dépôt GitHub : [https://github.com/dylan-lang/opendylan](https://github.com/dylan-lang/opendylan)

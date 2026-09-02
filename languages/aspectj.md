@@ -17,3 +17,4 @@
 ## AspectJ — ressources
 
 - Site officiel : [https://www.eclipse.org/aspectj/](https://www.eclipse.org/aspectj/)
+- Dépôt GitHub : [https://github.com/eclipse-aspectj/aspectj](https://github.com/eclipse-aspectj/aspectj)

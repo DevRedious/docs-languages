@@ -17,3 +17,4 @@
 ## Golo — ressources
 
 - Site officiel : [https://eclipse.dev/golo/](https://eclipse.dev/golo/)
+- Dépôt GitHub : [https://github.com/eclipse/golo](https://github.com/eclipse/golo)

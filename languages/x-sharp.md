@@ -17,3 +17,4 @@
 ## X# (XSharp) — ressources
 
 - Site officiel : [https://www.xsharp.info](https://www.xsharp.info)
+- Dépôt GitHub : [https://github.com/X-Sharp/XSharpDev](https://github.com/X-Sharp/XSharpDev)

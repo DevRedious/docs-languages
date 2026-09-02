@@ -17,3 +17,4 @@
 ## Cython — ressources
 
 - Site officiel : [https://cython.org](https://cython.org)
+- Dépôt GitHub : [https://github.com/cython/cython](https://github.com/cython/cython)

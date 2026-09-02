@@ -17,3 +17,4 @@
 ## Barliman — ressources
 
 - Site officiel : [https://github.com/webyrd/Barliman](https://github.com/webyrd/Barliman)
+- Dépôt GitHub : [https://github.com/webyrd/Barliman](https://github.com/webyrd/Barliman)

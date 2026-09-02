@@ -17,3 +17,4 @@
 ## Emacs Lisp (Elisp) — ressources
 
 - Site officiel : [https://www.gnu.org/software/emacs/manual/html_node/elisp/](https://www.gnu.org/software/emacs/manual/html_node/elisp/)
+- Dépôt GitHub : [https://github.com/emacs-mirror/emacs](https://github.com/emacs-mirror/emacs)

@@ -17,3 +17,4 @@
 ## BooLang — ressources
 
 - Site officiel : [https://github.com/boo-lang/boo](https://github.com/boo-lang/boo)
+- Dépôt GitHub : [https://github.com/boo-lang/boo](https://github.com/boo-lang/boo)

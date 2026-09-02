@@ -17,3 +17,4 @@
 ## Ballerina — ressources
 
 - Site officiel : [https://ballerina.io](https://ballerina.io)
+- Dépôt GitHub : [https://github.com/ballerina-platform/ballerina-lang](https://github.com/ballerina-platform/ballerina-lang)

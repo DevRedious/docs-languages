@@ -17,3 +17,4 @@
 ## Cadence (Flow) — ressources
 
 - Site officiel : [https://cadence-lang.org](https://cadence-lang.org)
+- Dépôt GitHub : [https://github.com/onflow/cadence](https://github.com/onflow/cadence)

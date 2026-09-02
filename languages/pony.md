@@ -17,3 +17,4 @@
 ## Pony — ressources
 
 - Site officiel : [https://www.ponylang.io](https://www.ponylang.io)
+- Dépôt GitHub : [https://github.com/ponylang/ponyc](https://github.com/ponylang/ponyc)

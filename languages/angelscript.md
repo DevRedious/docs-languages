@@ -17,3 +17,4 @@
 ## AngelScript — ressources
 
 - Site officiel : [https://www.angelcode.com/angelscript/](https://www.angelcode.com/angelscript/)
+- Dépôt GitHub : [https://github.com/codecat/angelscript-mirror](https://github.com/codecat/angelscript-mirror)

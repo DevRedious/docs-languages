@@ -17,3 +17,4 @@
 ## Dioxus — ressources
 
 - Site officiel : [https://dioxuslabs.com](https://dioxuslabs.com)
+- Dépôt GitHub : [https://github.com/DioxusLabs/dioxus](https://github.com/DioxusLabs/dioxus)

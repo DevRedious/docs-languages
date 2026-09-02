@@ -17,3 +17,4 @@
 ## Erlang — ressources
 
 - Site officiel : [https://www.erlang.org](https://www.erlang.org)
+- Dépôt GitHub : [https://github.com/erlang/otp](https://github.com/erlang/otp)

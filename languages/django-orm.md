@@ -17,3 +17,4 @@
 ## Django ORM — ressources
 
 - Site officiel : [https://docs.djangoproject.com/en/stable/topics/db/](https://docs.djangoproject.com/en/stable/topics/db/)
+- Dépôt GitHub : [https://github.com/django/django](https://github.com/django/django)

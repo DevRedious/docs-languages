@@ -17,3 +17,4 @@
 ## ClickHouse SQL — ressources
 
 - Site officiel : [https://clickhouse.com/docs/en/sql-reference](https://clickhouse.com/docs/en/sql-reference)
+- Dépôt GitHub : [https://github.com/ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse)

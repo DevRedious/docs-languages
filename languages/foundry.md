@@ -17,3 +17,4 @@
 ## Foundry — ressources
 
 - Site officiel : [https://getfoundry.sh](https://getfoundry.sh)
+- Dépôt GitHub : [https://github.com/foundry-rs/foundry](https://github.com/foundry-rs/foundry)

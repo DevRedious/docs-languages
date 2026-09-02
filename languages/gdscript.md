@@ -17,3 +17,4 @@
 ## GDScript (Godot) — ressources
 
 - Site officiel : [https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/](https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/)
+- Dépôt GitHub : [https://github.com/godotengine/godot](https://github.com/godotengine/godot)

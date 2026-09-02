@@ -16,3 +16,4 @@
 ## Nemerle — ressources
 
 - Site officiel : [http://nemerle.org](http://nemerle.org)
+- Dépôt GitHub : [https://github.com/rsdn/nemerle](https://github.com/rsdn/nemerle)

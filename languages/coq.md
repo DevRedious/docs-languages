@@ -17,3 +17,4 @@
 ## Coq (Rocq) — ressources
 
 - Site officiel : [https://coq.inria.fr](https://coq.inria.fr)
+- Dépôt GitHub : [https://github.com/coq/coq](https://github.com/coq/coq)

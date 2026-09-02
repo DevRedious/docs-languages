@@ -17,3 +17,4 @@
 ## SWR — ressources
 
 - Site officiel : [https://swr.vercel.app](https://swr.vercel.app)
+- Dépôt GitHub : [https://github.com/vercel/swr](https://github.com/vercel/swr)

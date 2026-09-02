@@ -17,3 +17,4 @@
 ## Datalog — ressources
 
 - Site officiel : [https://codeql.github.com](https://codeql.github.com)
+- Dépôt GitHub : [https://github.com/souffle-lang/souffle](https://github.com/souffle-lang/souffle)

@@ -17,3 +17,4 @@
 ## Maxima (Macsyma) — ressources
 
 - Site officiel : [https://maxima.sourceforge.io](https://maxima.sourceforge.io)
+- Dépôt GitHub : [https://github.com/andrejv/maxima](https://github.com/andrejv/maxima)

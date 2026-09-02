@@ -17,3 +17,4 @@
 ## Blockly — ressources
 
 - Site officiel : [https://developers.google.com/blockly](https://developers.google.com/blockly)
+- Dépôt GitHub : [https://github.com/google/blockly](https://github.com/google/blockly)

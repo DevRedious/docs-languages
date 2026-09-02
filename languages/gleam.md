@@ -17,3 +17,4 @@
 ## Gleam — ressources
 
 - Site officiel : [https://gleam.run](https://gleam.run)
+- Dépôt GitHub : [https://github.com/gleam-lang/gleam](https://github.com/gleam-lang/gleam)

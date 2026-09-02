@@ -17,3 +17,4 @@
 ## GNU Guile — ressources
 
 - Site officiel : [https://www.gnu.org/software/guile/](https://www.gnu.org/software/guile/)
+- Dépôt GitHub : [https://github.com/bminor/guile](https://github.com/bminor/guile)

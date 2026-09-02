@@ -17,3 +17,4 @@
 ## <Nom> — ressources
 
 - Site officiel : [https://...](https://...)
+- Dépôt GitHub : [https://github.com/...](https://github.com/...) *(si disponible)*

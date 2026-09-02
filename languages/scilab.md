@@ -17,3 +17,4 @@
 ## Scilab — ressources
 
 - Site officiel : [https://www.scilab.org](https://www.scilab.org)
+- Dépôt GitHub : [https://github.com/scilab/scilab](https://github.com/scilab/scilab)

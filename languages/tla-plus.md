@@ -17,3 +17,4 @@
 ## TLA+ (Leslie Lamport) — ressources
 
 - Site officiel : [https://lamport.azurewebsites.net/tla/tla.html](https://lamport.azurewebsites.net/tla/tla.html)
+- Dépôt GitHub : [https://github.com/tlaplus/tlaplus](https://github.com/tlaplus/tlaplus)

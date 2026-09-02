@@ -17,3 +17,4 @@
 ## Rust — ressources
 
 - Site officiel : [https://www.rust-lang.org](https://www.rust-lang.org)
+- Dépôt GitHub : [https://github.com/rust-lang/rust](https://github.com/rust-lang/rust)

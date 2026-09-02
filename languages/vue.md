@@ -17,3 +17,4 @@
 ## Vue — ressources
 
 - Site officiel : [https://vuejs.org](https://vuejs.org)
+- Dépôt GitHub : [https://github.com/vuejs/core](https://github.com/vuejs/core)

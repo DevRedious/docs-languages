@@ -17,3 +17,4 @@
 ## Nim — ressources
 
 - Site officiel : [https://nim-lang.org](https://nim-lang.org)
+- Dépôt GitHub : [https://github.com/nim-lang/Nim](https://github.com/nim-lang/Nim)

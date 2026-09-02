@@ -17,3 +17,4 @@
 ## Lean — ressources
 
 - Site officiel : [https://lean-lang.org](https://lean-lang.org)
+- Dépôt GitHub : [https://github.com/leanprover/lean4](https://github.com/leanprover/lean4)

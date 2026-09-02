@@ -17,3 +17,4 @@
 ## C# — ressources
 
 - Site officiel : [https://dotnet.microsoft.com/languages/csharp](https://dotnet.microsoft.com/languages/csharp)
+- Dépôt GitHub : [https://github.com/dotnet/csharplang](https://github.com/dotnet/csharplang)

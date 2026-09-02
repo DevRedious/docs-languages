@@ -17,3 +17,4 @@
 ## JavaScript — ressources
 
 - Site officiel : [https://tc39.es](https://tc39.es)
+- Dépôt GitHub : [https://github.com/tc39/ecma262](https://github.com/tc39/ecma262)

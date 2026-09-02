@@ -17,3 +17,4 @@
 ## Mercury — ressources
 
 - Site officiel : [https://mercurylang.org](https://mercurylang.org)
+- Dépôt GitHub : [https://github.com/Mercury-Language/mercury](https://github.com/Mercury-Language/mercury)

@@ -17,3 +17,4 @@
 ## Janet — ressources
 
 - Site officiel : [https://janet-lang.org](https://janet-lang.org)
+- Dépôt GitHub : [https://github.com/janet-lang/janet](https://github.com/janet-lang/janet)

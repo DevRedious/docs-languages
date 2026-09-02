@@ -17,3 +17,4 @@
 ## Haskell — ressources
 
 - Site officiel : [https://www.haskell.org](https://www.haskell.org)
+- Dépôt GitHub : [https://github.com/ghc/ghc](https://github.com/ghc/ghc)

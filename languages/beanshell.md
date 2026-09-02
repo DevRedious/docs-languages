@@ -17,3 +17,4 @@
 ## BeanShell — ressources
 
 - Site officiel : [https://github.com/beanshell/beanshell](https://github.com/beanshell/beanshell)
+- Dépôt GitHub : [https://github.com/beanshell/beanshell](https://github.com/beanshell/beanshell)

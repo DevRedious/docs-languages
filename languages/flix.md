@@ -17,3 +17,4 @@
 ## Flix — ressources
 
 - Site officiel : [https://flix.dev](https://flix.dev)
+- Dépôt GitHub : [https://github.com/flix/flix](https://github.com/flix/flix)

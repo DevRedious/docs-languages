@@ -16,3 +16,4 @@
 ## PRQL — ressources
 
 - Site officiel : [https://prql-lang.org](https://prql-lang.org)
+- Dépôt GitHub : [https://github.com/PRQL/prql](https://github.com/PRQL/prql)

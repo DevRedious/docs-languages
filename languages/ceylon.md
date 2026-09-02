@@ -17,3 +17,4 @@
 ## Ceylon — ressources
 
 - Site officiel : [https://ceylon-lang.org](https://ceylon-lang.org)
+- Dépôt GitHub : [https://github.com/eclipse/ceylon](https://github.com/eclipse/ceylon)

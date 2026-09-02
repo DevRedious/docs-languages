@@ -17,3 +17,4 @@
 ## Go — ressources
 
 - Site officiel : [https://go.dev](https://go.dev)
+- Dépôt GitHub : [https://github.com/golang/go](https://github.com/golang/go)

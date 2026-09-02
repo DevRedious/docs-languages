@@ -17,3 +17,4 @@
 ## Scratch — ressources
 
 - Site officiel : [https://scratch.mit.edu](https://scratch.mit.edu)
+- Dépôt GitHub : [https://github.com/scratchfoundation/scratch-gui](https://github.com/scratchfoundation/scratch-gui)

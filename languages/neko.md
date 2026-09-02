@@ -17,3 +17,4 @@
 ## NekoVM — ressources
 
 - Site officiel : [https://nekovm.org](https://nekovm.org)
+- Dépôt GitHub : [https://github.com/HaxeFoundation/neko](https://github.com/HaxeFoundation/neko)

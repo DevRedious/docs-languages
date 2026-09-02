@@ -17,3 +17,4 @@
 ## Squeak — ressources
 
 - Site officiel : [https://squeak.org](https://squeak.org)
+- Dépôt GitHub : [https://github.com/squeak-smalltalk/squeak-app](https://github.com/squeak-smalltalk/squeak-app)

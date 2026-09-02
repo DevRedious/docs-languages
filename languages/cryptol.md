@@ -17,3 +17,4 @@
 ## Cryptol — ressources
 
 - Site officiel : [https://cryptol.net](https://cryptol.net)
+- Dépôt GitHub : [https://github.com/GaloisInc/cryptol](https://github.com/GaloisInc/cryptol)

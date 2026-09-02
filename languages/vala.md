@@ -16,3 +16,4 @@
 ## Vala — ressources
 
 - Site officiel : [https://vala.dev](https://vala.dev)
+- Dépôt GitHub : [https://github.com/GNOME/vala](https://github.com/GNOME/vala)

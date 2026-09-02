@@ -17,3 +17,4 @@
 ## Soufflé (Datalog) — ressources
 
 - Site officiel : [https://souffle-lang.github.io](https://souffle-lang.github.io)
+- Dépôt GitHub : [https://github.com/souffle-lang/souffle](https://github.com/souffle-lang/souffle)

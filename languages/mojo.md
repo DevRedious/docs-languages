@@ -17,3 +17,4 @@
 ## Mojo — ressources
 
 - Site officiel : [https://www.modular.com/mojo](https://www.modular.com/mojo)
+- Dépôt GitHub : [https://github.com/modular/mojo](https://github.com/modular/mojo)

@@ -17,3 +17,4 @@
 ## Python — ressources
 
 - Site officiel : [https://www.python.org](https://www.python.org)
+- Dépôt GitHub : [https://github.com/python/cpython](https://github.com/python/cpython)

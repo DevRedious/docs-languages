@@ -17,3 +17,4 @@
 ## SuperCollider — ressources
 
 - Site officiel : [https://supercollider.github.io](https://supercollider.github.io)
+- Dépôt GitHub : [https://github.com/supercollider/supercollider](https://github.com/supercollider/supercollider)

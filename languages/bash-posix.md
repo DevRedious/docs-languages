@@ -17,3 +17,4 @@
 ## POSIX sh — ressources
 
 - Site officiel : [https://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html](https://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html)
+- Dépôt GitHub : [https://github.com/bminor/bash](https://github.com/bminor/bash)

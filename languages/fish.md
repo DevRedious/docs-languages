@@ -17,3 +17,4 @@
 ## Fish Shell — ressources
 
 - Site officiel : [https://fishshell.com](https://fishshell.com)
+- Dépôt GitHub : [https://github.com/fish-shell/fish-shell](https://github.com/fish-shell/fish-shell)

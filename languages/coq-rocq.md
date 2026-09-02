@@ -17,3 +17,4 @@
 ## Rocq (Coq 8.20+) — ressources
 
 - Site officiel : [https://rocq-prover.org](https://rocq-prover.org)
+- Dépôt GitHub : [https://github.com/coq/coq](https://github.com/coq/coq)

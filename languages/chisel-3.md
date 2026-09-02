@@ -17,3 +17,4 @@
 ## Chisel 3 — ressources
 
 - Site officiel : [https://www.chisel-lang.org](https://www.chisel-lang.org)
+- Dépôt GitHub : [https://github.com/chipsalliance/chisel](https://github.com/chipsalliance/chisel)

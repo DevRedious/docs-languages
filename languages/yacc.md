@@ -17,3 +17,4 @@
 ## Yacc — ressources
 
 - Site officiel : [https://en.wikipedia.org/wiki/Yacc](https://en.wikipedia.org/wiki/Yacc)
+- Dépôt GitHub : [https://github.com/Distrotech/byacc](https://github.com/Distrotech/byacc)

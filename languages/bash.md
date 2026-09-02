@@ -17,3 +17,4 @@
 ## Bash — ressources
 
 - Site officiel : [https://www.gnu.org/software/bash/](https://www.gnu.org/software/bash/)
+- Dépôt GitHub : [https://github.com/bminor/bash](https://github.com/bminor/bash)

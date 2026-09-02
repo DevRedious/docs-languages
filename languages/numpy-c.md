@@ -17,3 +17,4 @@
 ## NumPy C-API — ressources
 
 - Site officiel : [https://numpy.org](https://numpy.org)
+- Dépôt GitHub : [https://github.com/numpy/numpy](https://github.com/numpy/numpy)

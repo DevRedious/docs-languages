@@ -17,3 +17,4 @@
 ## Lean Mathlib — ressources
 
 - Site officiel : [https://leanprover-community.github.io](https://leanprover-community.github.io)
+- Dépôt GitHub : [https://github.com/leanprover-community/mathlib4](https://github.com/leanprover-community/mathlib4)

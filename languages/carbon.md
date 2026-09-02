@@ -17,3 +17,4 @@
 ## Carbon — ressources
 
 - Site officiel : [https://github.com/carbon-language/carbon-lang](https://github.com/carbon-language/carbon-lang)
+- Dépôt GitHub : [https://github.com/carbon-language/carbon-lang](https://github.com/carbon-language/carbon-lang)

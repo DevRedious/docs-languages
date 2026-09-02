@@ -17,3 +17,4 @@
 ## F# — ressources
 
 - Site officiel : [https://fsharp.org](https://fsharp.org)
+- Dépôt GitHub : [https://github.com/dotnet/fsharp](https://github.com/dotnet/fsharp)

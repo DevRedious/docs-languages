@@ -17,3 +17,4 @@
 ## React — ressources
 
 - Site officiel : [https://react.dev](https://react.dev)
+- Dépôt GitHub : [https://github.com/facebook/react](https://github.com/facebook/react)

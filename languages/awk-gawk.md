@@ -17,3 +17,4 @@
 ## GNU AWK (Gawk) — ressources
 
 - Site officiel : [https://www.gnu.org/software/gawk/](https://www.gnu.org/software/gawk/)
+- Dépôt GitHub : [https://github.com/gawk-mirror/gawk](https://github.com/gawk-mirror/gawk)

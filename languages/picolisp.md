@@ -17,3 +17,4 @@
 ## PicoLisp — ressources
 
 - Site officiel : [https://picolisp.com](https://picolisp.com)
+- Dépôt GitHub : [https://github.com/picolisp/picolisp](https://github.com/picolisp/picolisp)

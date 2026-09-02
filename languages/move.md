@@ -17,3 +17,4 @@
 ## Move — ressources
 
 - Site officiel : [https://move-language.github.io/move/](https://move-language.github.io/move/)
+- Dépôt GitHub : [https://github.com/move-language/move](https://github.com/move-language/move)

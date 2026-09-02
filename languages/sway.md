@@ -17,3 +17,4 @@
 ## Sway — ressources
 
 - Site officiel : [https://www.fuel.network](https://www.fuel.network)
+- Dépôt GitHub : [https://github.com/FuelLabs/sway](https://github.com/FuelLabs/sway)

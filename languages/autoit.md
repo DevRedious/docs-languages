@@ -17,3 +17,4 @@
 ## AutoIt — ressources
 
 - Site officiel : [https://www.autoitscript.com](https://www.autoitscript.com)
+- Dépôt GitHub : [https://github.com/ahkscript/awesome-AutoHotkey](https://github.com/ahkscript/awesome-AutoHotkey)

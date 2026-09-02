@@ -17,3 +17,4 @@
 ## BioPython — ressources
 
 - Site officiel : [https://biopython.org](https://biopython.org)
+- Dépôt GitHub : [https://github.com/biopython/biopython](https://github.com/biopython/biopython)

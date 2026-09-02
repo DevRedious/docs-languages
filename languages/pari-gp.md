@@ -17,3 +17,4 @@
 ## PARI/GP — ressources
 
 - Site officiel : [https://pari.math.u-bordeaux.fr](https://pari.math.u-bordeaux.fr)
+- Dépôt GitHub : [https://github.com/Bordeaux-Calcul-Formel/pari](https://github.com/Bordeaux-Calcul-Formel/pari)

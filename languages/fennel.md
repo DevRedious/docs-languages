@@ -17,3 +17,4 @@
 ## Fennel — ressources
 
 - Site officiel : [https://fennel-lang.org](https://fennel-lang.org)
+- Dépôt GitHub : [https://github.com/bakpakin/Fennel](https://github.com/bakpakin/Fennel)

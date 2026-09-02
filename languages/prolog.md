@@ -17,3 +17,4 @@
 ## Prolog — ressources
 
 - Site officiel : [https://www.swi-prolog.org](https://www.swi-prolog.org)
+- Dépôt GitHub : [https://github.com/SWI-Prolog/swipl-devel](https://github.com/SWI-Prolog/swipl-devel)

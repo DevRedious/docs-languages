@@ -17,3 +17,4 @@
 ## Clarity — ressources
 
 - Site officiel : [https://clarity-lang.org](https://clarity-lang.org)
+- Dépôt GitHub : [https://github.com/stacks-network/clarity](https://github.com/stacks-network/clarity)

@@ -17,3 +17,4 @@
 ## Q# (Q-Sharp) — ressources
 
 - Site officiel : [https://learn.microsoft.com/azure/quantum/user-guide/](https://learn.microsoft.com/azure/quantum/user-guide/)
+- Dépôt GitHub : [https://github.com/microsoft/qsharp](https://github.com/microsoft/qsharp)

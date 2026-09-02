@@ -17,3 +17,4 @@
 ## Octave Forge — ressources
 
 - Site officiel : [https://octave.sourceforge.io](https://octave.sourceforge.io)
+- Dépôt GitHub : [https://github.com/gnu-octave/octave](https://github.com/gnu-octave/octave)

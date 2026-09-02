@@ -17,3 +17,4 @@
 ## Julia — ressources
 
 - Site officiel : [https://julialang.org](https://julialang.org)
+- Dépôt GitHub : [https://github.com/JuliaLang/julia](https://github.com/JuliaLang/julia)

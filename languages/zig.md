@@ -17,3 +17,4 @@
 ## Zig — ressources
 
 - Site officiel : [https://ziglang.org](https://ziglang.org)
+- Dépôt GitHub : [https://github.com/ziglang/zig](https://github.com/ziglang/zig)

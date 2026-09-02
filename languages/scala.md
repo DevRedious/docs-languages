@@ -17,3 +17,4 @@
 ## Scala — ressources
 
 - Site officiel : [https://www.scala-lang.org](https://www.scala-lang.org)
+- Dépôt GitHub : [https://github.com/scala/scala3](https://github.com/scala/scala3)

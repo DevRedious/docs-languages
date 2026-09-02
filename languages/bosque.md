@@ -17,3 +17,4 @@
 ## Bosque — ressources
 
 - Site officiel : [https://github.com/microsoft/BosqueLanguage](https://github.com/microsoft/BosqueLanguage)
+- Dépôt GitHub : [https://github.com/microsoft/BosqueLanguage](https://github.com/microsoft/BosqueLanguage)

@@ -17,3 +17,4 @@
 ## Agda — ressources
 
 - Site officiel : [https://wiki.portal.chalmers.se/agda/pmwiki.php](https://wiki.portal.chalmers.se/agda/pmwiki.php)
+- Dépôt GitHub : [https://github.com/agda/agda](https://github.com/agda/agda)

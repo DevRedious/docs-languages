@@ -17,3 +17,4 @@
 ## Promela (SPIN) — ressources
 
 - Site officiel : [https://spinroot.com](https://spinroot.com)
+- Dépôt GitHub : [https://github.com/nimble-code/Spin](https://github.com/nimble-code/Spin)

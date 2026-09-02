@@ -17,3 +17,4 @@
 ## Harbour — ressources
 
 - Site officiel : [https://harbour.github.io](https://harbour.github.io)
+- Dépôt GitHub : [https://github.com/harbour/core](https://github.com/harbour/core)

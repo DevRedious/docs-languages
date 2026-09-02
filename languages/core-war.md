@@ -17,3 +17,4 @@
 ## Core War (MARS) — ressources
 
 - Site officiel : [http://www.corewar.info](http://www.corewar.info)
+- Dépôt GitHub : [https://github.com/mtsr/corewar](https://github.com/mtsr/corewar)

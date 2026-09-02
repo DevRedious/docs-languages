@@ -17,3 +17,4 @@
 ## Factor Stack Core — ressources
 
 - Site officiel : [https://factorcode.org](https://factorcode.org)
+- Dépôt GitHub : [https://github.com/factor/factor](https://github.com/factor/factor)

@@ -16,3 +16,4 @@
 ## Shen — ressources
 
 - Site officiel : [https://shenlanguage.org](https://shenlanguage.org)
+- Dépôt GitHub : [https://github.com/Shen-Language/shen-cl](https://github.com/Shen-Language/shen-cl)

@@ -17,3 +17,4 @@
 ## Hy — ressources
 
 - Site officiel : [https://hylang.org](https://hylang.org)
+- Dépôt GitHub : [https://github.com/hylang/hy](https://github.com/hylang/hy)

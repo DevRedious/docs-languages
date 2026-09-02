@@ -17,3 +17,4 @@
 ## Yacas — ressources
 
 - Site officiel : [http://www.yacas.org](http://www.yacas.org)
+- Dépôt GitHub : [https://github.com/grzegorzmazur/yacas](https://github.com/grzegorzmazur/yacas)

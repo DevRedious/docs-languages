@@ -17,3 +17,4 @@
 ## Yorick — ressources
 
 - Site officiel : [https://yorick.github.io](https://yorick.github.io)
+- Dépôt GitHub : [https://github.com/LLNL/yorick](https://github.com/LLNL/yorick)

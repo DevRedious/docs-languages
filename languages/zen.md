@@ -17,3 +17,4 @@
 ## Zen — ressources
 
 - Site officiel : [https://github.com/zenlang/zen](https://github.com/zenlang/zen)
+- Dépôt GitHub : [https://github.com/zenlang/zen](https://github.com/zenlang/zen)

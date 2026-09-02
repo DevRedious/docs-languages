@@ -17,3 +17,4 @@
 ## Flux.jl — ressources
 
 - Site officiel : [https://fluxml.ai](https://fluxml.ai)
+- Dépôt GitHub : [https://github.com/FluxML/Flux.jl](https://github.com/FluxML/Flux.jl)

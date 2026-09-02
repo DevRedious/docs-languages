@@ -17,3 +17,4 @@
 ## Vyper — ressources
 
 - Site officiel : [https://docs.vyperlang.org](https://docs.vyperlang.org)
+- Dépôt GitHub : [https://github.com/vyperlang/vyper](https://github.com/vyperlang/vyper)

@@ -17,3 +17,4 @@
 ## Lua — ressources
 
 - Site officiel : [https://www.lua.org](https://www.lua.org)
+- Dépôt GitHub : [https://github.com/lua/lua](https://github.com/lua/lua)

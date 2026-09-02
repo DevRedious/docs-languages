@@ -17,3 +17,4 @@
 ## Pyret — ressources
 
 - Site officiel : [https://www.pyret.org](https://www.pyret.org)
+- Dépôt GitHub : [https://github.com/brownplt/pyret-lang](https://github.com/brownplt/pyret-lang)

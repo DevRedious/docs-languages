@@ -17,3 +17,4 @@
 ## Roc — ressources
 
 - Site officiel : [https://www.roc-lang.org](https://www.roc-lang.org)
+- Dépôt GitHub : [https://github.com/roc-lang/roc](https://github.com/roc-lang/roc)
