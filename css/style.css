@@ -833,11 +833,11 @@ header {
 .page-btn {
   min-width: 40px;
   height: 40px;
-  padding: 0 0.6rem;
+  padding: 0 0.75rem;
   border-radius: var(--radius-sm);
   background: var(--bg-card);
-  border: 1px solid var(--border-color);
-  color: var(--text-secondary);
+  border: 1px solid rgba(56, 189, 248, 0.2);
+  color: var(--text-primary);
   font-size: 0.9rem;
   font-weight: 600;
   cursor: pointer;
@@ -849,23 +849,38 @@ header {
   user-select: none;
 }
 
+.page-btn-sm {
+  min-width: 32px;
+  height: 32px;
+  padding: 0 0.4rem;
+  font-size: 0.8rem;
+}
+
+.top-pagination {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
 .page-btn:hover:not(:disabled):not(.active) {
   background: var(--bg-card-hover);
-  border-color: var(--border-hover);
-  color: var(--text-primary);
+  border-color: var(--accent-cyan);
+  color: var(--accent-cyan);
+  box-shadow: 0 0 10px rgba(56, 189, 248, 0.2);
 }
 
 .page-btn.active {
   background: var(--accent-cyan);
   border-color: var(--accent-cyan);
   color: #090d16;
-  font-weight: 700;
-  box-shadow: 0 0 12px rgba(56, 189, 248, 0.4);
+  font-weight: 800;
+  box-shadow: 0 0 16px rgba(56, 189, 248, 0.5);
 }
 
 .page-btn:disabled {
-  opacity: 0.35;
+  opacity: 0.3;
   cursor: not-allowed;
+  border-color: var(--border-color);
 }
 
 .page-ellipsis {

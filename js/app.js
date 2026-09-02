@@ -442,7 +442,24 @@ function renderPagination(totalItems, totalPages, startIndex, endIndex) {
   const paginationWrapper = document.getElementById('pagination-wrapper');
   const paginationControls = document.getElementById('pagination-controls');
   const paginationInfo = document.getElementById('pagination-info');
+  const topPagination = document.getElementById('top-pagination');
+  const topPageInfo = document.getElementById('top-page-info');
+  const topPrevBtn = document.getElementById('top-prev-btn');
+  const topNextBtn = document.getElementById('top-next-btn');
 
+  // Handle Top Pagination
+  if (topPagination) {
+    if (totalPages > 1) {
+      topPagination.style.display = 'flex';
+      if (topPageInfo) topPageInfo.textContent = `Page ${CURRENT_PAGE} / ${totalPages}`;
+      if (topPrevBtn) topPrevBtn.disabled = (CURRENT_PAGE === 1);
+      if (topNextBtn) topNextBtn.disabled = (CURRENT_PAGE === totalPages);
+    } else {
+      topPagination.style.display = 'none';
+    }
+  }
+
+  // Handle Bottom Pagination
   if (!paginationWrapper || totalPages <= 1) {
     if (paginationWrapper) paginationWrapper.style.display = totalItems > 0 ? 'flex' : 'none';
     if (paginationControls) paginationControls.innerHTML = '';
@@ -463,7 +480,6 @@ function renderPagination(totalItems, totalPages, startIndex, endIndex) {
   `;
 
   // Page Numbers algorithm (e.g. 1 ... 4 5 6 ... 30)
-  const maxButtons = 7;
   let startPage = Math.max(1, CURRENT_PAGE - 2);
   let endPage = Math.min(totalPages, CURRENT_PAGE + 2);
 
@@ -500,6 +516,7 @@ function renderPagination(totalItems, totalPages, startIndex, endIndex) {
   `;
 
   paginationControls.innerHTML = buttonsHtml;
+  lucide.createIcons();
 }
 
 window.goToPage = function(pageNumber) {

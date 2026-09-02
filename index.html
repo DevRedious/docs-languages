@@ -170,13 +170,23 @@
       </div>
     </section>
 
-    <!-- Results Meta -->
+    <!-- Results Meta & Top Pagination -->
     <div class="results-meta">
       <div id="results-count" style="font-weight: 600; color: var(--text-primary);">
         Chargement des langages...
       </div>
-      <div style="font-size: 0.85rem; color: var(--text-muted);">
-        Thème Sombre &bull; Données vérifiées
+      
+      <!-- Top Mini Pagination -->
+      <div class="top-pagination" id="top-pagination" style="display: none;">
+        <button class="page-btn page-btn-sm" id="top-prev-btn" onclick="goToPage(CURRENT_PAGE - 1)" title="Page précédente">
+          <i data-lucide="chevron-left" style="width: 14px;"></i>
+        </button>
+        <span id="top-page-info" style="font-family: var(--font-mono); font-size: 0.85rem; color: var(--accent-cyan); font-weight: 600; padding: 0 0.5rem;">
+          Page 1 / 30
+        </span>
+        <button class="page-btn page-btn-sm" id="top-next-btn" onclick="goToPage(CURRENT_PAGE + 1)" title="Page suivante">
+          <i data-lucide="chevron-right" style="width: 14px;"></i>
+        </button>
       </div>
     </div>
 
