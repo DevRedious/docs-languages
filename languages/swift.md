@@ -1,18 +1,18 @@
 ## Swift — histoire
 
-- 2014 : créé par Apple pour remplacer progressivement Objective-C.
-- Conçu comme un langage moderne, sûr et performant.
-- Présenté avec une syntaxe simplifiée et typage fort.
-- Ouvert en open source peu après son lancement.
-- Évolution continue alignée sur les plateformes Apple.
+- 2010–2014 : initié par Chris Lattner chez Apple pour remplacer Objective-C par un langage moderne, sûr et rapide.
+- 2015 : ouverture du projet en open source et portage sur les systèmes Linux.
+- 2019 : introduction du framework d’interface déclaratif SwiftUI et stabilisation de l’ABI.
+- 2021 : ajout d’un modèle de concurrence moderne natif (async/await, acteurs, isolation des tâches).
+- Aujourd’hui : Swift 6 apporte la garantie stricte de concurrence sûre par analyse statique (data race safety).
 
 ## Swift — utilité
 
-- Langage de programmation compilé.
-- Utilisé pour le développement d’applications iOS, macOS, watchOS et tvOS.
-- Optimisé pour la sécurité mémoire et la performance.
-- Intègre des fonctionnalités modernes de typage et de gestion d’erreurs.
-- Principal langage natif de l’écosystème applicatif Apple.
+- Langage compilé puissant à typage statique fort, inférence de types et gestion automatique de mémoire par ARC.
+- Langage officiel exclusif pour le développement d’applications sur l’ensemble des plateformes Apple (iOS, macOS, watchOS, visionOS).
+- Élimine de larges classes de bugs grâce à la gestion obligatoire des optionnels et la sécurité des accès mémoire.
+- Permet la création d’interfaces déclaratives réactives avec SwiftUI.
+- S’étend aux serveurs web légers et microservices haute performance (Swift on Server via Vapor).
 
 ## Swift — ressources
 
