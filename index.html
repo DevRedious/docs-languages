@@ -126,6 +126,29 @@
       <!-- Dynamically filled by app.js -->
     </section>
 
+    <!-- Pagination Controls -->
+    <div class="pagination-wrapper" id="pagination-wrapper" style="display: none;">
+      <div class="pagination-controls" id="pagination-controls">
+        <!-- Page buttons dynamically rendered -->
+      </div>
+
+      <div style="display: flex; align-items: center; justify-content: space-between; width: 100%; max-width: 800px; flex-wrap: wrap; gap: 1rem;">
+        <div class="pagination-info" id="pagination-info">
+          Affichage des éléments
+        </div>
+
+        <div class="page-size-selector">
+          <span>Éléments par page :</span>
+          <select id="page-size-select" class="page-size-select">
+            <option value="24" selected>24</option>
+            <option value="48">48</option>
+            <option value="96">96</option>
+            <option value="all">Tous (sans pagination)</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
   </main>
 
   <!-- Modal / Full Documentation Sheet Viewer -->

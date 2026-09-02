@@ -6,6 +6,8 @@ let ACTIVE_ERA = 'all';
 let ONLY_GITHUB = false;
 let SEARCH_QUERY = '';
 let SORT_BY = 'name-asc';
+let CURRENT_PAGE = 1;
+let PAGE_SIZE = 24;
 
 // Simple Icons fallback CDN resolver
 function getIconSvg(logo, color, fallbackCategory) {
@@ -42,6 +44,7 @@ function setupEventListeners() {
   const searchInput = document.getElementById('search-input');
   searchInput.addEventListener('input', (e) => {
     SEARCH_QUERY = e.target.value.toLowerCase().trim();
+    CURRENT_PAGE = 1;
     renderLanguages();
   });
 
@@ -58,20 +61,32 @@ function setupEventListeners() {
   const sortSelect = document.getElementById('sort-select');
   sortSelect.addEventListener('change', (e) => {
     SORT_BY = e.target.value;
+    CURRENT_PAGE = 1;
     renderLanguages();
   });
 
   const categorySelect = document.getElementById('category-select');
   categorySelect.addEventListener('change', (e) => {
     ACTIVE_CATEGORY = e.target.value;
+    CURRENT_PAGE = 1;
     renderLanguages();
   });
 
   const githubToggle = document.getElementById('github-toggle');
   githubToggle.addEventListener('change', (e) => {
     ONLY_GITHUB = e.target.checked;
+    CURRENT_PAGE = 1;
     renderLanguages();
   });
+
+  const pageSizeSelect = document.getElementById('page-size-select');
+  if (pageSizeSelect) {
+    pageSizeSelect.addEventListener('change', (e) => {
+      PAGE_SIZE = e.target.value === 'all' ? 9999 : parseInt(e.target.value, 10);
+      CURRENT_PAGE = 1;
+      renderLanguages();
+    });
+  }
 
   // Modal overlay click
   const modalOverlay = document.getElementById('modal-overlay');
@@ -83,7 +98,6 @@ function setupEventListeners() {
 }
 
 function populateFilterOptions() {
-  // Extract unique usages
   const usageCounts = {};
   const categoryCounts = {};
   const paradigmCounts = {};
@@ -113,6 +127,7 @@ function populateFilterOptions() {
       document.querySelectorAll('#usage-pills .pill-btn').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
       ACTIVE_USAGE = usage;
+      CURRENT_PAGE = 1;
       renderLanguages();
     });
     usageContainer.appendChild(btn);
@@ -123,6 +138,7 @@ function populateFilterOptions() {
     document.querySelectorAll('#usage-pills .pill-btn').forEach(b => b.classList.remove('active'));
     this.classList.add('active');
     ACTIVE_USAGE = 'all';
+    CURRENT_PAGE = 1;
     renderLanguages();
   });
 
@@ -158,6 +174,7 @@ function populateFilterOptions() {
       document.querySelectorAll('#era-pills .pill-btn').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
       ACTIVE_ERA = era.id;
+      CURRENT_PAGE = 1;
       renderLanguages();
     });
     eraContainer.appendChild(btn);
@@ -165,22 +182,18 @@ function populateFilterOptions() {
 }
 
 function filterMatches(lang) {
-  // Usage filter
   if (ACTIVE_USAGE !== 'all') {
     if (!lang.usages || !lang.usages.includes(ACTIVE_USAGE)) return false;
   }
 
-  // Category filter
   if (ACTIVE_CATEGORY !== 'all') {
     if (lang.category !== ACTIVE_CATEGORY) return false;
   }
 
-  // GitHub filter
   if (ONLY_GITHUB) {
     if (!lang.github_url) return false;
   }
 
-  // Era filter
   if (ACTIVE_ERA !== 'all') {
     const y = lang.year || 2000;
     if (ACTIVE_ERA === 'pioneer' && y >= 1970) return false;
@@ -192,7 +205,6 @@ function filterMatches(lang) {
     if (ACTIVE_ERA === '2020s' && y < 2020) return false;
   }
 
-  // Search query
   if (SEARCH_QUERY) {
     const nameMatch = lang.name.toLowerCase().includes(SEARCH_QUERY);
     const idMatch = lang.id.toLowerCase().includes(SEARCH_QUERY);
@@ -212,6 +224,7 @@ function filterMatches(lang) {
 
 function renderLanguages() {
   const container = document.getElementById('languages-grid');
+  const paginationWrapper = document.getElementById('pagination-wrapper');
   const filtered = ALL_LANGUAGES.filter(filterMatches);
 
   // Sorting
@@ -224,9 +237,19 @@ function renderLanguages() {
     return 0;
   });
 
-  document.getElementById('results-count').textContent = `${filtered.length} langage${filtered.length > 1 ? 's' : ''} trouvé${filtered.length > 1 ? 's' : ''}`;
+  const totalItems = filtered.length;
+  const totalPages = Math.ceil(totalItems / PAGE_SIZE) || 1;
 
-  if (filtered.length === 0) {
+  if (CURRENT_PAGE > totalPages) CURRENT_PAGE = totalPages;
+  if (CURRENT_PAGE < 1) CURRENT_PAGE = 1;
+
+  const startIndex = (CURRENT_PAGE - 1) * PAGE_SIZE;
+  const endIndex = Math.min(startIndex + PAGE_SIZE, totalItems);
+  const pageItems = filtered.slice(startIndex, endIndex);
+
+  document.getElementById('results-count').textContent = `${totalItems} langage${totalItems > 1 ? 's' : ''} trouvé${totalItems > 1 ? 's' : ''}`;
+
+  if (totalItems === 0) {
     container.innerHTML = `
       <div class="empty-state" style="grid-column: 1 / -1;">
         <div class="empty-state-icon">🔍</div>
@@ -234,10 +257,12 @@ function renderLanguages() {
         <p>Essayez de réinitialiser certains filtres ou de modifier votre recherche.</p>
       </div>
     `;
+    if (paginationWrapper) paginationWrapper.style.display = 'none';
     return;
   }
 
-  container.innerHTML = filtered.map(lang => {
+  // Render cards for current page
+  container.innerHTML = pageItems.map(lang => {
     const iconHtml = getIconSvg(lang.logo, lang.color, lang.category);
     const usageBadges = (lang.usages || []).slice(0, 2).map(u => `<span class="tag-badge">${u}</span>`).join('');
     const paradigmBadges = (lang.paradigms || []).slice(0, 2).map(p => `<span class="tag-badge" style="color: var(--accent-purple);">${p}</span>`).join('');
@@ -268,7 +293,7 @@ function renderLanguages() {
 
         <div class="card-actions">
           <button class="btn-action btn-primary" onclick="openModal('${lang.id}')">
-            <i data-lucide="book-open"></i> Fiche complète
+            <i data-lucide="book-open"></i> Fiche
           </button>
           ${lang.website_url ? `
             <a href="${lang.website_url}" target="_blank" rel="noopener" class="btn-action btn-ghost" title="Site officiel">
@@ -285,8 +310,85 @@ function renderLanguages() {
     `;
   }).join('');
 
+  // Render Pagination
+  renderPagination(totalItems, totalPages, startIndex, endIndex);
   lucide.createIcons();
 }
+
+function renderPagination(totalItems, totalPages, startIndex, endIndex) {
+  const paginationWrapper = document.getElementById('pagination-wrapper');
+  const paginationControls = document.getElementById('pagination-controls');
+  const paginationInfo = document.getElementById('pagination-info');
+
+  if (!paginationWrapper || totalPages <= 1) {
+    if (paginationWrapper) paginationWrapper.style.display = totalItems > 0 ? 'flex' : 'none';
+    if (paginationControls) paginationControls.innerHTML = '';
+    if (paginationInfo) paginationInfo.textContent = `Affichage de 1 à ${totalItems} sur ${totalItems} langages`;
+    return;
+  }
+
+  paginationWrapper.style.display = 'flex';
+  paginationInfo.textContent = `Affichage de ${startIndex + 1} à ${endIndex} sur ${totalItems} langages (Page ${CURRENT_PAGE} / ${totalPages})`;
+
+  let buttonsHtml = '';
+
+  // Previous button
+  buttonsHtml += `
+    <button class="page-btn" ${CURRENT_PAGE === 1 ? 'disabled' : ''} onclick="goToPage(${CURRENT_PAGE - 1})" title="Page précédente">
+      <i data-lucide="chevron-left" style="width: 16px;"></i> Précédent
+    </button>
+  `;
+
+  // Page Numbers algorithm (e.g. 1 ... 4 5 6 ... 30)
+  const maxButtons = 7;
+  let startPage = Math.max(1, CURRENT_PAGE - 2);
+  let endPage = Math.min(totalPages, CURRENT_PAGE + 2);
+
+  if (CURRENT_PAGE <= 3) {
+    endPage = Math.min(totalPages, 5);
+  }
+  if (CURRENT_PAGE >= totalPages - 2) {
+    startPage = Math.max(1, totalPages - 4);
+  }
+
+  if (startPage > 1) {
+    buttonsHtml += `<button class="page-btn" onclick="goToPage(1)">1</button>`;
+    if (startPage > 2) buttonsHtml += `<span class="page-ellipsis">&hellip;</span>`;
+  }
+
+  for (let i = startPage; i <= endPage; i++) {
+    buttonsHtml += `
+      <button class="page-btn ${i === CURRENT_PAGE ? 'active' : ''}" onclick="goToPage(${i})">
+        ${i}
+      </button>
+    `;
+  }
+
+  if (endPage < totalPages) {
+    if (endPage < totalPages - 1) buttonsHtml += `<span class="page-ellipsis">&hellip;</span>`;
+    buttonsHtml += `<button class="page-btn" onclick="goToPage(${totalPages})">${totalPages}</button>`;
+  }
+
+  // Next button
+  buttonsHtml += `
+    <button class="page-btn" ${CURRENT_PAGE === totalPages ? 'disabled' : ''} onclick="goToPage(${CURRENT_PAGE + 1})" title="Page suivante">
+      Suivant <i data-lucide="chevron-right" style="width: 16px;"></i>
+    </button>
+  `;
+
+  paginationControls.innerHTML = buttonsHtml;
+}
+
+window.goToPage = function(pageNumber) {
+  CURRENT_PAGE = pageNumber;
+  renderLanguages();
+  
+  // Smooth scroll up to grid top
+  const gridElem = document.getElementById('languages-grid');
+  if (gridElem) {
+    gridElem.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+};
 
 function updateStats() {
   document.getElementById('stat-total').textContent = ALL_LANGUAGES.length;
