@@ -124,6 +124,7 @@ BRAND_DB = {
     'tla-plus': ('FF9900', 'amazonwebservices', 'white'),
     'alloy': ('1F2937', 'mit', 'white'),
     'datalog': ('181717', 'github', 'white'),
+    'datalog-souffle': ('F80000', 'oracle', 'white'),
     'promela': ('0B3D91', 'nasa', 'white'),
     'b-method': ('003366', 'sncf', 'white'),
     'event-b': ('003366', 'eth', 'white'),
