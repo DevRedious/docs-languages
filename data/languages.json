@@ -5,7 +5,7 @@
     "year": 1999,
     "category": "Langages Applicatifs & Entreprise",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Objets & Ingénierie Logicielle"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -69,7 +69,7 @@
     "year": 1952,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -104,7 +104,8 @@
       "Entreprise, ERP & Mainframe"
     ],
     "paradigms": [
-      "Déclaratif & Logique"
+      "Déclaratif & Logique",
+      "Orienté Objet"
     ],
     "color": "008FD3",
     "logo": "sap",
@@ -133,10 +134,10 @@
     "year": 1999,
     "category": "Entreprise, ERP & 4GL Métier",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Entreprise, ERP & Mainframe"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Orienté Objet"
     ],
     "color": "008FD3",
     "logo": "sap",
@@ -165,7 +166,7 @@
     "year": 1985,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -197,7 +198,7 @@
     "year": 1986,
     "category": "Langages Hybrides & Spécifiques",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Objets & Ingénierie Logicielle"
     ],
     "paradigms": [
       "Concurrence & Acteurs",
@@ -230,7 +231,7 @@
     "year": 1988,
     "category": "Langages Hybrides & Spécifiques",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Objets & Ingénierie Logicielle"
     ],
     "paradigms": [
       "Concurrence & Acteurs",
@@ -263,7 +264,7 @@
     "year": 1990,
     "category": "Langages Systèmes & Bas Niveau",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Systèmes & Bas Niveau"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -295,7 +296,7 @@
     "year": 1990,
     "category": "Langages Systèmes & Bas Niveau",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Systèmes & Bas Niveau"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -327,7 +328,7 @@
     "year": 1989,
     "category": "Description Matérielle & Open Hardware",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Hardware & Embarqué (FPGA / IoT)"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -391,7 +392,7 @@
     "year": 1981,
     "category": "Logiques & Preuves (Formels)",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Spécification & Preuve Formelle"
     ],
     "paradigms": [
       "Déclaratif & Logique"
@@ -423,7 +424,7 @@
     "year": 1983,
     "category": "Spécification Formelle & Modélisation",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Spécification & Preuve Formelle"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -455,7 +456,7 @@
     "year": 1960,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -487,7 +488,7 @@
     "year": 1983,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -522,6 +523,7 @@
       "Web Backend & API"
     ],
     "paradigms": [
+      "Fonctionnel",
       "Matriciel (Array)",
       "Orienté Objet"
     ],
@@ -584,7 +586,7 @@
     "year": 1986,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Orienté Objet"
@@ -616,7 +618,7 @@
     "year": 1988,
     "category": "Entreprise, ERP & 4GL Métier",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Entreprise, ERP & Mainframe"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -777,7 +779,7 @@
     "year": 1991,
     "category": "Spécification Formelle & Modélisation",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Spécification & Preuve Formelle"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -809,7 +811,7 @@
     "year": 1993,
     "category": "Spécification Formelle & Modélisation",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Spécification & Preuve Formelle"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -877,7 +879,8 @@
     ],
     "paradigms": [
       "Déclaratif & Logique",
-      "Fonctionnel"
+      "Fonctionnel",
+      "Orienté Prototype"
     ],
     "color": "293241",
     "logo": "haskell",
@@ -906,7 +909,7 @@
     "year": 2006,
     "category": "Langages Web & Scripting Dynamique",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Automatisation & Scripting"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -938,7 +941,7 @@
     "year": 1993,
     "category": "Langages Hybrides & Spécifiques",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Objets & Ingénierie Logicielle"
     ],
     "paradigms": [
       "Orienté Prototype"
@@ -1002,7 +1005,7 @@
     "year": 1989,
     "category": "Scientifiques, Mathématiques & Finance",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Data Science, IA & Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -1034,7 +1037,7 @@
     "year": 1990,
     "category": "Scientifiques, Mathématiques & Finance",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Data Science, IA & Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -1066,10 +1069,10 @@
     "year": 1992,
     "category": "Langages Systèmes & Bas Niveau",
     "usages": [
-      "Web Backend & API"
+      "Systèmes & Bas Niveau"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Fonctionnel"
     ],
     "color": "1E293B",
     "logo": "c",
@@ -1098,10 +1101,10 @@
     "year": 2003,
     "category": "Langages Fonctionnels & Déclaratifs",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Langages Fonctionnels Purs & Applicatifs"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Fonctionnel"
     ],
     "color": "6D28D9",
     "logo": "haskell",
@@ -1130,7 +1133,7 @@
     "year": 1991,
     "category": "Logiques & Preuves (Formels)",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Spécification & Preuve Formelle"
     ],
     "paradigms": [
       "Déclaratif & Logique",
@@ -1163,7 +1166,7 @@
     "year": 1990,
     "category": "Scientifiques, Mathématiques & Finance",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Data Science, IA & Calcul"
     ],
     "paradigms": [
       "Matriciel (Array)"
@@ -1195,10 +1198,12 @@
     "year": 1958,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Systèmes & Bas Niveau"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Impératif / Procédural",
+      "Matriciel (Array)",
+      "Orienté Prototype"
     ],
     "color": "1A1A1A",
     "logo": "computerhistory",
@@ -1227,7 +1232,7 @@
     "year": 1958,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -1259,10 +1264,10 @@
     "year": 1960,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Matriciel (Array)"
     ],
     "color": "334155",
     "logo": "computerhistory",
@@ -1291,7 +1296,7 @@
     "year": 1968,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -1323,7 +1328,7 @@
     "year": 1971,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -1355,7 +1360,7 @@
     "year": 1966,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -1419,10 +1424,11 @@
     "year": 2000,
     "category": "Langages Fonctionnels & Déclaratifs",
     "usages": [
-      "Systèmes & Bas Niveau"
+      "Langages Fonctionnels Purs & Applicatifs"
     ],
     "paradigms": [
       "Concurrence & Acteurs",
+      "Déclaratif & Logique",
       "Fonctionnel"
     ],
     "color": "6D28D9",
@@ -1450,10 +1456,10 @@
     "year": 1986,
     "category": "Langages Fonctionnels & Déclaratifs",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Langages Fonctionnels Purs & Applicatifs"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Fonctionnel"
     ],
     "color": "6D28D9",
     "logo": "haskell",
@@ -1546,7 +1552,7 @@
     "year": 1995,
     "category": "Logiques & Preuves (Formels)",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Spécification & Preuve Formelle"
     ],
     "paradigms": [
       "Déclaratif & Logique",
@@ -1579,7 +1585,7 @@
     "year": 1997,
     "category": "Logiques & Preuves (Formels)",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Spécification & Preuve Formelle"
     ],
     "paradigms": [
       "Déclaratif & Logique"
@@ -1611,7 +1617,7 @@
     "year": 1974,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -1643,7 +1649,7 @@
     "year": 1968,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -1707,7 +1713,7 @@
     "year": 2011,
     "category": "Langages Web & Scripting Dynamique",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Web Frontend"
     ],
     "paradigms": [
       "Orienté Objet"
@@ -1739,7 +1745,7 @@
     "year": 2006,
     "category": "Langages Hybrides & Spécifiques",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Objets & Ingénierie Logicielle"
     ],
     "paradigms": [
       "Concurrence & Acteurs"
@@ -1771,7 +1777,7 @@
     "year": 1993,
     "category": "Langages Systèmes & Bas Niveau",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Systèmes & Bas Niveau"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -1803,7 +1809,7 @@
     "year": 1985,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -1835,10 +1841,10 @@
     "year": 1982,
     "category": "Description Matérielle & Open Hardware",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Hardware & Embarqué (FPGA / IoT)"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Fonctionnel"
     ],
     "color": "0E7490",
     "logo": "ieee",
@@ -1899,7 +1905,7 @@
     "year": 1985,
     "category": "Scientifiques, Mathématiques & Finance",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Data Science, IA & Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -1931,7 +1937,7 @@
     "year": 1990,
     "category": "Scientifiques, Mathématiques & Finance",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Data Science, IA & Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -1963,7 +1969,7 @@
     "year": 1843,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -1995,7 +2001,7 @@
     "year": 2010,
     "category": "Langages Fonctionnels & Déclaratifs",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Langages Fonctionnels Purs & Applicatifs"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -2059,7 +2065,7 @@
     "year": 2011,
     "category": "Requêtes de Données, Graphes & Schémas",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Data Science, IA & Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -2123,7 +2129,7 @@
     "year": 1989,
     "category": "Langages Systèmes & Bas Niveau",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Systèmes & Bas Niveau"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -2155,7 +2161,7 @@
     "year": 2000,
     "category": "Logiques & Preuves (Formels)",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Spécification & Preuve Formelle"
     ],
     "paradigms": [
       "Fonctionnel"
@@ -2190,7 +2196,7 @@
       "Jeux Vidéo & 3D"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Fonctionnel"
     ],
     "color": "0284C7",
     "logo": "react",
@@ -2219,7 +2225,7 @@
     "year": 2018,
     "category": "Requêtes de Données, Graphes & Schémas",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Data Science, IA & Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -2251,10 +2257,10 @@
     "year": 2006,
     "category": "Entreprise, ERP & 4GL Métier",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Entreprise, ERP & Mainframe"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Orienté Objet"
     ],
     "color": "00A1E0",
     "logo": "salesforce",
@@ -2315,7 +2321,7 @@
     "year": 1984,
     "category": "Scientifiques, Mathématiques & Finance",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Data Science, IA & Calcul"
     ],
     "paradigms": [
       "Matriciel (Array)"
@@ -2347,7 +2353,7 @@
     "year": 2013,
     "category": "Entreprise, ERP & 4GL Métier",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Entreprise, ERP & Mainframe"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -2379,7 +2385,7 @@
     "year": 1979,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -2414,7 +2420,7 @@
       "Automatisation & Scripting"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Orienté Prototype"
     ],
     "color": "999999",
     "logo": "apple",
@@ -2443,7 +2449,7 @@
     "year": 2006,
     "category": "Automatisation Desktop & Web Scripting",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Automatisation & Scripting"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -2475,7 +2481,7 @@
     "year": 1956,
     "category": "Description Matérielle & Open Hardware",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Hardware & Embarqué (FPGA / IoT)"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -2507,10 +2513,10 @@
     "year": 2001,
     "category": "Langages Fonctionnels & Déclaratifs",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Langages Fonctionnels Purs & Applicatifs"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Fonctionnel"
     ],
     "color": "6D28D9",
     "logo": "haskell",
@@ -2571,7 +2577,7 @@
     "year": 1993,
     "category": "Scientifiques, Mathématiques & Finance",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Data Science, IA & Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -2603,7 +2609,7 @@
     "year": 1987,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Automatisation & Scripting"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -2635,10 +2641,10 @@
     "year": 1982,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Orienté Objet"
     ],
     "color": "334155",
     "logo": "computerhistory",
@@ -2667,7 +2673,7 @@
     "year": 1985,
     "category": "Langages Systèmes & Bas Niveau",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Systèmes & Bas Niveau"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -2699,7 +2705,7 @@
     "year": 2001,
     "category": "Langages Spécialisés & Hybrides",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Objets & Ingénierie Logicielle"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -2734,6 +2740,7 @@
       "Systèmes & Bas Niveau"
     ],
     "paradigms": [
+      "Impératif / Procédural",
       "Matriciel (Array)"
     ],
     "color": "6E4C13",
@@ -2763,7 +2770,7 @@
     "year": 2004,
     "category": "Scientifiques, Mathématiques & Finance",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Data Science, IA & Calcul"
     ],
     "paradigms": [
       "Matriciel (Array)"
@@ -2795,7 +2802,7 @@
     "year": 2008,
     "category": "Scientifiques, Mathématiques & Finance",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Data Science, IA & Calcul"
     ],
     "paradigms": [
       "Matriciel (Array)"
@@ -2827,7 +2834,7 @@
     "year": 1979,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -2859,7 +2866,7 @@
     "year": 1962,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -2926,7 +2933,7 @@
       "Automatisation & Scripting"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Orienté Objet"
     ],
     "color": "334455",
     "logo": "autohotkey",
@@ -2987,10 +2994,10 @@
     "year": 1986,
     "category": "Langages Web & Scripting Dynamique",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Automatisation & Scripting"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Fonctionnel"
     ],
     "color": "B45309",
     "logo": "javascript",
@@ -3019,7 +3026,7 @@
     "year": 2010,
     "category": "Langages Hybrides & Spécifiques",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Objets & Ingénierie Logicielle"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -3051,7 +3058,7 @@
     "year": 2006,
     "category": "Spécification Formelle & Modélisation",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Spécification & Preuve Formelle"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -3115,7 +3122,7 @@
     "year": 2009,
     "category": "Langages Applicatifs & Entreprise",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Objets & Ingénierie Logicielle"
     ],
     "paradigms": [
       "Concurrence & Acteurs"
@@ -3150,7 +3157,7 @@
       "Systèmes & Bas Niveau"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Fonctionnel"
     ],
     "color": "334155",
     "logo": "computerhistory",
@@ -3211,7 +3218,7 @@
     "year": 1971,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -3246,7 +3253,8 @@
       "Web Backend & API"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Concurrence & Acteurs",
+      "Orienté Prototype"
     ],
     "color": "F9DC3E",
     "logo": "babel",
@@ -3275,7 +3283,7 @@
     "year": 1971,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Orienté Objet"
@@ -3310,7 +3318,8 @@
       "Web Backend & API"
     ],
     "paradigms": [
-      "Concurrence & Acteurs"
+      "Concurrence & Acteurs",
+      "Fonctionnel"
     ],
     "color": "20B6B0",
     "logo": "ballerina",
@@ -3339,10 +3348,10 @@
     "year": 2016,
     "category": "Logiques & Preuves (Formels)",
     "usages": [
-      "Web Backend & API"
+      "Spécification & Preuve Formelle"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Fonctionnel"
     ],
     "color": "BE123C",
     "logo": "prolog",
@@ -3403,7 +3412,7 @@
     "year": 1964,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -3435,7 +3444,7 @@
     "year": 1964,
     "category": "Langages Systèmes & Bas Niveau",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Systèmes & Bas Niveau"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -3467,7 +3476,7 @@
     "year": 1970,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -3531,7 +3540,7 @@
     "year": 1981,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -3563,7 +3572,7 @@
     "year": 1975,
     "category": "Scientifiques, Mathématiques & Finance",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Data Science, IA & Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -3598,7 +3607,7 @@
       "Systèmes & Bas Niveau"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Fonctionnel"
     ],
     "color": "334155",
     "logo": "computerhistory",
@@ -3627,7 +3636,7 @@
     "year": 1997,
     "category": "Langages Applicatifs & Entreprise",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Objets & Ingénierie Logicielle"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -3723,7 +3732,7 @@
     "year": 2009,
     "category": "Langages Fonctionnels & Déclaratifs",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Langages Fonctionnels Purs & Applicatifs"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -3755,7 +3764,7 @@
     "year": 1975,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Déclaratif & Logique",
@@ -3948,7 +3957,7 @@
     "year": 1977,
     "category": "Langages Systèmes & Bas Niveau",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Systèmes & Bas Niveau"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -3980,7 +3989,7 @@
     "year": 2012,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Web Backend & API"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -4012,7 +4021,7 @@
     "year": 1979,
     "category": "Ésotériques & Théorie Informatique",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Ésotérique & Recherche"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -4076,7 +4085,7 @@
     "year": 2003,
     "category": "Langages Hybrides & Spécifiques",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Objets & Ingénierie Logicielle"
     ],
     "paradigms": [
       "Déclaratif & Logique"
@@ -4139,7 +4148,7 @@
     "year": 2008,
     "category": "Spécification Formelle & Modélisation",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Spécification & Preuve Formelle"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -4174,7 +4183,7 @@
       "Web Frontend"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Orienté Prototype"
     ],
     "color": "7952B3",
     "logo": "bootstrap",
@@ -4270,6 +4279,8 @@
       "Data Science, IA & Calcul"
     ],
     "paradigms": [
+      "Fonctionnel",
+      "Impératif / Procédural",
       "Matriciel (Array)"
     ],
     "color": "2E3440",
@@ -4330,7 +4341,7 @@
     "year": 1980,
     "category": "Entreprise, ERP & 4GL Métier",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Entreprise, ERP & Mainframe"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -4362,7 +4373,7 @@
     "year": 1993,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -4397,6 +4408,7 @@
       "Systèmes & Bas Niveau"
     ],
     "paradigms": [
+      "Fonctionnel",
       "Impératif / Procédural"
     ],
     "color": "A8B9CC",
@@ -4458,7 +4470,7 @@
     "year": 1978,
     "category": "Shells & Outils de Flux Unix",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Automatisation & Scripting"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -4490,12 +4502,12 @@
     "year": 2000,
     "category": "Langages Applicatifs & Entreprise",
     "usages": [
-      "Jeux Vidéo & 3D",
       "Web Backend & API"
     ],
     "paradigms": [
       "Déclaratif & Logique",
-      "Fonctionnel"
+      "Fonctionnel",
+      "Orienté Objet"
     ],
     "color": "239120",
     "logo": "csharp",
@@ -4524,10 +4536,10 @@
     "year": 1987,
     "category": "Scientifiques, Mathématiques & Finance",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Data Science, IA & Calcul"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Concurrence & Acteurs"
     ],
     "color": "1D4ED8",
     "logo": "julia",
@@ -4589,7 +4601,7 @@
     "year": 2011,
     "category": "Langages Systèmes & Bas Niveau",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Systèmes & Bas Niveau"
     ],
     "paradigms": [
       "Fonctionnel"
@@ -4621,7 +4633,7 @@
     "year": 2020,
     "category": "Langages Systèmes & Bas Niveau",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Systèmes & Bas Niveau"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -4653,7 +4665,7 @@
     "year": 2023,
     "category": "Langages Systèmes & Bas Niveau",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Systèmes & Bas Niveau"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -4717,7 +4729,7 @@
     "year": 1988,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Orienté Objet"
@@ -4749,7 +4761,7 @@
     "year": 1990,
     "category": "Langages Spécialisés & Hybrides",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Entreprise, ERP & Mainframe"
     ],
     "paradigms": [
       "Déclaratif & Logique"
@@ -4781,7 +4793,7 @@
     "year": 1995,
     "category": "Entreprise, ERP & 4GL Métier",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Entreprise, ERP & Mainframe"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -4813,7 +4825,7 @@
     "year": 2011,
     "category": "Langages Systèmes & Bas Niveau",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Systèmes & Bas Niveau"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -4845,7 +4857,7 @@
     "year": 2023,
     "category": "Langages Systèmes & Bas Niveau",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Systèmes & Bas Niveau"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -4877,7 +4889,7 @@
     "year": 1999,
     "category": "Langages Systèmes & Bas Niveau",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Systèmes & Bas Niveau"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -4909,7 +4921,7 @@
     "year": 1997,
     "category": "Entreprise, ERP & 4GL Métier",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Entreprise, ERP & Mainframe"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -4944,7 +4956,7 @@
       "Smart Contracts & Web3"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Orienté Objet"
     ],
     "color": "00EF8B",
     "logo": "flow",
@@ -4973,7 +4985,7 @@
     "year": 2000,
     "category": "Description Matérielle & Open Hardware",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Hardware & Embarqué (FPGA / IoT)"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -5101,10 +5113,10 @@
     "year": 1990,
     "category": "Langages Fonctionnels & Déclaratifs",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Langages Fonctionnels Purs & Applicatifs"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Fonctionnel"
     ],
     "color": "6D28D9",
     "logo": "haskell",
@@ -5133,10 +5145,10 @@
     "year": 1995,
     "category": "Langages Fonctionnels & Déclaratifs",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Langages Fonctionnels Purs & Applicatifs"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Fonctionnel"
     ],
     "color": "6D28D9",
     "logo": "haskell",
@@ -5165,7 +5177,7 @@
     "year": 1994,
     "category": "Scientifiques, Mathématiques & Finance",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Data Science, IA & Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -5229,7 +5241,7 @@
     "year": 2022,
     "category": "Langages Émergents & Recherche",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Ésotérique & Recherche"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -5261,10 +5273,10 @@
     "year": 2016,
     "category": "Langages Fonctionnels & Déclaratifs",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Langages Fonctionnels Purs & Applicatifs"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Fonctionnel"
     ],
     "color": "663399",
     "logo": "rust",
@@ -5292,7 +5304,7 @@
     "year": 1998,
     "category": "Spécification Formelle & Modélisation",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Spécification & Preuve Formelle"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -5324,7 +5336,7 @@
     "year": 2004,
     "category": "Spécification Formelle & Modélisation",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Spécification & Preuve Formelle"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -5356,7 +5368,7 @@
     "year": 2006,
     "category": "Langages Fonctionnels & Déclaratifs",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Langages Fonctionnels Purs & Applicatifs"
     ],
     "paradigms": [
       "Concaténatif / Pile",
@@ -5392,7 +5404,7 @@
       "Web Backend & API"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Fonctionnel"
     ],
     "color": "6D28D9",
     "logo": "haskell",
@@ -5421,10 +5433,10 @@
     "year": 1998,
     "category": "Logiques & Preuves (Formels)",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Spécification & Preuve Formelle"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Fonctionnel"
     ],
     "color": "BE123C",
     "logo": "prolog",
@@ -5453,7 +5465,7 @@
     "year": 1977,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -5485,7 +5497,7 @@
     "year": 2021,
     "category": "Scientifiques, Mathématiques & Finance",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Data Science, IA & Calcul"
     ],
     "paradigms": [
       "Matriciel (Array)"
@@ -5517,9 +5529,10 @@
     "year": 1992,
     "category": "Langages Hybrides & Spécifiques",
     "usages": [
-      "Web Backend & API"
+      "Objets & Ingénierie Logicielle"
     ],
     "paradigms": [
+      "Fonctionnel",
       "Orienté Objet"
     ],
     "color": "374151",
@@ -5549,7 +5562,7 @@
     "year": 1974,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -5581,11 +5594,12 @@
     "year": 2011,
     "category": "Langages Hybrides & Spécifiques",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Objets & Ingénierie Logicielle"
     ],
     "paradigms": [
       "Fonctionnel",
-      "Orienté Objet"
+      "Orienté Objet",
+      "Orienté Prototype"
     ],
     "color": "D9531E",
     "logo": "eclipseide",
@@ -5649,7 +5663,7 @@
       "Web Backend & API"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Fonctionnel"
     ],
     "color": "FF0000",
     "logo": "adobe",
@@ -5710,7 +5724,7 @@
     "year": 2001,
     "category": "Langages Systèmes & Bas Niveau",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Systèmes & Bas Niveau"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -5742,10 +5756,10 @@
     "year": 2003,
     "category": "Langages Fonctionnels & Déclaratifs",
     "usages": [
-      "Systèmes & Bas Niveau"
+      "Langages Fonctionnels Purs & Applicatifs"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Concurrence & Acteurs"
     ],
     "color": "009999",
     "logo": "hpe",
@@ -5774,7 +5788,7 @@
     "year": 1992,
     "category": "Logiques & Preuves (Formels)",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Spécification & Preuve Formelle"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -5809,7 +5823,7 @@
       "Ésotérique & Recherche"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Fonctionnel"
     ],
     "color": "4C1D95",
     "logo": "ghost",
@@ -5838,7 +5852,7 @@
     "year": 1980,
     "category": "Langages Systèmes & Bas Niveau",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Systèmes & Bas Niveau"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -5870,10 +5884,10 @@
     "year": 1996,
     "category": "Langages Systèmes & Bas Niveau",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Systèmes & Bas Niveau"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Orienté Objet"
     ],
     "color": "1E293B",
     "logo": "c",
@@ -5999,7 +6013,7 @@
     "year": 1990,
     "category": "Ésotériques & Théorie Informatique",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Ésotérique & Recherche"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -6063,10 +6077,10 @@
     "year": 2008,
     "category": "Scientifiques, Mathématiques & Finance",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Data Science, IA & Calcul"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Fonctionnel"
     ],
     "color": "1D4ED8",
     "logo": "julia",
@@ -6130,7 +6144,7 @@
       "Jeux Vidéo & 3D"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Fonctionnel"
     ],
     "color": "7E22CE",
     "logo": "unrealengine",
@@ -6159,10 +6173,10 @@
     "year": 1994,
     "category": "Logiques & Preuves (Formels)",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Spécification & Preuve Formelle"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Déclaratif & Logique"
     ],
     "color": "BE123C",
     "logo": "prolog",
@@ -6223,7 +6237,7 @@
     "year": 1995,
     "category": "Entreprise, ERP & 4GL Métier",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Entreprise, ERP & Mainframe"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -6287,10 +6301,10 @@
     "year": 2015,
     "category": "Langages Fonctionnels & Déclaratifs",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Langages Fonctionnels Purs & Applicatifs"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Fonctionnel"
     ],
     "color": "6D28D9",
     "logo": "haskell",
@@ -6319,7 +6333,7 @@
     "year": 1987,
     "category": "Langages Fonctionnels & Déclaratifs",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Langages Fonctionnels Purs & Applicatifs"
     ],
     "paradigms": [
       "Fonctionnel"
@@ -6351,7 +6365,7 @@
     "year": 2016,
     "category": "Requêtes de Données, Graphes & Schémas",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Data Science, IA & Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -6388,7 +6402,8 @@
     "paradigms": [
       "Fonctionnel",
       "Impératif / Procédural",
-      "Matriciel (Array)"
+      "Matriciel (Array)",
+      "Orienté Objet"
     ],
     "color": "1B365D",
     "logo": "dosbox",
@@ -6417,7 +6432,7 @@
     "year": 1985,
     "category": "Logiques & Preuves (Formels)",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Spécification & Preuve Formelle"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -6481,11 +6496,12 @@
     "year": 2007,
     "category": "Langages Fonctionnels & Déclaratifs",
     "usages": [
-      "Web Backend & API"
+      "Langages Fonctionnels Purs & Applicatifs"
     ],
     "paradigms": [
       "Concurrence & Acteurs",
-      "Fonctionnel"
+      "Fonctionnel",
+      "Orienté Prototype"
     ],
     "color": "5881D8",
     "logo": "clojure",
@@ -6514,7 +6530,7 @@
     "year": 2010,
     "category": "Langages Applicatifs & Entreprise",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Langages Fonctionnels Purs & Applicatifs"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -6546,10 +6562,10 @@
     "year": 2011,
     "category": "Langages Web & Scripting Dynamique",
     "usages": [
-      "Web Backend & API"
+      "Web Frontend"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Orienté Prototype"
     ],
     "color": "B45309",
     "logo": "javascript",
@@ -6578,10 +6594,10 @@
     "year": 1974,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Web Backend & API"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Fonctionnel"
     ],
     "color": "334155",
     "logo": "computerhistory",
@@ -6610,10 +6626,10 @@
     "year": 1987,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Fonctionnel"
     ],
     "color": "334155",
     "logo": "computerhistory",
@@ -6642,7 +6658,7 @@
     "year": 1994,
     "category": "Spécification Formelle & Modélisation",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Spécification & Preuve Formelle"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -6674,7 +6690,7 @@
     "year": 1968,
     "category": "Langages Systèmes & Bas Niveau",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Systèmes & Bas Niveau"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -6706,10 +6722,11 @@
     "year": 1959,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Entreprise, ERP & Mainframe"
+      "Entreprise, ERP & Mainframe",
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Fonctionnel"
     ],
     "color": "003C71",
     "logo": "ibm",
@@ -6837,7 +6854,8 @@
       "Web Backend & API"
     ],
     "paradigms": [
-      "Orienté Objet"
+      "Orienté Objet",
+      "Orienté Prototype"
     ],
     "color": "2F2625",
     "logo": "coffeescript",
@@ -6869,7 +6887,7 @@
       "Web Backend & API"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Fonctionnel"
     ],
     "color": "FF0000",
     "logo": "adobe",
@@ -6898,7 +6916,7 @@
     "year": 1973,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -6930,7 +6948,7 @@
     "year": 2019,
     "category": "Spécification Formelle & Modélisation",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Spécification & Preuve Formelle"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -6962,9 +6980,10 @@
     "year": 1958,
     "category": "Langages Fonctionnels & Déclaratifs",
     "usages": [
-      "Systèmes & Bas Niveau"
+      "Langages Fonctionnels Purs & Applicatifs"
     ],
     "paradigms": [
+      "Fonctionnel",
       "Orienté Objet"
     ],
     "color": "6D28D9",
@@ -6994,7 +7013,7 @@
     "year": 1986,
     "category": "Langages Systèmes & Bas Niveau",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Systèmes & Bas Niveau"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -7026,7 +7045,7 @@
     "year": 1975,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -7058,9 +7077,10 @@
     "year": 1996,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Web Backend & API"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
+      "Fonctionnel",
       "Orienté Objet"
     ],
     "color": "334155",
@@ -7093,7 +7113,7 @@
       "Spécification & Preuve Formelle"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Fonctionnel"
     ],
     "color": "C73B28",
     "logo": "inria",
@@ -7122,7 +7142,7 @@
     "year": 1966,
     "category": "Langages Systèmes & Bas Niveau",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Systèmes & Bas Niveau"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -7218,7 +7238,7 @@
     "year": 1963,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -7282,7 +7302,7 @@
     "year": 2015,
     "category": "Spécification Formelle & Modélisation",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Spécification & Preuve Formelle"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -7314,6 +7334,7 @@
     "year": 2011,
     "category": "Langages Fonctionnels & Déclaratifs",
     "usages": [
+      "Langages Fonctionnels Purs & Applicatifs",
       "Web Backend & API"
     ],
     "paradigms": [
@@ -7382,7 +7403,7 @@
       "Web Frontend"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Fonctionnel"
     ],
     "color": "1572B6",
     "logo": "css3",
@@ -7411,7 +7432,7 @@
     "year": 1990,
     "category": "Logiques & Preuves (Formels)",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Spécification & Preuve Formelle"
     ],
     "paradigms": [
       "Déclaratif & Logique"
@@ -7446,6 +7467,7 @@
       "Data Science, IA & Calcul"
     ],
     "paradigms": [
+      "Concurrence & Acteurs",
       "Déclaratif & Logique",
       "Matriciel (Array)"
     ],
@@ -7572,7 +7594,7 @@
     "year": 1995,
     "category": "Logiques & Preuves (Formels)",
     "usages": [
-      "Systèmes & Bas Niveau"
+      "Spécification & Preuve Formelle"
     ],
     "paradigms": [
       "Déclaratif & Logique",
@@ -7636,7 +7658,7 @@
     "year": 2011,
     "category": "Requêtes de Données, Graphes & Schémas",
     "usages": [
-      "Développement Général"
+      "Data Science, IA & Calcul"
     ],
     "paradigms": [
       "Déclaratif & Logique"
@@ -7732,9 +7754,10 @@
     "year": 1989,
     "category": "Langages Fonctionnels & Déclaratifs",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Langages Fonctionnels Purs & Applicatifs"
     ],
     "paradigms": [
+      "Concurrence & Acteurs",
       "Fonctionnel"
     ],
     "color": "6D28D9",
@@ -7767,7 +7790,7 @@
       "Smart Contracts & Web3"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Fonctionnel"
     ],
     "color": "111827",
     "logo": "ethereum",
@@ -7799,7 +7822,8 @@
       "Web Backend & API"
     ],
     "paradigms": [
-      "Orienté Objet"
+      "Orienté Objet",
+      "Orienté Prototype"
     ],
     "color": "0175C2",
     "logo": "dart",
@@ -7828,7 +7852,7 @@
     "year": 2023,
     "category": "Langages Applicatifs & Entreprise",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Objets & Ingénierie Logicielle"
     ],
     "paradigms": [
       "Fonctionnel"
@@ -7860,7 +7884,7 @@
     "year": 1964,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -7956,7 +7980,7 @@
     "year": 1977,
     "category": "Shells & Outils de Flux Unix",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Automatisation & Scripting"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -7988,7 +8012,7 @@
     "year": 2006,
     "category": "Langages Hybrides & Spécifiques",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Objets & Ingénierie Logicielle"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -8055,7 +8079,7 @@
       "Web Backend & API"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Orienté Prototype"
     ],
     "color": "000000",
     "logo": "deno",
@@ -8116,7 +8140,7 @@
     "year": 2000,
     "category": "Frameworks, Runtimes & Écosystèmes",
     "usages": [
-      "Web Backend & API"
+      "Web Frontend"
     ],
     "paradigms": [
       "Déclaratif & Logique"
@@ -8183,7 +8207,8 @@
       "Web Backend & API"
     ],
     "paradigms": [
-      "Déclaratif & Logique"
+      "Déclaratif & Logique",
+      "Orienté Objet"
     ],
     "color": "092E20",
     "logo": "django",
@@ -8212,7 +8237,7 @@
     "year": 1986,
     "category": "Description Matérielle & Open Hardware",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Hardware & Embarqué (FPGA / IoT)"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -8244,7 +8269,7 @@
     "year": 1983,
     "category": "Scientifiques, Mathématiques & Finance",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Data Science, IA & Calcul"
     ],
     "paradigms": [
       "Matriciel (Array)"
@@ -8276,7 +8301,7 @@
     "year": 1992,
     "category": "Langages Hybrides & Spécifiques",
     "usages": [
-      "Systèmes & Bas Niveau"
+      "Objets & Ingénierie Logicielle"
     ],
     "paradigms": [
       "Orienté Objet"
@@ -8308,10 +8333,10 @@
     "year": 1993,
     "category": "Langages Systèmes & Bas Niveau",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Systèmes & Bas Niveau"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Orienté Objet"
     ],
     "color": "1E293B",
     "logo": "c",
@@ -8372,10 +8397,11 @@
     "year": 1997,
     "category": "Spécification Formelle & Modélisation",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Spécification & Preuve Formelle"
     ],
     "paradigms": [
-      "Concurrence & Acteurs"
+      "Concurrence & Acteurs",
+      "Orienté Objet"
     ],
     "color": "4338CA",
     "logo": "mathworks",
@@ -8404,7 +8430,7 @@
     "year": 1988,
     "category": "Description Matérielle & Open Hardware",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Hardware & Embarqué (FPGA / IoT)"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -8468,7 +8494,7 @@
     "year": 1970,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -8500,7 +8526,7 @@
     "year": 1985,
     "category": "Langages Applicatifs & Entreprise",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Objets & Ingénierie Logicielle"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -8532,7 +8558,7 @@
     "year": 2001,
     "category": "Langages Applicatifs & Entreprise",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Objets & Ingénierie Logicielle"
     ],
     "paradigms": [
       "Orienté Objet"
@@ -8564,7 +8590,7 @@
     "year": 1976,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -8596,10 +8622,11 @@
     "year": 2010,
     "category": "Requêtes de Données, Graphes & Schémas",
     "usages": [
-      "Web Backend & API"
+      "Data Science, IA & Calcul"
     ],
     "paradigms": [
-      "Déclaratif & Logique"
+      "Déclaratif & Logique",
+      "Fonctionnel"
     ],
     "color": "0369A1",
     "logo": "graphql",
@@ -8628,11 +8655,13 @@
     "year": 2012,
     "category": "Langages Fonctionnels & Déclaratifs",
     "usages": [
+      "Langages Fonctionnels Purs & Applicatifs",
       "Web Backend & API"
     ],
     "paradigms": [
       "Concurrence & Acteurs",
-      "Fonctionnel"
+      "Fonctionnel",
+      "Orienté Prototype"
     ],
     "color": "4B275F",
     "logo": "elixir",
@@ -8661,11 +8690,13 @@
     "year": 2012,
     "category": "Langages Fonctionnels & Déclaratifs",
     "usages": [
+      "Langages Fonctionnels Purs & Applicatifs",
       "Web Frontend"
     ],
     "paradigms": [
       "Fonctionnel",
-      "Matriciel (Array)"
+      "Matriciel (Array)",
+      "Orienté Prototype"
     ],
     "color": "1293D8",
     "logo": "elm",
@@ -8694,10 +8725,10 @@
     "year": 1985,
     "category": "Langages Web & Scripting Dynamique",
     "usages": [
-      "Web Backend & API"
+      "Automatisation & Scripting"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Fonctionnel"
     ],
     "color": "7F5AB6",
     "logo": "gnuemacs",
@@ -8726,10 +8757,10 @@
     "year": 1986,
     "category": "Langages Hybrides & Spécifiques",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Objets & Ingénierie Logicielle"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Orienté Objet"
     ],
     "color": "374151",
     "logo": "codeigniter",
@@ -8758,7 +8789,7 @@
     "year": 2004,
     "category": "Logiques & Preuves (Formels)",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Spécification & Preuve Formelle"
     ],
     "paradigms": [
       "Fonctionnel"
@@ -8790,7 +8821,7 @@
     "year": 1986,
     "category": "Langages Fonctionnels & Déclaratifs",
     "usages": [
-      "Systèmes & Bas Niveau"
+      "Langages Fonctionnels Purs & Applicatifs"
     ],
     "paradigms": [
       "Concurrence & Acteurs",
@@ -8823,7 +8854,7 @@
     "year": 1998,
     "category": "Langages Fonctionnels & Déclaratifs",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Langages Fonctionnels Purs & Applicatifs"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -8887,7 +8918,7 @@
     "year": 1995,
     "category": "Logiques & Preuves (Formels)",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Spécification & Preuve Formelle"
     ],
     "paradigms": [
       "Déclaratif & Logique",
@@ -8923,7 +8954,7 @@
       "Web Backend & API"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Orienté Objet"
     ],
     "color": "1E293B",
     "logo": "code",
@@ -8952,7 +8983,7 @@
     "year": 1961,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -9016,10 +9047,10 @@
     "year": 1996,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Orienté Objet"
     ],
     "color": "334155",
     "logo": "computerhistory",
@@ -9048,7 +9079,7 @@
     "year": 1977,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -9080,7 +9111,7 @@
     "year": 1965,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Web Backend & API"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -9208,10 +9239,11 @@
     "year": 2005,
     "category": "Langages Fonctionnels & Déclaratifs",
     "usages": [
-      "Web Backend & API"
+      "Langages Fonctionnels Purs & Applicatifs"
     ],
     "paradigms": [
-      "Fonctionnel"
+      "Fonctionnel",
+      "Orienté Prototype"
     ],
     "color": "378BBA",
     "logo": "fsharp",
@@ -9272,7 +9304,7 @@
     "year": 2003,
     "category": "Langages Fonctionnels & Déclaratifs",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Langages Fonctionnels Purs & Applicatifs"
     ],
     "paradigms": [
       "Concaténatif / Pile"
@@ -9304,7 +9336,7 @@
     "year": 2009,
     "category": "Langages Fonctionnels & Déclaratifs",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Langages Fonctionnels Purs & Applicatifs"
     ],
     "paradigms": [
       "Concaténatif / Pile"
@@ -9336,10 +9368,11 @@
     "year": 2003,
     "category": "Langages Hybrides & Spécifiques",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Objets & Ingénierie Logicielle"
     ],
     "paradigms": [
-      "Fonctionnel"
+      "Fonctionnel",
+      "Orienté Objet"
     ],
     "color": "374151",
     "logo": "codeigniter",
@@ -9368,7 +9401,7 @@
     "year": 2010,
     "category": "Langages Hybrides & Spécifiques",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Objets & Ingénierie Logicielle"
     ],
     "paradigms": [
       "Concurrence & Acteurs",
@@ -9401,7 +9434,7 @@
     "year": 2005,
     "category": "Langages Hybrides & Spécifiques",
     "usages": [
-      "Web Backend & API"
+      "Objets & Ingénierie Logicielle"
     ],
     "paradigms": [
       "Concurrence & Acteurs",
@@ -9562,10 +9595,10 @@
     "year": 2016,
     "category": "Langages Fonctionnels & Déclaratifs",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Langages Fonctionnels Purs & Applicatifs"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Fonctionnel"
     ],
     "color": "2C2D72",
     "logo": "lua",
@@ -9658,7 +9691,7 @@
     "year": 1985,
     "category": "Entreprise, ERP & 4GL Métier",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Entreprise, ERP & Mainframe"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -9722,7 +9755,7 @@
     "year": 2024,
     "category": "Shells & Outils de Flux Unix",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Automatisation & Scripting"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -9754,7 +9787,7 @@
     "year": 1989,
     "category": "Langages Fonctionnels & Déclaratifs",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Langages Fonctionnels Purs & Applicatifs"
     ],
     "paradigms": [
       "Fonctionnel"
@@ -9786,9 +9819,10 @@
     "year": 1980,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
+      "Fonctionnel",
       "Orienté Objet"
     ],
     "color": "334155",
@@ -9818,7 +9852,7 @@
     "year": 2015,
     "category": "Langages Fonctionnels & Déclaratifs",
     "usages": [
-      "Systèmes & Bas Niveau"
+      "Langages Fonctionnels Purs & Applicatifs"
     ],
     "paradigms": [
       "Déclaratif & Logique",
@@ -9856,7 +9890,7 @@
       "Web Frontend"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Orienté Prototype"
     ],
     "color": "B45309",
     "logo": "javascript",
@@ -9885,7 +9919,7 @@
     "year": 1955,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -9952,7 +9986,7 @@
       "Data Science, IA & Calcul"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Fonctionnel"
     ],
     "color": "1D4ED8",
     "logo": "julia",
@@ -9981,7 +10015,7 @@
     "year": 1968,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -10045,7 +10079,7 @@
     "year": 1968,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Systèmes & Bas Niveau"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Concaténatif / Pile",
@@ -10083,7 +10117,8 @@
     "paradigms": [
       "Déclaratif & Logique",
       "Impératif / Procédural",
-      "Matriciel (Array)"
+      "Matriciel (Array)",
+      "Orienté Objet"
     ],
     "color": "734F96",
     "logo": "fortran",
@@ -10112,10 +10147,10 @@
     "year": 2006,
     "category": "Scientifiques, Mathématiques & Finance",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Data Science, IA & Calcul"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Concurrence & Acteurs"
     ],
     "color": "1D4ED8",
     "logo": "julia",
@@ -10147,7 +10182,7 @@
       "Smart Contracts & Web3"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Orienté Prototype"
     ],
     "color": "1C1E24",
     "logo": "ethereum",
@@ -10176,7 +10211,7 @@
     "year": 1977,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Fonctionnel"
@@ -10240,10 +10275,10 @@
     "year": 1980,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Fonctionnel"
     ],
     "color": "334155",
     "logo": "computerhistory",
@@ -10400,7 +10435,7 @@
     "year": 1986,
     "category": "Scientifiques, Mathématiques & Finance",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Data Science, IA & Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -10432,10 +10467,10 @@
     "year": 2001,
     "category": "Langages Fonctionnels & Déclaratifs",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Langages Fonctionnels Purs & Applicatifs"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Fonctionnel"
     ],
     "color": "6D28D9",
     "logo": "haskell",
@@ -10464,10 +10499,10 @@
     "year": 2005,
     "category": "Langages Fonctionnels & Déclaratifs",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Langages Fonctionnels Purs & Applicatifs"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Fonctionnel"
     ],
     "color": "6D28D9",
     "logo": "haskell",
@@ -10496,7 +10531,7 @@
     "year": 1984,
     "category": "Scientifiques, Mathématiques & Finance",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Data Science, IA & Calcul"
     ],
     "paradigms": [
       "Matriciel (Array)"
@@ -10561,7 +10596,7 @@
     "year": 2008,
     "category": "Langages Hybrides & Spécifiques",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Objets & Ingénierie Logicielle"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -10593,10 +10628,10 @@
     "year": 1992,
     "category": "Langages Fonctionnels & Déclaratifs",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Langages Fonctionnels Purs & Applicatifs"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Fonctionnel"
     ],
     "color": "6D28D9",
     "logo": "haskell",
@@ -10625,11 +10660,12 @@
     "year": 2016,
     "category": "Langages Fonctionnels & Déclaratifs",
     "usages": [
-      "Web Backend & API"
+      "Langages Fonctionnels Purs & Applicatifs"
     ],
     "paradigms": [
       "Concurrence & Acteurs",
-      "Fonctionnel"
+      "Fonctionnel",
+      "Orienté Prototype"
     ],
     "color": "FFAFF3",
     "logo": "gleam",
@@ -10658,7 +10694,7 @@
     "year": 2024,
     "category": "Langages Fonctionnels & Déclaratifs",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Langages Fonctionnels Purs & Applicatifs"
     ],
     "paradigms": [
       "Concurrence & Acteurs"
@@ -10690,10 +10726,11 @@
     "year": 2004,
     "category": "GPU, Shaders & Graphisme",
     "usages": [
-      "Web Backend & API"
+      "Jeux Vidéo & 3D"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Concurrence & Acteurs",
+      "Matriciel (Array)"
     ],
     "color": "5586A4",
     "logo": "opengl",
@@ -10725,6 +10762,7 @@
       "Jeux Vidéo & 3D"
     ],
     "paradigms": [
+      "Fonctionnel",
       "Impératif / Procédural",
       "Orienté Objet"
     ],
@@ -10755,7 +10793,7 @@
     "year": 1994,
     "category": "Langages Systèmes & Bas Niveau",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Systèmes & Bas Niveau"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -10787,7 +10825,7 @@
     "year": 1988,
     "category": "Shells & Outils de Flux Unix",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Automatisation & Scripting"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -10819,10 +10857,10 @@
     "year": 1993,
     "category": "Langages Fonctionnels & Déclaratifs",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Langages Fonctionnels Purs & Applicatifs"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Fonctionnel"
     ],
     "color": "6D28D9",
     "logo": "haskell",
@@ -10947,7 +10985,7 @@
     "year": 1989,
     "category": "Shells & Outils de Flux Unix",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Automatisation & Scripting"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -10979,7 +11017,7 @@
     "year": 1986,
     "category": "Scientifiques, Mathématiques & Finance",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Data Science, IA & Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -11046,7 +11084,7 @@
       "Jeux Vidéo & 3D"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Fonctionnel"
     ],
     "color": "7E22CE",
     "logo": "unrealengine",
@@ -11107,7 +11145,7 @@
     "year": 2012,
     "category": "Langages Applicatifs & Entreprise",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Objets & Ingénierie Logicielle"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -11139,7 +11177,7 @@
     "year": 1961,
     "category": "Scientifiques, Mathématiques & Finance",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Data Science, IA & Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -11235,7 +11273,7 @@
     "year": 1983,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -11267,7 +11305,7 @@
     "year": 1994,
     "category": "Logiques & Preuves (Formels)",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Spécification & Preuve Formelle"
     ],
     "paradigms": [
       "Déclaratif & Logique"
@@ -11363,7 +11401,7 @@
     "year": 1996,
     "category": "Description Matérielle & Open Hardware",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Hardware & Embarqué (FPGA / IoT)"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -11395,7 +11433,7 @@
     "year": 1999,
     "category": "Entreprise, ERP & 4GL Métier",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Entreprise, ERP & Mainframe"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -11459,7 +11497,7 @@
     "year": 1990,
     "category": "Langages Fonctionnels & Déclaratifs",
     "usages": [
-      "Systèmes & Bas Niveau"
+      "Langages Fonctionnels Purs & Applicatifs"
     ],
     "paradigms": [
       "Fonctionnel"
@@ -11491,7 +11529,7 @@
     "year": 2005,
     "category": "Langages Hybrides & Spécifiques",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Objets & Ingénierie Logicielle"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -11523,7 +11561,7 @@
     "year": 2010,
     "category": "Langages Hybrides & Spécifiques",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Objets & Ingénierie Logicielle"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -11555,7 +11593,7 @@
     "year": 1990,
     "category": "Langages Systèmes & Bas Niveau",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Systèmes & Bas Niveau"
     ],
     "paradigms": [
       "Concurrence & Acteurs"
@@ -11587,7 +11625,7 @@
     "year": 2000,
     "category": "Langages Systèmes & Bas Niveau",
     "usages": [
-      "Web Backend & API"
+      "Systèmes & Bas Niveau"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -11715,7 +11753,7 @@
     "year": 1980,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Fonctionnel"
@@ -11747,7 +11785,7 @@
     "year": 2013,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -11782,7 +11820,9 @@
       "Web Frontend"
     ],
     "paradigms": [
-      "Déclaratif & Logique"
+      "Déclaratif & Logique",
+      "Fonctionnel",
+      "Orienté Prototype"
     ],
     "color": "E34F26",
     "logo": "html5",
@@ -11811,7 +11851,7 @@
     "year": 2000,
     "category": "Langages Systèmes & Bas Niveau",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Systèmes & Bas Niveau"
     ],
     "paradigms": [
       "Fonctionnel"
@@ -11843,10 +11883,11 @@
     "year": 2012,
     "category": "Langages Fonctionnels & Déclaratifs",
     "usages": [
-      "Systèmes & Bas Niveau"
+      "Langages Fonctionnels Purs & Applicatifs"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Fonctionnel",
+      "Orienté Objet"
     ],
     "color": "3776AB",
     "logo": "python",
@@ -11875,7 +11916,7 @@
     "year": 1987,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -11907,7 +11948,7 @@
     "year": 1981,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -11939,7 +11980,7 @@
     "year": 2008,
     "category": "Entreprise, ERP & 4GL Métier",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Entreprise, ERP & Mainframe"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -12003,11 +12044,13 @@
     "year": 1977,
     "category": "Langages Hybrides & Spécifiques",
     "usages": [
-      "Développement Général"
+      "Automatisation & Scripting"
     ],
     "paradigms": [
       "Déclaratif & Logique",
-      "Impératif / Procédural"
+      "Impératif / Procédural",
+      "Orienté Objet",
+      "Orienté Prototype"
     ],
     "color": "1B365D",
     "logo": "gnu",
@@ -12071,7 +12114,8 @@
     ],
     "paradigms": [
       "Déclaratif & Logique",
-      "Fonctionnel"
+      "Fonctionnel",
+      "Orienté Prototype"
     ],
     "color": "9400D3",
     "logo": "idris",
@@ -12132,7 +12176,7 @@
     "year": 2006,
     "category": "Jeux Vidéo & Moteurs 3D",
     "usages": [
-      "Web Backend & API"
+      "Jeux Vidéo & 3D"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -12196,7 +12240,7 @@
     "year": 2018,
     "category": "Entreprise, ERP & 4GL Métier",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Entreprise, ERP & Mainframe"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -12228,7 +12272,7 @@
     "year": 2002,
     "category": "Langages Hybrides & Spécifiques",
     "usages": [
-      "Systèmes & Bas Niveau"
+      "Objets & Ingénierie Logicielle"
     ],
     "paradigms": [
       "Concurrence & Acteurs",
@@ -12261,7 +12305,7 @@
     "year": 2008,
     "category": "Langages Hybrides & Spécifiques",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Objets & Ingénierie Logicielle"
     ],
     "paradigms": [
       "Orienté Prototype"
@@ -12293,7 +12337,7 @@
     "year": 1956,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -12325,10 +12369,10 @@
     "year": 2024,
     "category": "Requêtes de Données, Graphes & Schémas",
     "usages": [
-      "Web Backend & API"
+      "Data Science, IA & Calcul"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Fonctionnel"
     ],
     "color": "0369A1",
     "logo": "graphql",
@@ -12357,7 +12401,7 @@
     "year": 1966,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Fonctionnel"
@@ -12393,6 +12437,7 @@
     ],
     "paradigms": [
       "Fonctionnel",
+      "Impératif / Procédural",
       "Matriciel (Array)"
     ],
     "color": "004B87",
@@ -12454,7 +12499,7 @@
     "year": 2017,
     "category": "Langages Fonctionnels & Déclaratifs",
     "usages": [
-      "Web Backend & API"
+      "Langages Fonctionnels Purs & Applicatifs"
     ],
     "paradigms": [
       "Concurrence & Acteurs",
@@ -12488,7 +12533,7 @@
     "year": 1996,
     "category": "Langages Applicatifs & Entreprise",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Objets & Ingénierie Logicielle"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -12556,7 +12601,7 @@
       "Web Frontend"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Orienté Prototype"
     ],
     "color": "F7DF1E",
     "logo": "javascript",
@@ -12620,7 +12665,9 @@
       "Web Backend & API"
     ],
     "paradigms": [
-      "Déclaratif & Logique"
+      "Déclaratif & Logique",
+      "Fonctionnel",
+      "Impératif / Procédural"
     ],
     "color": "B41717",
     "logo": "jinja",
@@ -12649,7 +12696,7 @@
     "year": 1963,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -12681,7 +12728,7 @@
     "year": 1995,
     "category": "Langages Hybrides & Spécifiques",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Objets & Ingénierie Logicielle"
     ],
     "paradigms": [
       "Concurrence & Acteurs"
@@ -12713,7 +12760,7 @@
     "year": 1959,
     "category": "Langages Systèmes & Bas Niveau",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Systèmes & Bas Niveau"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -12745,10 +12792,10 @@
     "year": 2001,
     "category": "Langages Fonctionnels & Déclaratifs",
     "usages": [
-      "Web Backend & API"
+      "Langages Fonctionnels Purs & Applicatifs"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Fonctionnel"
     ],
     "color": "6D28D9",
     "logo": "haskell",
@@ -12812,7 +12859,8 @@
       "Data Science, IA & Calcul"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Concurrence & Acteurs",
+      "Fonctionnel"
     ],
     "color": "9558B2",
     "logo": "julia",
@@ -12841,7 +12889,7 @@
     "year": 1997,
     "category": "Langages Applicatifs & Entreprise",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Objets & Ingénierie Logicielle"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -12906,10 +12954,10 @@
     "year": 1990,
     "category": "Logiques & Preuves (Formels)",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Spécification & Preuve Formelle"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Déclaratif & Logique"
     ],
     "color": "BE123C",
     "logo": "prolog",
@@ -12938,7 +12986,7 @@
     "year": 1981,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -13002,7 +13050,7 @@
     "year": 2011,
     "category": "Logiques & Preuves (Formels)",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Spécification & Preuve Formelle"
     ],
     "paradigms": [
       "Déclaratif & Logique",
@@ -13163,7 +13211,7 @@
     "year": 2014,
     "category": "Requêtes de Données, Graphes & Schémas",
     "usages": [
-      "Développement Général"
+      "Data Science, IA & Calcul"
     ],
     "paradigms": [
       "Déclaratif & Logique"
@@ -13194,10 +13242,10 @@
     "year": 1984,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Fonctionnel"
     ],
     "color": "334155",
     "logo": "computerhistory",
@@ -13386,10 +13434,10 @@
     "year": 2001,
     "category": "Langages Hybrides & Spécifiques",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Objets & Ingénierie Logicielle"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Orienté Objet"
     ],
     "color": "374151",
     "logo": "codeigniter",
@@ -13418,7 +13466,7 @@
     "year": 2001,
     "category": "Langages Systèmes & Bas Niveau",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Systèmes & Bas Niveau"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -13482,7 +13530,7 @@
     "year": 2017,
     "category": "Logiques & Preuves (Formels)",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Spécification & Preuve Formelle"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -13514,12 +13562,13 @@
     "year": 1995,
     "category": "Langages Hybrides & Spécifiques",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Objets & Ingénierie Logicielle"
     ],
     "paradigms": [
       "Déclaratif & Logique",
       "Fonctionnel",
-      "Impératif / Procédural"
+      "Impératif / Procédural",
+      "Orienté Objet"
     ],
     "color": "374151",
     "logo": "codeigniter",
@@ -13548,10 +13597,10 @@
     "year": 2000,
     "category": "Frameworks, Runtimes & Écosystèmes",
     "usages": [
-      "Web Backend & API"
+      "Web Frontend"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Orienté Prototype"
     ],
     "color": "EF3939",
     "logo": "rust",
@@ -13580,10 +13629,10 @@
     "year": 1995,
     "category": "Langages Systèmes & Bas Niveau",
     "usages": [
-      "Web Backend & API"
+      "Systèmes & Bas Niveau"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Fonctionnel"
     ],
     "color": "1E293B",
     "logo": "c",
@@ -13612,7 +13661,7 @@
     "year": 1980,
     "category": "Entreprise, ERP & 4GL Métier",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Entreprise, ERP & Mainframe"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -13644,7 +13693,7 @@
     "year": 1988,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -13676,7 +13725,7 @@
     "year": 2001,
     "category": "Langages Systèmes & Bas Niveau",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Systèmes & Bas Niveau"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -13708,7 +13757,7 @@
     "year": 1983,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -13775,7 +13824,8 @@
       "Web Frontend"
     ],
     "paradigms": [
-      "Fonctionnel"
+      "Fonctionnel",
+      "Orienté Prototype"
     ],
     "color": "B45309",
     "logo": "javascript",
@@ -13804,9 +13854,10 @@
     "year": 1967,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
+      "Fonctionnel",
       "Impératif / Procédural"
     ],
     "color": "2B2B2B",
@@ -13836,10 +13887,11 @@
     "year": 1998,
     "category": "Logiques & Preuves (Formels)",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Spécification & Preuve Formelle"
     ],
     "paradigms": [
-      "Déclaratif & Logique"
+      "Déclaratif & Logique",
+      "Orienté Objet"
     ],
     "color": "BE123C",
     "logo": "prolog",
@@ -13868,7 +13920,7 @@
     "year": 1995,
     "category": "Entreprise, ERP & 4GL Métier",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Entreprise, ERP & Mainframe"
     ],
     "paradigms": [
       "Orienté Objet"
@@ -13935,7 +13987,7 @@
       "Jeux Vidéo & 3D"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Orienté Objet"
     ],
     "color": "7E22CE",
     "logo": "unrealengine",
@@ -13996,7 +14048,7 @@
     "year": 1976,
     "category": "Langages Fonctionnels & Déclaratifs",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Langages Fonctionnels Purs & Applicatifs"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -14031,7 +14083,7 @@
       "Hardware & Embarqué (FPGA / IoT)"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Fonctionnel"
     ],
     "color": "0E7490",
     "logo": "ieee",
@@ -14060,7 +14112,7 @@
     "year": 1959,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -14092,7 +14144,7 @@
     "year": 1990,
     "category": "Entreprise, ERP & 4GL Métier",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Entreprise, ERP & Mainframe"
     ],
     "paradigms": [
       "Orienté Objet"
@@ -14124,7 +14176,7 @@
     "year": 1993,
     "category": "Scientifiques, Mathématiques & Finance",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Data Science, IA & Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -14159,7 +14211,8 @@
       "Ésotérique & Recherche"
     ],
     "paradigms": [
-      "Fonctionnel"
+      "Fonctionnel",
+      "Impératif / Procédural"
     ],
     "color": "8B0000",
     "logo": "hackthebox",
@@ -14254,6 +14307,7 @@
       "Data Science, IA & Calcul"
     ],
     "paradigms": [
+      "Fonctionnel",
       "Matriciel (Array)"
     ],
     "color": "0076A8",
@@ -14283,7 +14337,7 @@
     "year": 1991,
     "category": "Shells & Outils de Flux Unix",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Automatisation & Scripting"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -14347,10 +14401,10 @@
     "year": 1998,
     "category": "Jeux Vidéo & Moteurs 3D",
     "usages": [
-      "Web Backend & API"
+      "Jeux Vidéo & 3D"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Fonctionnel"
     ],
     "color": "7E22CE",
     "logo": "unrealengine",
@@ -14413,7 +14467,7 @@
     "year": 1976,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -14445,7 +14499,7 @@
     "year": 1979,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Matriciel (Array)"
@@ -14477,10 +14531,10 @@
     "year": 2014,
     "category": "GPU, Shaders & Graphisme",
     "usages": [
-      "Data Science, IA & Calcul"
+      "Jeux Vidéo & 3D"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Fonctionnel"
     ],
     "color": "000000",
     "logo": "apple",
@@ -14509,7 +14563,7 @@
     "year": 2006,
     "category": "Langages Web & Scripting Dynamique",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Automatisation & Scripting"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -14544,7 +14598,8 @@
       "Smart Contracts & Web3"
     ],
     "paradigms": [
-      "Concaténatif / Pile"
+      "Concaténatif / Pile",
+      "Fonctionnel"
     ],
     "color": "2C7DF7",
     "logo": "tezos",
@@ -14573,7 +14628,7 @@
     "year": 1951,
     "category": "Langages Systèmes & Bas Niveau",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Systèmes & Bas Niveau"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -14605,7 +14660,7 @@
     "year": 1981,
     "category": "Langages Systèmes & Bas Niveau",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Systèmes & Bas Niveau"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -14637,7 +14692,7 @@
     "year": 1985,
     "category": "Langages Systèmes & Bas Niveau",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Systèmes & Bas Niveau"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -14669,7 +14724,7 @@
     "year": 1985,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Langages Fonctionnels Purs & Applicatifs"
     ],
     "paradigms": [
       "Fonctionnel"
@@ -14701,7 +14756,7 @@
     "year": 2010,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -14733,10 +14788,10 @@
     "year": 1999,
     "category": "Langages Systèmes & Bas Niveau",
     "usages": [
-      "Web Backend & API"
+      "Systèmes & Bas Niveau"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Fonctionnel"
     ],
     "color": "1E293B",
     "logo": "c",
@@ -14797,7 +14852,7 @@
     "year": 1975,
     "category": "Systèmes Modulaires & Wirth",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Systèmes & Bas Niveau"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -14862,10 +14917,10 @@
     "year": 1988,
     "category": "Systèmes Modulaires & Wirth",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Systèmes & Bas Niveau"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Orienté Objet"
     ],
     "color": "1E40AF",
     "logo": "openaccess",
@@ -14897,6 +14952,8 @@
       "Ésotérique & Recherche"
     ],
     "paradigms": [
+      "Fonctionnel",
+      "Impératif / Procédural",
       "Matriciel (Array)"
     ],
     "color": "FF4B00",
@@ -14926,7 +14983,7 @@
     "year": 1975,
     "category": "Langages Systèmes & Bas Niveau",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Systèmes & Bas Niveau"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -14958,7 +15015,7 @@
     "year": 1979,
     "category": "Langages Systèmes & Bas Niveau",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Systèmes & Bas Niveau"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -14993,6 +15050,7 @@
       "Smart Contracts & Web3"
     ],
     "paradigms": [
+      "Concurrence & Acteurs",
       "Déclaratif & Logique",
       "Orienté Objet"
     ],
@@ -15055,10 +15113,10 @@
     "year": 1997,
     "category": "Scientifiques, Mathématiques & Finance",
     "usages": [
-      "Web Backend & API"
+      "Data Science, IA & Calcul"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Fonctionnel"
     ],
     "color": "1D4ED8",
     "logo": "julia",
@@ -15151,7 +15209,7 @@
     "year": 2005,
     "category": "Langages Hybrides & Spécifiques",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Objets & Ingénierie Logicielle"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -15183,10 +15241,11 @@
     "year": 2003,
     "category": "Langages Hybrides & Spécifiques",
     "usages": [
-      "Systèmes & Bas Niveau"
+      "Objets & Ingénierie Logicielle"
     ],
     "paradigms": [
-      "Fonctionnel"
+      "Fonctionnel",
+      "Orienté Objet"
     ],
     "color": "007ACC",
     "logo": "dotnet",
@@ -15214,9 +15273,11 @@
     "year": 1992,
     "category": "Scientifiques, Mathématiques & Finance",
     "usages": [
-      "Web Backend & API"
+      "Data Science, IA & Calcul"
     ],
     "paradigms": [
+      "Concurrence & Acteurs",
+      "Fonctionnel",
       "Matriciel (Array)"
     ],
     "color": "1D4ED8",
@@ -15278,7 +15339,7 @@
     "year": 1999,
     "category": "Scientifiques, Mathématiques & Finance",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Data Science, IA & Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -15310,7 +15371,7 @@
     "year": 1996,
     "category": "Langages Applicatifs & Entreprise",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Objets & Ingénierie Logicielle"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -15342,10 +15403,10 @@
     "year": 1991,
     "category": "Langages Fonctionnels & Déclaratifs",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Langages Fonctionnels Purs & Applicatifs"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Fonctionnel"
     ],
     "color": "6D28D9",
     "logo": "haskell",
@@ -15374,7 +15435,7 @@
     "year": 1970,
     "category": "Langages Systèmes & Bas Niveau",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Systèmes & Bas Niveau"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -15406,10 +15467,10 @@
     "year": 2006,
     "category": "Langages Hybrides & Spécifiques",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Objets & Ingénierie Logicielle"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Orienté Objet"
     ],
     "color": "374151",
     "logo": "codeigniter",
@@ -15438,7 +15499,7 @@
     "year": 1993,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Orienté Prototype"
@@ -15470,10 +15531,11 @@
     "year": 2013,
     "category": "Scientifiques, Mathématiques & Finance",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Data Science, IA & Calcul"
     ],
     "paradigms": [
-      "Matriciel (Array)"
+      "Matriciel (Array)",
+      "Orienté Prototype"
     ],
     "color": "1D4ED8",
     "logo": "julia",
@@ -15502,10 +15564,11 @@
     "year": 1981,
     "category": "Scientifiques, Mathématiques & Finance",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Data Science, IA & Calcul"
     ],
     "paradigms": [
       "Déclaratif & Logique",
+      "Fonctionnel",
       "Matriciel (Array)"
     ],
     "color": "1D4ED8",
@@ -15538,7 +15601,7 @@
       "Systèmes & Bas Niveau"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Orienté Prototype"
     ],
     "color": "FFE953",
     "logo": "nim",
@@ -15570,7 +15633,7 @@
       "Web Backend & API"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Orienté Prototype"
     ],
     "color": "5FA04E",
     "logo": "nodedotjs",
@@ -15695,7 +15758,7 @@
     "year": 1998,
     "category": "Description Matérielle & Open Hardware",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Hardware & Embarqué (FPGA / IoT)"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -15759,10 +15822,10 @@
     "year": 1989,
     "category": "Systèmes Modulaires & Wirth",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Systèmes & Bas Niveau"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Orienté Objet"
     ],
     "color": "1E40AF",
     "logo": "openaccess",
@@ -15855,7 +15918,7 @@
     "year": 1996,
     "category": "Langages Fonctionnels & Déclaratifs",
     "usages": [
-      "Systèmes & Bas Niveau"
+      "Langages Fonctionnels Purs & Applicatifs"
     ],
     "paradigms": [
       "Fonctionnel",
@@ -15921,7 +15984,7 @@
     "year": 2004,
     "category": "Langages Systèmes & Bas Niveau",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Systèmes & Bas Niveau"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -15953,7 +16016,7 @@
     "year": 2000,
     "category": "Scientifiques, Mathématiques & Finance",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Data Science, IA & Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -15988,7 +16051,8 @@
       "Systèmes & Bas Niveau"
     ],
     "paradigms": [
-      "Matriciel (Array)"
+      "Matriciel (Array)",
+      "Orienté Objet"
     ],
     "color": "1A2B3C",
     "logo": "odin",
@@ -16049,10 +16113,10 @@
     "year": 1988,
     "category": "Requêtes de Données, Graphes & Schémas",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Data Science, IA & Calcul"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Fonctionnel"
     ],
     "color": "0369A1",
     "logo": "graphql",
@@ -16084,7 +16148,7 @@
       "Web Backend & API"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Fonctionnel"
     ],
     "color": "B45309",
     "logo": "javascript",
@@ -16116,7 +16180,7 @@
       "Systèmes & Bas Niveau"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Concurrence & Acteurs"
     ],
     "color": "005C8A",
     "logo": "khronos",
@@ -16145,7 +16209,7 @@
     "year": 2012,
     "category": "Langages Hybrides & Spécifiques",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Objets & Ingénierie Logicielle"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -16177,7 +16241,7 @@
     "year": 2017,
     "category": "Scientifiques, Mathématiques & Finance",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Data Science, IA & Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -16209,10 +16273,11 @@
     "year": 1990,
     "category": "Langages Systèmes & Bas Niveau",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Systèmes & Bas Niveau"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Concurrence & Acteurs",
+      "Orienté Objet"
     ],
     "color": "1E293B",
     "logo": "c",
@@ -16241,11 +16306,12 @@
     "year": 1991,
     "category": "Langages Hybrides & Spécifiques",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Objets & Ingénierie Logicielle"
     ],
     "paradigms": [
       "Concurrence & Acteurs",
-      "Déclaratif & Logique"
+      "Déclaratif & Logique",
+      "Orienté Objet"
     ],
     "color": "1B365D",
     "logo": "mozart",
@@ -16306,7 +16372,7 @@
     "year": 2012,
     "category": "Langages Systèmes & Bas Niveau",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Systèmes & Bas Niveau"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -16338,7 +16404,7 @@
     "year": 1985,
     "category": "Scientifiques, Mathématiques & Finance",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Data Science, IA & Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -16373,7 +16439,8 @@
       "Systèmes & Bas Niveau"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Impératif / Procédural",
+      "Orienté Objet"
     ],
     "color": "00549D",
     "logo": "delphi",
@@ -16405,7 +16472,7 @@
       "Entreprise, ERP & Mainframe"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Fonctionnel"
     ],
     "color": "0F766E",
     "logo": "ibm",
@@ -16466,7 +16533,7 @@
     "year": 2008,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Objets & Ingénierie Logicielle"
     ],
     "paradigms": [
       "Orienté Objet"
@@ -16530,7 +16597,7 @@
     "year": 1997,
     "category": "Langages Fonctionnels & Déclaratifs",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Langages Fonctionnels Purs & Applicatifs"
     ],
     "paradigms": [
       "Fonctionnel"
@@ -16562,10 +16629,11 @@
     "year": 1988,
     "category": "Langages Fonctionnels & Déclaratifs",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Langages Fonctionnels Purs & Applicatifs"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Fonctionnel",
+      "Orienté Objet"
     ],
     "color": "6D28D9",
     "logo": "haskell",
@@ -16594,7 +16662,7 @@
     "year": 1994,
     "category": "Langages Hybrides & Spécifiques",
     "usages": [
-      "Web Backend & API"
+      "Objets & Ingénierie Logicielle"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -16625,7 +16693,7 @@
     "year": 1968,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -16657,7 +16725,7 @@
     "year": 1996,
     "category": "Langages Applicatifs & Entreprise",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Objets & Ingénierie Logicielle"
     ],
     "paradigms": [
       "Fonctionnel"
@@ -16689,7 +16757,7 @@
     "year": 1964,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural",
@@ -16722,7 +16790,7 @@
     "year": 1973,
     "category": "Langages Systèmes & Bas Niveau",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Systèmes & Bas Niveau"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -16757,6 +16825,7 @@
       "Entreprise, ERP & Mainframe"
     ],
     "paradigms": [
+      "Fonctionnel",
       "Impératif / Procédural"
     ],
     "color": "F80000",
@@ -16786,7 +16855,7 @@
     "year": 1968,
     "category": "Langages Systèmes & Bas Niveau",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Systèmes & Bas Niveau"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -16818,7 +16887,7 @@
     "year": 1945,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -16883,7 +16952,7 @@
     "year": 2014,
     "category": "Langages Fonctionnels & Déclaratifs",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Langages Fonctionnels Purs & Applicatifs"
     ],
     "paradigms": [
       "Concurrence & Acteurs"
@@ -16915,7 +16984,7 @@
     "year": 1975,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -16947,10 +17016,10 @@
     "year": 1992,
     "category": "Shells & Outils de Flux Unix",
     "usages": [
-      "Web Backend & API"
+      "Automatisation & Scripting"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Fonctionnel"
     ],
     "color": "18181B",
     "logo": "gnubash",
@@ -16979,10 +17048,11 @@
     "year": 1982,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Web Backend & API"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Concaténatif / Pile",
+      "Fonctionnel",
       "Impératif / Procédural",
       "Matriciel (Array)"
     ],
@@ -17044,7 +17114,7 @@
     "year": 1992,
     "category": "Langages Systèmes & Bas Niveau",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Systèmes & Bas Niveau"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -17143,7 +17213,8 @@
       "Web Backend & API"
     ],
     "paradigms": [
-      "Déclaratif & Logique"
+      "Déclaratif & Logique",
+      "Orienté Prototype"
     ],
     "color": "2D3748",
     "logo": "prisma",
@@ -17172,7 +17243,7 @@
     "year": 2000,
     "category": "Frameworks, Runtimes & Écosystèmes",
     "usages": [
-      "Systèmes & Bas Niveau"
+      "Web Backend & API"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -17203,10 +17274,11 @@
     "year": 2000,
     "category": "Frameworks, Runtimes & Écosystèmes",
     "usages": [
-      "Développement Général"
+      "Web Backend & API"
     ],
     "paradigms": [
-      "Déclaratif & Logique"
+      "Déclaratif & Logique",
+      "Orienté Prototype"
     ],
     "color": "2D3748",
     "logo": "prisma",
@@ -17235,7 +17307,7 @@
     "year": 2000,
     "category": "Frameworks, Runtimes & Écosystèmes",
     "usages": [
-      "Systèmes & Bas Niveau"
+      "Web Backend & API"
     ],
     "paradigms": [
       "Déclaratif & Logique"
@@ -17267,7 +17339,7 @@
     "year": 2000,
     "category": "Frameworks, Runtimes & Écosystèmes",
     "usages": [
-      "Systèmes & Bas Niveau"
+      "Web Backend & API"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -17331,10 +17403,10 @@
     "year": 1989,
     "category": "Langages Hybrides & Spécifiques",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Objets & Ingénierie Logicielle"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Orienté Objet"
     ],
     "color": "374151",
     "logo": "codeigniter",
@@ -17366,7 +17438,8 @@
       "Entreprise, ERP & Mainframe"
     ],
     "paradigms": [
-      "Déclaratif & Logique"
+      "Déclaratif & Logique",
+      "Orienté Objet"
     ],
     "color": "5BC500",
     "logo": "progress",
@@ -17395,7 +17468,7 @@
     "year": 1982,
     "category": "Entreprise, ERP & 4GL Métier",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Entreprise, ERP & Mainframe"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -17427,7 +17500,7 @@
     "year": 1972,
     "category": "Logiques & Preuves (Formels)",
     "usages": [
-      "Web Backend & API"
+      "Spécification & Preuve Formelle"
     ],
     "paradigms": [
       "Déclaratif & Logique"
@@ -17492,7 +17565,7 @@
     "year": 2022,
     "category": "Requêtes de Données, Graphes & Schémas",
     "usages": [
-      "Systèmes & Bas Niveau"
+      "Data Science, IA & Calcul"
     ],
     "paradigms": [
       "Fonctionnel",
@@ -17527,7 +17600,7 @@
       "Audio & DSP Temps Réel"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Orienté Objet"
     ],
     "color": "00457C",
     "logo": "soundcharts",
@@ -17556,11 +17629,13 @@
     "year": 2013,
     "category": "Langages Fonctionnels & Déclaratifs",
     "usages": [
+      "Langages Fonctionnels Purs & Applicatifs",
       "Web Frontend"
     ],
     "paradigms": [
       "Fonctionnel",
-      "Orienté Objet"
+      "Orienté Objet",
+      "Orienté Prototype"
     ],
     "color": "1D222D",
     "logo": "purescript",
@@ -17589,7 +17664,7 @@
     "year": 2006,
     "category": "Langages Hybrides & Spécifiques",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Objets & Ingénierie Logicielle"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -17621,7 +17696,7 @@
     "year": 2013,
     "category": "Langages Fonctionnels & Déclaratifs",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Langages Fonctionnels Purs & Applicatifs"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -17719,7 +17794,7 @@
     "year": 2017,
     "category": "Scientifiques, Mathématiques & Finance",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Data Science, IA & Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -17754,7 +17829,8 @@
       "Web Backend & API"
     ],
     "paradigms": [
-      "Déclaratif & Logique"
+      "Déclaratif & Logique",
+      "Fonctionnel"
     ],
     "color": "41CD52",
     "logo": "qt",
@@ -17847,7 +17923,7 @@
     "year": 1985,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -17882,7 +17958,7 @@
       "Data Science, IA & Calcul"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Matriciel (Array)"
     ],
     "color": "276DC3",
     "logo": "r",
@@ -17911,10 +17987,10 @@
     "year": 1995,
     "category": "Langages Fonctionnels & Déclaratifs",
     "usages": [
-      "Systèmes & Bas Niveau"
+      "Langages Fonctionnels Purs & Applicatifs"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Fonctionnel"
     ],
     "color": "6D28D9",
     "logo": "haskell",
@@ -18007,7 +18083,7 @@
     "year": 1976,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -18042,7 +18118,7 @@
       "Web Frontend"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Orienté Prototype"
     ],
     "color": "61DAFB",
     "logo": "react",
@@ -18074,7 +18150,8 @@
       "Web Frontend"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Fonctionnel",
+      "Orienté Prototype"
     ],
     "color": "B45309",
     "logo": "javascript",
@@ -18103,9 +18180,10 @@
     "year": 1997,
     "category": "Langages Hybrides & Spécifiques",
     "usages": [
-      "Systèmes & Bas Niveau"
+      "Objets & Ingénierie Logicielle"
     ],
     "paradigms": [
+      "Fonctionnel",
       "Matriciel (Array)"
     ],
     "color": "577788",
@@ -18135,7 +18213,7 @@
     "year": 2011,
     "category": "Langages Hybrides & Spécifiques",
     "usages": [
-      "Systèmes & Bas Niveau"
+      "Objets & Ingénierie Logicielle"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -18199,7 +18277,7 @@
     "year": 1966,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Fonctionnel"
@@ -18231,7 +18309,7 @@
     "year": 1992,
     "category": "Entreprise, ERP & 4GL Métier",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Entreprise, ERP & Mainframe"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -18266,7 +18344,7 @@
       "Entreprise, ERP & Mainframe"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Orienté Objet"
     ],
     "color": "052FAD",
     "logo": "ibm",
@@ -18295,7 +18373,7 @@
     "year": 2016,
     "category": "Langages Hybrides & Spécifiques",
     "usages": [
-      "Web Backend & API"
+      "Objets & Ingénierie Logicielle"
     ],
     "paradigms": [
       "Déclaratif & Logique",
@@ -18329,7 +18407,7 @@
     "year": 2010,
     "category": "Langages Systèmes & Bas Niveau",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Systèmes & Bas Niveau"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -18394,7 +18472,7 @@
     "year": 2024,
     "category": "Logiques & Preuves (Formels)",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Spécification & Preuve Formelle"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -18462,6 +18540,7 @@
       "Web Backend & API"
     ],
     "paradigms": [
+      "Fonctionnel",
       "Orienté Objet",
       "Orienté Prototype"
     ],
@@ -18557,7 +18636,7 @@
     "year": 1988,
     "category": "Scientifiques, Mathématiques & Finance",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Data Science, IA & Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -18589,7 +18668,7 @@
     "year": 1970,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -18653,7 +18732,7 @@
     "year": 1976,
     "category": "Scientifiques, Mathématiques & Finance",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Data Science, IA & Calcul"
     ],
     "paradigms": [
       "Fonctionnel"
@@ -18685,7 +18764,7 @@
     "year": 1990,
     "category": "Langages Applicatifs & Entreprise",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Objets & Ingénierie Logicielle"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -18717,7 +18796,7 @@
     "year": 2003,
     "category": "Scientifiques, Mathématiques & Finance",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Data Science, IA & Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -18814,10 +18893,11 @@
     "year": 1975,
     "category": "Langages Fonctionnels & Déclaratifs",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Langages Fonctionnels Purs & Applicatifs"
     ],
     "paradigms": [
-      "Concurrence & Acteurs"
+      "Concurrence & Acteurs",
+      "Fonctionnel"
     ],
     "color": "6D28D9",
     "logo": "haskell",
@@ -18910,7 +18990,7 @@
     "year": 2007,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -19006,7 +19086,7 @@
     "year": 1987,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Orienté Prototype"
@@ -19070,11 +19150,12 @@
     "year": 2011,
     "category": "Langages Fonctionnels & Déclaratifs",
     "usages": [
-      "Web Backend & API"
+      "Langages Fonctionnels Purs & Applicatifs"
     ],
     "paradigms": [
       "Déclaratif & Logique",
-      "Fonctionnel"
+      "Fonctionnel",
+      "Orienté Prototype"
     ],
     "color": "2C3E50",
     "logo": "lisp",
@@ -19102,10 +19183,10 @@
     "year": 2005,
     "category": "Entreprise, ERP & 4GL Métier",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Entreprise, ERP & Mainframe"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Orienté Objet"
     ],
     "color": "0F766E",
     "logo": "ibm",
@@ -19134,7 +19215,7 @@
     "year": 1962,
     "category": "Scientifiques, Mathématiques & Finance",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Data Science, IA & Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -19166,7 +19247,8 @@
     "year": 1962,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Systèmes & Bas Niveau"
+      "Objets & Ingénierie Logicielle",
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Concurrence & Acteurs",
@@ -19199,7 +19281,7 @@
     "year": 1983,
     "category": "Scientifiques, Mathématiques & Finance",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Data Science, IA & Calcul"
     ],
     "paradigms": [
       "Fonctionnel",
@@ -19232,7 +19314,7 @@
     "year": 1963,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -19264,7 +19346,8 @@
     "year": 1972,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Développement Général"
+      "Objets & Ingénierie Logicielle",
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Concaténatif / Pile",
@@ -19297,11 +19380,13 @@
     "year": 1962,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Développement Général"
+      "Automatisation & Scripting",
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Déclaratif & Logique",
-      "Fonctionnel"
+      "Fonctionnel",
+      "Orienté Objet"
     ],
     "color": "333333",
     "logo": "bell",
@@ -19332,7 +19417,8 @@
       "Smart Contracts & Web3"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Concurrence & Acteurs",
+      "Orienté Prototype"
     ],
     "color": "363636",
     "logo": "solidity",
@@ -19457,7 +19543,7 @@
     "year": 1987,
     "category": "Langages Systèmes & Bas Niveau",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Systèmes & Bas Niveau"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -19521,10 +19607,11 @@
     "year": 2004,
     "category": "Requêtes de Données, Graphes & Schémas",
     "usages": [
-      "Web Backend & API"
+      "Data Science, IA & Calcul"
     ],
     "paradigms": [
-      "Déclaratif & Logique"
+      "Déclaratif & Logique",
+      "Orienté Objet"
     ],
     "color": "005A9C",
     "logo": "w3c",
@@ -19620,7 +19707,8 @@
       "Web Backend & API"
     ],
     "paradigms": [
-      "Déclaratif & Logique"
+      "Déclaratif & Logique",
+      "Fonctionnel"
     ],
     "color": "4479A1",
     "logo": "mysql",
@@ -19649,7 +19737,7 @@
     "year": 1985,
     "category": "Entreprise, ERP & 4GL Métier",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Entreprise, ERP & Mainframe"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -19681,7 +19769,7 @@
     "year": 1996,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Objets & Ingénierie Logicielle"
     ],
     "paradigms": [
       "Orienté Objet"
@@ -19716,7 +19804,8 @@
       "Jeux Vidéo & 3D"
     ],
     "paradigms": [
-      "Orienté Objet"
+      "Orienté Objet",
+      "Orienté Prototype"
     ],
     "color": "8E44AD",
     "logo": "cplusplus",
@@ -19745,7 +19834,7 @@
     "year": 1983,
     "category": "Langages Fonctionnels & Déclaratifs",
     "usages": [
-      "Systèmes & Bas Niveau"
+      "Langages Fonctionnels Purs & Applicatifs"
     ],
     "paradigms": [
       "Fonctionnel"
@@ -19812,7 +19901,8 @@
       "Web Backend & API"
     ],
     "paradigms": [
-      "Déclaratif & Logique"
+      "Déclaratif & Logique",
+      "Fonctionnel"
     ],
     "color": "0E7490",
     "logo": "ieee",
@@ -19876,7 +19966,8 @@
       "Web Frontend"
     ],
     "paradigms": [
-      "Déclaratif & Logique"
+      "Déclaratif & Logique",
+      "Orienté Prototype"
     ],
     "color": "FF3E00",
     "logo": "svelte",
@@ -19905,9 +19996,10 @@
     "year": 2001,
     "category": "Requêtes de Données, Graphes & Schémas",
     "usages": [
-      "Web Backend & API"
+      "Web Frontend"
     ],
     "paradigms": [
+      "Fonctionnel",
       "Matriciel (Array)"
     ],
     "color": "0369A1",
@@ -19940,6 +20032,7 @@
       "Smart Contracts & Web3"
     ],
     "paradigms": [
+      "Concurrence & Acteurs",
       "Fonctionnel"
     ],
     "color": "00F58C",
@@ -20035,7 +20128,7 @@
     "year": 1974,
     "category": "Langages Systèmes & Bas Niveau",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Systèmes & Bas Niveau"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -20071,7 +20164,8 @@
     ],
     "paradigms": [
       "Déclaratif & Logique",
-      "Fonctionnel"
+      "Fonctionnel",
+      "Orienté Objet"
     ],
     "color": "00629B",
     "logo": "ieee",
@@ -20100,7 +20194,7 @@
     "year": 1976,
     "category": "Langages Systèmes & Bas Niveau",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Systèmes & Bas Niveau"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -20167,7 +20261,7 @@
       "Web Frontend"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Orienté Prototype"
     ],
     "color": "FF4154",
     "logo": "reactquery",
@@ -20199,7 +20293,8 @@
       "Web Backend & API"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Fonctionnel",
+      "Orienté Prototype"
     ],
     "color": "24C8DB",
     "logo": "tauri",
@@ -20228,10 +20323,11 @@
     "year": 1988,
     "category": "Langages Web & Scripting Dynamique",
     "usages": [
-      "Développement Général"
+      "Automatisation & Scripting"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Impératif / Procédural",
+      "Orienté Objet"
     ],
     "color": "145B94",
     "logo": "tcl",
@@ -20260,7 +20356,7 @@
     "year": 1962,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -20292,7 +20388,7 @@
     "year": 1987,
     "category": "Scientifiques, Mathématiques & Finance",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Data Science, IA & Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -20324,7 +20420,7 @@
     "year": 1978,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Systèmes & Bas Niveau"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -20387,10 +20483,10 @@
     "year": 1998,
     "category": "Scientifiques, Mathématiques & Finance",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Data Science, IA & Calcul"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Concurrence & Acteurs"
     ],
     "color": "1D4ED8",
     "logo": "julia",
@@ -20424,6 +20520,7 @@
     "paradigms": [
       "Concurrence & Acteurs",
       "Déclaratif & Logique",
+      "Fonctionnel",
       "Matriciel (Array)"
     ],
     "color": "FF9900",
@@ -20453,10 +20550,10 @@
     "year": 2012,
     "category": "Langages Hybrides & Spécifiques",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Web Frontend"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Orienté Prototype"
     ],
     "color": "374151",
     "logo": "codeigniter",
@@ -20520,7 +20617,7 @@
       "Web Backend & API"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Orienté Prototype"
     ],
     "color": "2596BE",
     "logo": "trpc",
@@ -20581,7 +20678,7 @@
     "year": 1982,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -20613,7 +20710,7 @@
     "year": 1965,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -20680,7 +20777,8 @@
       "Web Frontend"
     ],
     "paradigms": [
-      "Concaténatif / Pile"
+      "Concaténatif / Pile",
+      "Orienté Prototype"
     ],
     "color": "3178C6",
     "logo": "typescript",
@@ -20709,10 +20807,10 @@
     "year": 1992,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Web Backend & API"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Fonctionnel"
     ],
     "color": "334155",
     "logo": "computerhistory",
@@ -20741,7 +20839,7 @@
     "year": 1977,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -20776,7 +20874,8 @@
       "Jeux Vidéo & 3D"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Fonctionnel",
+      "Orienté Objet"
     ],
     "color": "4338CA",
     "logo": "mathworks",
@@ -20805,10 +20904,10 @@
     "year": 1999,
     "category": "Langages Hybrides & Spécifiques",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Automatisation & Scripting"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Orienté Objet"
     ],
     "color": "374151",
     "logo": "codeigniter",
@@ -20869,7 +20968,7 @@
     "year": 2015,
     "category": "Langages Fonctionnels & Déclaratifs",
     "usages": [
-      "Web Backend & API"
+      "Langages Fonctionnels Purs & Applicatifs"
     ],
     "paradigms": [
       "Fonctionnel"
@@ -21000,7 +21099,7 @@
       "Systèmes & Bas Niveau"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Orienté Prototype"
     ],
     "color": "4F80AA",
     "logo": "v",
@@ -21061,7 +21160,7 @@
     "year": 2006,
     "category": "Langages Hybrides & Spécifiques",
     "usages": [
-      "Systèmes & Bas Niveau"
+      "Objets & Ingénierie Logicielle"
     ],
     "paradigms": [
       "Orienté Objet"
@@ -21092,7 +21191,7 @@
     "year": 2016,
     "category": "Frameworks, Runtimes & Écosystèmes",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Web Backend & API"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -21159,7 +21258,7 @@
       "Automatisation & Scripting"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Orienté Prototype"
     ],
     "color": "1976D2",
     "logo": "windows",
@@ -21288,7 +21387,7 @@
       "Smart Contracts & Web3"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Concurrence & Acteurs"
     ],
     "color": "1E1E1E",
     "logo": "ethereum",
@@ -21317,10 +21416,10 @@
     "year": 2002,
     "category": "Langages Applicatifs & Entreprise",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Objets & Ingénierie Logicielle"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Orienté Objet"
     ],
     "color": "1E3A8A",
     "logo": "openjdk",
@@ -21382,7 +21481,7 @@
     "year": 2002,
     "category": "Langages Applicatifs & Entreprise",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Objets & Ingénierie Logicielle"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -21414,7 +21513,7 @@
     "year": 1996,
     "category": "Langages Applicatifs & Entreprise",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Objets & Ingénierie Logicielle"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -21446,7 +21545,7 @@
     "year": 1995,
     "category": "Entreprise, ERP & 4GL Métier",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Entreprise, ERP & Mainframe"
     ],
     "paradigms": [
       "Orienté Objet"
@@ -21478,7 +21577,7 @@
     "year": 1996,
     "category": "Logiques & Preuves (Formels)",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Spécification & Preuve Formelle"
     ],
     "paradigms": [
       "Déclaratif & Logique"
@@ -21510,7 +21609,7 @@
     "year": 2020,
     "category": "Frameworks, Runtimes & Écosystèmes",
     "usages": [
-      "Systèmes & Bas Niveau"
+      "Web Backend & API"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -21545,7 +21644,7 @@
       "Web Frontend"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Orienté Prototype"
     ],
     "color": "4FC08D",
     "logo": "vuedotjs",
@@ -21638,7 +21737,7 @@
     "year": 1968,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -21673,7 +21772,8 @@
       "Web Frontend"
     ],
     "paradigms": [
-      "Concurrence & Acteurs"
+      "Concurrence & Acteurs",
+      "Orienté Prototype"
     ],
     "color": "654FF0",
     "logo": "webassembly",
@@ -21702,7 +21802,7 @@
     "year": 1995,
     "category": "Langages Web & Scripting Dynamique",
     "usages": [
-      "Web Backend & API"
+      "Automatisation & Scripting"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -21734,7 +21834,7 @@
     "year": 2020,
     "category": "GPU, Shaders & Graphisme",
     "usages": [
-      "Web Backend & API"
+      "Jeux Vidéo & 3D"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -21927,7 +22027,7 @@
     "year": 2003,
     "category": "Entreprise, ERP & 4GL Métier",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Entreprise, ERP & Mainframe"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -21959,7 +22059,7 @@
     "year": 2013,
     "category": "Spécification Formelle & Modélisation",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Spécification & Preuve Formelle"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -22055,10 +22155,10 @@
     "year": 2004,
     "category": "Scientifiques, Mathématiques & Finance",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Data Science, IA & Calcul"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Concurrence & Acteurs"
     ],
     "color": "1D4ED8",
     "logo": "julia",
@@ -22087,7 +22187,7 @@
     "year": 1978,
     "category": "Langages Systèmes & Bas Niveau",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Systèmes & Bas Niveau"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -22183,7 +22283,7 @@
     "year": 1999,
     "category": "Langages Web & Scripting Dynamique",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Automatisation & Scripting"
     ],
     "paradigms": [
       "Orienté Objet"
@@ -22215,7 +22315,7 @@
     "year": 1999,
     "category": "Requêtes de Données, Graphes & Schémas",
     "usages": [
-      "Web Backend & API"
+      "Data Science, IA & Calcul"
     ],
     "paradigms": [
       "Déclaratif & Logique",
@@ -22247,7 +22347,7 @@
     "year": 2007,
     "category": "Requêtes de Données, Graphes & Schémas",
     "usages": [
-      "Web Backend & API"
+      "Data Science, IA & Calcul"
     ],
     "paradigms": [
       "Fonctionnel"
@@ -22279,10 +22379,10 @@
     "year": 1999,
     "category": "Requêtes de Données, Graphes & Schémas",
     "usages": [
-      "Web Backend & API"
+      "Data Science, IA & Calcul"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Fonctionnel"
     ],
     "color": "005A9C",
     "logo": "w3c",
@@ -22311,7 +22411,7 @@
     "year": 2011,
     "category": "Langages Applicatifs & Entreprise",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Objets & Ingénierie Logicielle"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -22343,7 +22443,7 @@
     "year": 1999,
     "category": "Scientifiques, Mathématiques & Finance",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Data Science, IA & Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -22375,7 +22475,7 @@
     "year": 1975,
     "category": "Langages Systèmes & Bas Niveau",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Systèmes & Bas Niveau"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -22407,10 +22507,10 @@
     "year": 2000,
     "category": "Frameworks, Runtimes & Écosystèmes",
     "usages": [
-      "Web Backend & API"
+      "Web Frontend"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Orienté Prototype"
     ],
     "color": "CE412B",
     "logo": "rust",
@@ -22439,7 +22539,7 @@
     "year": 2000,
     "category": "Langages Web & Scripting Dynamique",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Automatisation & Scripting"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -22471,7 +22571,7 @@
     "year": 1996,
     "category": "Scientifiques, Mathématiques & Finance",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Data Science, IA & Calcul"
     ],
     "paradigms": [
       "Matriciel (Array)"
@@ -22535,7 +22635,7 @@
     "year": 2019,
     "category": "Langages Systèmes & Bas Niveau",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Systèmes & Bas Niveau"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -22567,7 +22667,7 @@
     "year": 1994,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -22599,10 +22699,10 @@
     "year": 1981,
     "category": "Langages Historiques & Pionniers",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Pionniers & Histoire du Calcul"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Fonctionnel"
     ],
     "color": "334155",
     "logo": "computerhistory",
@@ -22634,7 +22734,7 @@
       "Systèmes & Bas Niveau"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Orienté Prototype"
     ],
     "color": "F7A41D",
     "logo": "zig",
@@ -22663,7 +22763,7 @@
     "year": 1976,
     "category": "Langages Systèmes & Bas Niveau",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Systèmes & Bas Niveau"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -22695,7 +22795,7 @@
     "year": 1973,
     "category": "Langages Systèmes & Bas Niveau",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Systèmes & Bas Niveau"
     ],
     "paradigms": [
       "Impératif / Procédural"
@@ -22727,10 +22827,10 @@
     "year": 1993,
     "category": "Scientifiques, Mathématiques & Finance",
     "usages": [
-      "Jeux Vidéo & 3D"
+      "Data Science, IA & Calcul"
     ],
     "paradigms": [
-      "Impératif / Procédural"
+      "Concurrence & Acteurs"
     ],
     "color": "1D4ED8",
     "logo": "julia",

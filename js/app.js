@@ -20,11 +20,15 @@ function getIconSvg(logo, color, fallbackCategory) {
 
 // Initialize Application
 async function initApp() {
-  try {
-    const response = await fetch('./data/languages.json');
-    ALL_LANGUAGES = await response.json();
-  } catch (err) {
-    console.error("Erreur lors du chargement des données:", err);
+  if (window.ALL_LANGUAGES_DATA && Array.isArray(window.ALL_LANGUAGES_DATA) && window.ALL_LANGUAGES_DATA.length > 0) {
+    ALL_LANGUAGES = window.ALL_LANGUAGES_DATA;
+  } else {
+    try {
+      const response = await fetch('./data/languages.json');
+      ALL_LANGUAGES = await response.json();
+    } catch (err) {
+      console.error("Erreur lors du chargement des données:", err);
+    }
   }
 
   setupEventListeners();

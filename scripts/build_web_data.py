@@ -5,9 +5,9 @@ import re
 BASE_DIR = '/home/dev_redious/Documents/Dev/docs-languages'
 LANG_DIR = os.path.join(BASE_DIR, 'languages')
 OUTPUT_JSON = os.path.join(BASE_DIR, 'data', 'languages.json')
+OUTPUT_JS = os.path.join(BASE_DIR, 'data', 'languages.js')
 os.makedirs(os.path.dirname(OUTPUT_JSON), exist_ok=True)
 
-# Import BRAND_DB and CATEGORIES from our existing scripts
 from fix_badges import BRAND_DB, DOMAIN_FALLBACKS
 from generate_complete_readme import CATEGORIES
 
@@ -17,30 +17,33 @@ for cat_name, slugs in CATEGORIES:
     for s in slugs:
         CATEGORY_MAP[s] = cat_name
 
-# Usage categorization heuristics
+# Advanced granular usage classification rules
 USAGE_RULES = [
-    ('Web Frontend', ['javascript', 'typescript', 'html', 'css', 'webassembly', 'react', 'vue', 'svelte', 'elm', 'purescript', 'livescript', 'flow-js', 'reasonml', 'bootstrap', 'tailwind-css', 'tanstack', 'swr']),
-    ('Web Backend & API', ['python', 'php', 'ruby', 'go', 'node-js', 'elixir', 'csharp', 'java', 'kotlin', 'scala', 'rust', 'crystal', 'fastapi', 'nest-js', 'django-orm', 'laravel', 'ruby-on-rails', 'actix', 'deno-ts', 'trpc', 'cfml', 'coldfusion-script', 'lasso', 'opa', 'ballerina']),
-    ('Systèmes & Bas Niveau', ['c', 'cpp', 'rust', 'zig', 'nim', 'd', 'assembly', 'fortran', 'ada', 'pascal', 'odin', 'v', 'c-minus-minus', 'bliss', 'b-lang', 'bcpl', 'cyclone', 'felix', 'ficl', 'hal-s', 'holyc', 'nasm', 'occam', 'p4', 'seed7', 'spark-ada', 'bitc', 'c11', 'c23', 'c99']),
-    ('Jeux Vidéo & 3D', ['gdscript', 'unrealscript', 'gml', 'squirrel', 'angelscript', 'cplusplus', 'csharp', 'godot-csharp', 'unreal-blueprints', 'verse', 'sourcepawn', 'quakec', 'wren', 'processing', 'div-games', 'gamemonkey', 'goal', 'hollywood', 'dinkc', 'cl-opengl']),
-    ('Data Science, IA & Calcul', ['python', 'r', 'julia', 'matlab', 'scilab', 'octave', 'wolfram', 'apl', 'j', 'k', 'q', 'bqn', 'sas', 'maple', 'maxima', 'mathcad', 'spss', 'stata', 'numpy-c', 'julia-flux', 'lantern', 'cuneiform', 'biojava', 'bioperl', 'biopython']),
+    ('Web Frontend', ['javascript', 'typescript', 'html', 'css', 'webassembly', 'react', 'vue', 'svelte', 'elm', 'purescript', 'livescript', 'flow-js', 'reasonml', 'bootstrap', 'tailwind-css', 'tanstack', 'swr', 'clojurescript-core', 'amber', 'topaz', 'opal', 'yew', 'dioxus', 'leptos', 'inkscape-svg']),
+    ('Web Backend & API', ['python', 'php', 'ruby', 'go', 'node-js', 'elixir', 'csharp', 'java', 'kotlin', 'scala', 'rust', 'crystal', 'fastapi', 'nest-js', 'django-orm', 'laravel', 'ruby-on-rails', 'actix', 'deno-ts', 'trpc', 'cfml', 'coldfusion-script', 'lasso', 'opa', 'ballerina', 'ur-web', 'caveman2', 'crystal-amber', 'crystal-kemal', 'swift-server', 'vite', 'babel', 'graphql', 'prisma', 'prisma-client', 'prisma-migrate', 'prisma-studio', 'prisma-accelerate']),
+    ('Systèmes & Bas Niveau', ['c', 'cpp', 'rust', 'zig', 'nim', 'd', 'assembly', 'fortran', 'ada', 'pascal', 'odin', 'v', 'c-minus-minus', 'bliss', 'bliss-32', 'b-lang', 'bcpl', 'cyclone', 'felix', 'ficl', 'hal-s', 'holyc', 'nasm', 'occam', 'occampi', 'p4', 'seed7', 'spark-ada', 'bitc', 'c-11', 'c-23', 'c-99', 'c-plus-plus-11', 'c-plus-plus-20', 'c-plus-plus-23', 'chill', 'chill-96', 'ch', 'concurrent-c', 'cms-2', 'coral-66', 'dynace', 'gnat-ada', 'hermes', 'hla', 'hume', 'jovial', 'lc-3', 'limbo', 'linoleum', 'masm', 'microcode', 'mmix', 'newp', 'orca', 'parasail', 'pl-m', 'pl360', 'sympl', 'tacpol', 'yacc', 'zen', 'zopl', 'acc', 'accent', 'alef', 'amiga-e', 'ansi-c', 'assembly-arm', 'assembly-riscv', 'assembly-x86', 'assembly-mips', 'assembly-sparc', 'assembly-68k', 'assembly-ppc', 'assembly-z80', 'assembly-6502', 'bal-assembly', 'modula', 'modula-2', 'modula-3', 'oberon', 'object-oberon']),
+    ('Jeux Vidéo & 3D', ['gdscript', 'unrealscript', 'gml', 'squirrel', 'angelscript', 'godot-csharp', 'unreal-blueprints', 'verse', 'sourcepawn', 'sourcepawn-sp', 'quakec', 'wren', 'processing', 'div-games', 'gamemonkey', 'goal', 'hollywood', 'dinkc', 'cl-opengl', 'advsys', 'carmack-script', 'chip-8', 'emberward-odin', 'amos-basic', 'inform-6', 'inform-7', 'lpc', 'lsl', 'mel', 'nwscript', 'vvvv', 'glsl', 'hlsl', 'wgsl', 'metal', 'cg', 'cuda-ptx', 'povray-sdl']),
+    ('Data Science, IA & Calcul', ['python', 'r', 'julia', 'matlab', 'scilab', 'octave', 'wolfram', 'apl', 'j', 'k', 'q', 'bqn', 'sas', 'maple', 'maxima', 'mathcad', 'spss', 'stata', 'numpy-c', 'julia-flux', 'lantern', 'cuneiform', 'biojava', 'bioperl', 'biopython', 'aimms', 'aldor', 'algae', 'ampl', 'ampl-solver', 'apl-dyalog', 'apl-ngn', 'apl2', 'arena', 'asymptote', 'asymptote-vec', 'bc', 'bqn-array', 'c-star', 'cant', 'church', 'fortress', 'gap', 'gauss', 'gnuplot', 'gpss', 'magma', 'mupad', 'nesl', 'netlogo', 'nial', 'octave-forge', 'openqasm', 'pari-gp', 'q-sharp', 's-plus', 'sasl', 'sawzall', 'simscript', 'sisal', 'telemac', 'titanium', 'x10', 'yacas', 'yorick', 'zpl', 'anorm', 'clickhouse-sql', 'sparql', 'cypher', 'cypher-iso-gql', 'kql', 'prql', 'xquery', 'xpath', 'xslt', 'elasticsearch-dsl', 'daffodil', 'omnimark']),
     ('Smart Contracts & Web3', ['solidity', 'vyper', 'move', 'cairo', 'cairo-zero', 'clarity', 'sway', 'cadence', 'plutus', 'michelson', 'scilla', 'daml', 'foundry', 'viem']),
     ('Audio & DSP Temps Réel', ['faust', 'supercollider', 'pure-data', 'chuck', 'csound']),
-    ('Entreprise, ERP & Mainframe', ['abap', 'rpg', 'mumps', 'progress-abl', 'visual-foxpro', 'clipper', 'rexx', 'powerbuilder', 'pl-sql', 't-sql', 'natural', 'peoplesoft', 'focus', 'clarion', 'dataflex', 'uniface', 'x-plus-plus', 'x-sharp', 'cobol', 'ans-cobol', 'jcl', 'clist']),
-    ('Automatisation & Scripting', ['bash', 'zsh', 'fish', 'powershell', 'awk', 'sed', 'applescript', 'autohotkey', 'autohotkey-v2', 'autoit', 'vbscript', 'vba', 'vba-excel', 'fastlane', 'nsis', 'winbatch', 'batch', 'make', 'm4', 'kixstart']),
-    ('Spécification & Preuve Formelle', ['tla-plus', 'alloy', 'alloy-4', 'datalog', 'datalog-souffle', 'promela', 'b-method', 'event-b', 'frama-c', 'ttcn-3', 'txl', 'cryptol', 'whiley', 'lean', 'coq', 'agda', 'idris', 'acl2', 'z-notation']),
-    ('Hardware & Embarqué (FPGA / IoT)', ['vhdl', 'verilog', 'systemverilog', 'chisel', 'chisel-3', 'bluespec', 'arduino-c', 'xod', 'ladder-logic', 'g-code', 'scade', 'lustre', 'esterel', 'spin-propeller', 'rapid', 'skill']),
-    ('Ésotérique & Recherche', ['brainfuck', 'befunge', 'befunge-98', 'whitespace', 'malbolge', 'chef', 'shakespeare', 'core-war', 'cow', 'redcode', 'mojo', 'carbon', 'koka', 'hare', 'roc', 'bosque'])
+    ('Entreprise, ERP & Mainframe', ['abap', 'abap-objects', 'rpg', 'mumps', 'mumps-iris', 'progress-abl', 'visual-foxpro', 'clipper', 'rexx', 'rexx-regina', 'powerbuilder', 'pl-sql', 't-sql', 'natural', 'peoplesoft', 'focus', 'clarion', 'clarion-win', 'dataflex', 'uniface', 'x-plus-plus', 'x-sharp', 'cobol', 'ans-cobol', 'jcl', 'clist', 'acu-cobol', 'apex', 'appian-sail', 'bbx', 'bpel', 'cach-objectscript', 'egl', 'filemaker', 'harbour', 'linc', 'lotusscript', 'magik', 'proiv', 'simpol', 'sqr', 'visual-objects', 'cal', 'c-al']),
+    ('Automatisation & Scripting', ['bash', 'bash-posix', 'zsh', 'fish', 'fish-shell-4', 'powershell', 'awk', 'awk-gawk', 'awk-mawk', 'sed', 'sed-gnu', 'applescript', 'appscript', 'autohotkey', 'autohotkey-v2', 'autoit', 'vbscript', 'vba', 'vba-excel', 'fastlane', 'nsis', 'winbatch', 'batch', 'make', 'm4', 'kixstart', 'tcl', 'xotcl', 'yoix', 'agena', 'autolisp', 'emacs-lisp', 'metasploit-ruby', 'webdna', 'csh', 'dcl', 'arexx', 'snobol', 'icon', 'unicon']),
+    ('Spécification & Preuve Formelle', ['tla-plus', 'alloy', 'alloy-4', 'datalog', 'datalog-souffle', 'promela', 'b-method', 'event-b', 'frama-c', 'ttcn-3', 'txl', 'cryptol', 'cryptol-verif', 'whiley', 'lean', 'lean-mathlib', 'coq', 'coq-rocq', 'agda', 'idris', 'acl2', 'acronym', 'act-one', 'adele', 'adl', 'alf', 'alma', 'alma-0', 'anubis', 'averest', 'bcompile', 'boomerang', 'casl', 'casl-spec', 'cayenne', 'charity', 'claire', 'clips', 'clymer', 'cu-prolog', 'curry', 'curry-kics2', 'e-lang', 'epigram', 'escher', 'godel', 'kaleidoscope', 'logtalk', 'prolog', 'visual-prolog', 'wyvern', 'z-notation', 'cel']),
+    ('Hardware & Embarqué (FPGA / IoT)', ['vhdl', 'verilog', 'systemverilog', 'chisel', 'chisel-3', 'bluespec', 'arduino-c', 'xod', 'ladder-logic', 'g-code', 'scade', 'lustre', 'esterel', 'spin-propeller', 'rapid', 'skill', 'acis', 'aml', 'apt', 'cadence-flair', 'drakon', 'eagle', 'handel-c', 'legoscript']),
+    ('Ésotérique & Recherche', ['brainfuck', 'befunge', 'befunge-98', 'whitespace', 'malbolge', 'chef', 'shakespeare', 'core-war', 'cow', 'redcode', 'mojo', 'carbon', 'carbon-lang', 'koka', 'hare', 'roc', 'bosque', 'bloop', 'chomski']),
+    ('Langages Fonctionnels Purs & Applicatifs', ['haskell', 'haskell-ghc', 'ocaml', 'standard-ml', 'alice-ml', 'elixir', 'erlang', 'erlang-otp', 'clojure', 'clojure-clr', 'common-lisp', 'scheme', 'racket', 'janet', 'fennel', 'hy', 'shen', 'carp', 'fsharp', 'elm', 'purescript', 'gleam', 'gleam-otp', 'crystal', 'unison', 'flix', 'chapel', 'pony', 'clean', 'factor', 'factor-stack', 'joy', 'miranda', 'pico', 'picolisp', 'pyret', 'acl', 'alex', 'arc', 'arc-anarki', 'bert', 'caml-light', 'caml-special-light', 'cat', 'clasp', 'daisy', 'fl', 'gauche', 'gauche-scheme', 'guile', 'newlisp', 'lucid']),
+    ('Objets & Ingénierie Logicielle', ['smalltalk', 'pharo', 'squeak', 'simula', 'eiffel', 'eiffel-studio', 'sather', 'pizza', 'golo', 'j-sharp', 'j-plus-plus', 'jython', 'netrexx', 'vb-net', 'xtend', 'a-sharp', 'axum', 'dart-flutter', 'jasmin', 'beanshell', 'aspect-j', 'aspectj', 'abcl', 'abcl-r', 'agora', 'ambienttalk', 'avail', 'cecil', 'deesel', 'dylan', 'dylan-opendylan', 'emerald', 'falcon', 'fancy', 'genie', 'haxe', 'hx-cpp', 'ioke', 'joule', 'lava', 'leda', 'neko', 'newspeak', 'oz', 'prograph', 'pwct', 'vala', 'red', 'rebol', 'ceylon', 'fantom', 'nemerle', 'boo', 'pike', 'io', 'ring']),
+    ('Pionniers & Histoire du Calcul', ['algol', 'algol-58', 'algol-60', 'algol-68', 'algol-n', 'algol-w', 'basic', 'basic-dartmouth', 'basic-plus', 'bbc-basic', 'gwbasic', 'quickbasic', 'bywater-basic', 'atari-basic', 'amigabasic', 'ibm-basic', 'cbasic', 'cobol', 'forth', 'logo', 'ucb-logo', 'pli', 'simula', 'smalltalk', 'snobol', 'postscript', 'tex', 'tex-latex', 'a-zero', 'abc', 'action', 'actor', 'act-iii', 'alphard', 'altran', 'analytical-engine', 'apple-pascal', 'app-inventor', 'argus', 'atlas-autocode', 'babbage-lang', 'babytalk', 'beta', 'blockly', 'c-talk', 'cesil', 'clu', 'clx', 'comal', 'concurrent-pascal', 'cool', 'cpl', 'edinburgh-imp', 'elan', 'espol', 'etoys', 'euclid', 'euler', 'flavors', 'flow-matic', 'focal', 'fp', 'franz-lisp', 'hope', 'hopscotch', 'hypertalk', 'ipl', 'iswim', 'joss', 'karel', 'kcl', 'lingo', 'lisa', 'mad', 'mesa', 'metafont', 'newtonscript', 'pilot', 'plankalkul', 'pop-11', 'ratfor', 'refal', 'sail', 'scratch', 'self', 'slip', 'teco', 'turing', 'tutor', 'ucsd-pascal', 'watfiv', 'zeno', 'zetalisp'])
 ]
 
 PARADIGM_KEYWORDS = [
-    ('Fonctionnel', ['fonctionnel', 'purement fonctionnel', 'monades', 'évaluation paresseuse', 'pattern matching', 'ordre supérieur', 'currying', 'lambda']),
-    ('Orienté Objet', ['orienté objet', 'classes', 'héritage', 'polymorphisme', 'encapsulation', 'smalltalk', 'méthodes']),
-    ('Impératif / Procédural', ['procédural', 'impératif', 'séquentiel', 'structures de contrôle']),
-    ('Déclaratif & Logique', ['déclaratif', 'logique', 'unification', 'retour sur trace', 'backtracking', 'clauses de horn', 'prolog']),
-    ('Matriciel (Array)', ['matriciel', 'vectoriel', 'tableaux multidimensionnels', 'apl', 'simd', 'tenseur']),
-    ('Concurrence & Acteurs', ['acteurs', 'processus communicants', 'csp', 'concurrence', 'goroutines', 'async/await', 'message passing']),
-    ('Orienté Prototype', ['prototype', 'prototypes', 'clonage d\'objets']),
+    ('Fonctionnel', ['fonctionnel', 'purement fonctionnel', 'monades', 'évaluation paresseuse', 'pattern matching', 'ordre supérieur', 'currying', 'lambda', 'haskell', 'ml', 'lisp', 'scheme']),
+    ('Orienté Objet', ['orienté objet', 'classes', 'héritage', 'polymorphisme', 'encapsulation', 'smalltalk', 'méthodes', 'objet']),
+    ('Impératif / Procédural', ['procédural', 'impératif', 'séquentiel', 'structures de contrôle', 'boucles', 'instructions']),
+    ('Déclaratif & Logique', ['déclaratif', 'logique', 'unification', 'retour sur trace', 'backtracking', 'clauses de horn', 'prolog', 'contraintes']),
+    ('Matriciel (Array)', ['matriciel', 'vectoriel', 'tableaux multidimensionnels', 'apl', 'simd', 'tenseur', 'matrice']),
+    ('Concurrence & Acteurs', ['acteurs', 'processus communicants', 'csp', 'concurrence', 'goroutines', 'async/await', 'message passing', 'parallèle']),
+    ('Orienté Prototype', ['prototype', 'prototypes', 'clonage d\'objets', 'self', 'javascript']),
     ('Concaténatif / Pile', ['concaténatif', 'basé sur une pile', 'stack-based', 'forth', 'factor', 'postfixe'])
 ]
 
@@ -100,7 +103,6 @@ def parse_markdown(filepath, slug):
         if slug in slug_list:
             usages.add(usage_name)
     if not usages:
-        # Fallback heuristic based on content
         content_lower = content.lower()
         if 'web' in content_lower or 'html' in content_lower:
             usages.add('Web Backend & API')
@@ -112,8 +114,10 @@ def parse_markdown(filepath, slug):
             usages.add('Data Science, IA & Calcul')
         elif 'gestion' in content_lower or 'entreprise' in content_lower or 'erp' in content_lower:
             usages.add('Entreprise, ERP & Mainframe')
+        elif 'script' in content_lower or 'automatisation' in content_lower:
+            usages.add('Automatisation & Scripting')
         else:
-            usages.add('Développement Général')
+            usages.add('Objets & Ingénierie Logicielle')
 
     # Determine Paradigms
     paradigms = set()
@@ -151,7 +155,7 @@ def parse_markdown(filepath, slug):
 def build_data():
     items = []
     files = sorted([f for f in os.listdir(LANG_DIR) if f.endswith('.md')])
-    print(f"Parsing {len(files)} files...")
+    print(f"Parsing all {len(files)} language files...")
     
     for filename in files:
         slug = filename.replace('.md', '')
@@ -159,13 +163,17 @@ def build_data():
         item = parse_markdown(filepath, slug)
         items.append(item)
 
-    # Sort alphabetically by default
     items.sort(key=lambda x: x['name'].lower())
 
+    # Write JSON
     with open(OUTPUT_JSON, 'w', encoding='utf-8') as f:
         json.dump(items, f, ensure_ascii=False, indent=2)
 
-    print(f"Data JSON compiled successfully with {len(items)} languages to: {OUTPUT_JSON}")
+    # Write JS file with embedded fallback
+    with open(OUTPUT_JS, 'w', encoding='utf-8') as f:
+        f.write("window.ALL_LANGUAGES_DATA = " + json.dumps(items, ensure_ascii=False) + ";\n")
+
+    print(f"Grand data build complete: {len(items)} / {len(files)} languages fully cataloged in JSON and JS!")
 
 if __name__ == '__main__':
     build_data()
