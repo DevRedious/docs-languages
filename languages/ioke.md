@@ -1,0 +1,19 @@
+## Ioke — histoire
+
+- 2008 : conçu ou formalisé (Ola Bini) pour répondre aux besoins de son domaine d'application.
+- Évolution majeure : développement des compilateurs, outillages et structuration de la communauté d'utilisateurs.
+- Standardisation : publication de spécifications formelles ou intégration au sein d'environnements industriels de référence.
+- Adoption : déploiement dans des systèmes de production, centres de recherche et infrastructures logicielles.
+- Aujourd'hui : jalon documenté et actif dans l'histoire des langages et paradigmes de programmation.
+
+## Ioke — utilité
+
+- Langage orienté prototype dynamique pour la JVM et le CLR.
+- Fournit des abstractions spécialisées et une syntaxe adaptée à son modèle de calcul.
+- Conçu pour maximiser la robustesse, la productivité de développement et l'adéquation au matériel.
+- Utilisé pour la résolution de problèmes métiers, la recherche académique ou l'ingénierie logicielle.
+- Intègre des mécanismes d'interopérabilité et un écosystème d'outils dédiés.
+
+## Ioke — ressources
+
+- Site officiel : [https://ioke.org](https://ioke.org)
