@@ -3,12 +3,14 @@
 
   <p align="center">
     <img src="https://img.shields.io/badge/Format-Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white" alt="Markdown" />
+    <a href="https://devredious.github.io/docs-languages/"><img src="https://img.shields.io/badge/Site_Web-Interactif-8B5CF6?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Site Web" /></a>
     <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT" /></a>
     <img src="https://img.shields.io/badge/Fiches-710-38BDF8?style=for-the-badge" alt="710 fiches" />
   </p>
   <p align="center">
     <i>Grande Encyclopédie Universelle des Langages de Programmation (710 fiches documentaires standardisées).</i><br>
-    Dépôt <a href="https://github.com/DevRedious/docs-languages">DevRedious/docs-languages</a>
+    🌐 <strong>Application interactive en ligne :</strong> <a href="https://devredious.github.io/docs-languages/">devredious.github.io/docs-languages</a><br>
+    Dépôt GitHub : <a href="https://github.com/DevRedious/docs-languages">DevRedious/docs-languages</a>
   </p>
 </div>
 

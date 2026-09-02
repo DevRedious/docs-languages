@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="fr" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Docs Languages — Grande Encyclopédie des Langages de Programmation</title>
+  <meta name="description" content="Encyclopédie interactive de plus de 700 langages et technologies de programmation avec filtres avancés, histoire, utilité et dépôts GitHub officiels.">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/logo.png">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Custom Stylesheet (Dark Theme Only) -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Header & Hero -->
+  <header>
+    <div class="hero-container">
+      <div class="brand-badge">
+        <i data-lucide="sparkles" style="width: 16px; height: 16px;"></i>
+        <span>Encyclopédie Universelle</span>
+      </div>
+
+      <h1 class="hero-title">Grande Bibliothèque des Langages & Paradigmes</h1>
+      
+      <p class="hero-desc">
+        Explorez, comparez et filtrez <strong>710 fiches documentaires standardisées</strong> couvrant toute l'histoire, les usages industriels, scientifiques et émergents de l'informatique.
+      </p>
+
+      <div class="stats-row">
+        <div class="stat-chip">
+          <i data-lucide="layers" style="color: var(--accent-cyan); width: 18px;"></i>
+          <span>Total : <span class="stat-value" id="stat-total">710</span> fiches</span>
+        </div>
+        <div class="stat-chip">
+          <i data-lucide="grid" style="color: var(--accent-purple); width: 18px;"></i>
+          <span>Catégories : <span class="stat-value" id="stat-categories">22</span> domaines</span>
+        </div>
+        <div class="stat-chip">
+          <i data-lucide="github" style="color: var(--accent-emerald); width: 18px;"></i>
+          <span>Dépôts GitHub : <span class="stat-value" id="stat-github">245+</span> officiels</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Area -->
+  <main class="main-wrapper">
+
+    <!-- Filters & Control Panel -->
+    <section class="controls-card">
+      
+      <!-- Top Search & Sort Row -->
+      <div class="search-sort-bar">
+        <div class="search-input-wrapper">
+          <i data-lucide="search" class="search-icon" style="width: 18px;"></i>
+          <input type="text" id="search-input" class="search-input" placeholder="Rechercher par nom, mot-clé, créateur, paradigme (Tapez '/' pour chercher)...">
+        </div>
+
+        <select id="category-select" class="select-control">
+          <option value="all">Toutes les catégories (22)</option>
+        </select>
+
+        <select id="sort-select" class="select-control">
+          <option value="name-asc">Trier par Nom (A → Z)</option>
+          <option value="name-desc">Trier par Nom (Z → A)</option>
+          <option value="year-desc">Année : Plus récents</option>
+          <option value="year-asc">Année : Plus anciens</option>
+          <option value="cat-asc">Par Catégorie</option>
+        </select>
+      </div>
+
+      <!-- Type of Usage Filters -->
+      <div class="filter-group">
+        <div class="filter-group-header">
+          <i data-lucide="target" style="width: 14px; height: 14px;"></i>
+          <span>Type d'usage principal</span>
+        </div>
+        <div class="pills-container" id="usage-pills">
+          <!-- Dynamically filled -->
+        </div>
+      </div>
+
+      <!-- Chronological Era Filters -->
+      <div class="filter-group" style="margin-top: 1.25rem;">
+        <div class="filter-group-header">
+          <i data-lucide="clock" style="width: 14px; height: 14px;"></i>
+          <span>Époque chronologique</span>
+        </div>
+        <div class="pills-container" id="era-pills">
+          <!-- Dynamically filled -->
+        </div>
+      </div>
+
+      <!-- Bottom Filters Row (Toggles) -->
+      <div class="filter-row">
+        <label class="toggle-switch">
+          <input type="checkbox" id="github-toggle">
+          <span class="toggle-slider"></span>
+          <span>Dépôt GitHub officiel disponible uniquement</span>
+        </label>
+      </div>
+    </section>
+
+    <!-- Results Meta -->
+    <div class="results-meta">
+      <div id="results-count" style="font-weight: 600; color: var(--text-primary);">
+        Chargement des langages...
+      </div>
+      <div style="font-size: 0.85rem; color: var(--text-muted);">
+        Thème Sombre &bull; Données vérifiées
+      </div>
+    </div>
+
+    <!-- Language Cards Grid -->
+    <section class="grid-container" id="languages-grid">
+      <!-- Dynamically filled by app.js -->
+    </section>
+
+  </main>
+
+  <!-- Modal / Full Documentation Sheet Viewer -->
+  <div class="modal-overlay" id="modal-overlay">
+    <div class="modal-content">
+      <button class="modal-close-btn" id="modal-close-btn" title="Fermer (Échap)">
+        <i data-lucide="x" style="width: 20px; height: 20px;"></i>
+      </button>
+
+      <div class="modal-header">
+        <div class="modal-icon" id="modal-icon-container"></div>
+        <div>
+          <h2 class="modal-title" id="modal-title">Nom du langage</h2>
+          <div id="modal-subtitle" style="font-size: 0.9rem; margin-top: 0.25rem;"></div>
+        </div>
+      </div>
+
+      <!-- History Section -->
+      <div class="modal-section">
+        <div class="modal-section-title">
+          <i data-lucide="history" style="width: 16px;"></i>
+          <span>Repères Historiques Clés</span>
+        </div>
+        <ul class="modal-bullets" id="modal-history-bullets"></ul>
+      </div>
+
+      <!-- Utility Section -->
+      <div class="modal-section">
+        <div class="modal-section-title">
+          <i data-lucide="zap" style="width: 16px;"></i>
+          <span>Nature & Utilité Technique</span>
+        </div>
+        <ul class="modal-bullets" id="modal-utility-bullets"></ul>
+      </div>
+
+      <!-- Resources Footer -->
+      <div class="modal-footer" id="modal-footer-links"></div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div style="max-width: 1200px; margin: 0 auto; display: flex; flex-direction: column; align-items: center; gap: 0.75rem;">
+      <p>
+        <strong>docs-languages</strong> &bull; Référentiel encyclopédique open source publié sous licence MIT.
+      </p>
+      <p>
+        Dépôt officiel : <a href="https://github.com/DevRedious/docs-languages" target="_blank" rel="noopener">DevRedious/docs-languages</a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- Application Script -->
+  <script src="js/app.js"></script>
+</body>
+</html>
