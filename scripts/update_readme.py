@@ -1,7 +1,6 @@
 import os
-import re
 
-# Comprehensive metadata mapping for badges
+# Comprehensive metadata mapping for all 203 badges
 BADGE_META = {
     # Systems & Low-level
     'c.md': ('C', 'https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black', 'Langages Systèmes & Bas Niveau'),
@@ -60,6 +59,28 @@ BADGE_META = {
     'wgsl.md': ('WGSL', 'https://img.shields.io/badge/WGSL-005A9C?style=for-the-badge&logo=w3c&logoColor=white', 'GPU, Shaders & Graphisme'),
     'metal.md': ('Metal MSL', 'https://img.shields.io/badge/Metal_MSL-000000?style=for-the-badge&logo=apple&logoColor=white', 'GPU, Shaders & Graphisme'),
 
+    # Game Development & Engine Scripting
+    'gdscript.md': ('GDScript', 'https://img.shields.io/badge/GDScript-478CBF?style=for-the-badge&logo=godotengine&logoColor=white', 'Jeux Vidéo & Moteurs 3D'),
+    'unrealscript.md': ('UnrealScript', 'https://img.shields.io/badge/UnrealScript-313131?style=for-the-badge&logo=unrealengine&logoColor=white', 'Jeux Vidéo & Moteurs 3D'),
+    'gml.md': ('GML', 'https://img.shields.io/badge/GML-000000?style=for-the-badge&logo=gamemaker&logoColor=white', 'Jeux Vidéo & Moteurs 3D'),
+    'squirrel.md': ('Squirrel', 'https://img.shields.io/badge/Squirrel-8E44AD?style=for-the-badge&logo=cplusplus&logoColor=white', 'Jeux Vidéo & Moteurs 3D'),
+
+    # Audio, Music & DSP
+    'faust.md': ('FAUST', 'https://img.shields.io/badge/FAUST-009688?style=for-the-badge&logo=audacity&logoColor=white', 'Audio, Musique & DSP Temps Réel'),
+    'supercollider.md': ('SuperCollider', 'https://img.shields.io/badge/SuperCollider-121212?style=for-the-badge&logo=musicbrainz&logoColor=white', 'Audio, Musique & DSP Temps Réel'),
+    'pure-data.md': ('Pure Data', 'https://img.shields.io/badge/Pure_Data-00457C?style=for-the-badge&logo=soundcharts&logoColor=white', 'Audio, Musique & DSP Temps Réel'),
+    'chuck.md': ('ChucK', 'https://img.shields.io/badge/ChucK-2C3E50?style=for-the-badge&logo=stanford&logoColor=white', 'Audio, Musique & DSP Temps Réel'),
+    'csound.md': ('Csound', 'https://img.shields.io/badge/Csound-2D3748?style=for-the-badge&logo=itunes&logoColor=white', 'Audio, Musique & DSP Temps Réel'),
+
+    # Query & Graph
+    'graphql.md': ('GraphQL', 'https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white', 'Requêtes de Données, Graphes & Schémas'),
+    'sparql.md': ('SPARQL', 'https://img.shields.io/badge/SPARQL-005A9C?style=for-the-badge&logo=w3c&logoColor=white', 'Requêtes de Données, Graphes & Schémas'),
+    'cypher.md': ('Cypher', 'https://img.shields.io/badge/Cypher-008CC1?style=for-the-badge&logo=neo4j&logoColor=white', 'Requêtes de Données, Graphes & Schémas'),
+    'xquery.md': ('XQuery', 'https://img.shields.io/badge/XQuery-E44D26?style=for-the-badge&logo=w3c&logoColor=white', 'Requêtes de Données, Graphes & Schémas'),
+    'xpath.md': ('XPath', 'https://img.shields.io/badge/XPath-005A9C?style=for-the-badge&logo=w3c&logoColor=white', 'Requêtes de Données, Graphes & Schémas'),
+    'kql.md': ('KQL', 'https://img.shields.io/badge/KQL_Kusto-0089D6?style=for-the-badge&logo=microsoftazure&logoColor=white', 'Requêtes de Données, Graphes & Schémas'),
+    'prql.md': ('PRQL', 'https://img.shields.io/badge/PRQL-F15A24?style=for-the-badge&logo=postgresql&logoColor=white', 'Requêtes de Données, Graphes & Schémas'),
+
     # Shells & Unix Stream
     'bash.md': ('Bash', 'https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white', 'Shells & Outils de Flux Unix'),
     'zsh.md': ('Zsh', 'https://img.shields.io/badge/Zsh-F1502F?style=for-the-badge&logo=zsh&logoColor=white', 'Shells & Outils de Flux Unix'),
@@ -80,6 +101,7 @@ BADGE_META = {
     'haskell.md': ('Haskell', 'https://img.shields.io/badge/Haskell-5D4F85?style=for-the-badge&logo=haskell&logoColor=white', 'Langages Fonctionnels & Déclaratifs'),
     'ocaml.md': ('OCaml', 'https://img.shields.io/badge/OCaml-EC6813?style=for-the-badge&logo=ocaml&logoColor=white', 'Langages Fonctionnels & Déclaratifs'),
     'standard-ml.md': ('Standard ML', 'https://img.shields.io/badge/Standard_ML-4B32C3?style=for-the-badge&logo=edx&logoColor=white', 'Langages Fonctionnels & Déclaratifs'),
+    'alice-ml.md': ('Alice ML', 'https://img.shields.io/badge/Alice_ML-4B32C3?style=for-the-badge&logo=edx&logoColor=white', 'Langages Fonctionnels & Déclaratifs'),
     'elixir.md': ('Elixir', 'https://img.shields.io/badge/Elixir-4B275F?style=for-the-badge&logo=elixir&logoColor=white', 'Langages Fonctionnels & Déclaratifs'),
     'erlang.md': ('Erlang', 'https://img.shields.io/badge/Erlang-A90533?style=for-the-badge&logo=erlang&logoColor=white', 'Langages Fonctionnels & Déclaratifs'),
     'clojure.md': ('Clojure', 'https://img.shields.io/badge/Clojure-5881D8?style=for-the-badge&logo=clojure&logoColor=white', 'Langages Fonctionnels & Déclaratifs'),
@@ -89,6 +111,8 @@ BADGE_META = {
     'janet.md': ('Janet', 'https://img.shields.io/badge/Janet-AA2233?style=for-the-badge&logo=lisp&logoColor=white', 'Langages Fonctionnels & Déclaratifs'),
     'fennel.md': ('Fennel', 'https://img.shields.io/badge/Fennel-2C2D72?style=for-the-badge&logo=lua&logoColor=white', 'Langages Fonctionnels & Déclaratifs'),
     'hy.md': ('Hy', 'https://img.shields.io/badge/Hy-3776AB?style=for-the-badge&logo=python&logoColor=white', 'Langages Fonctionnels & Déclaratifs'),
+    'shen.md': ('Shen', 'https://img.shields.io/badge/Shen-2C3E50?style=for-the-badge&logo=lisp&logoColor=white', 'Langages Fonctionnels & Déclaratifs'),
+    'carp.md': ('Carp', 'https://img.shields.io/badge/Carp-663399?style=for-the-badge&logo=rust&logoColor=white', 'Langages Fonctionnels & Déclaratifs'),
     'fsharp.md': ('F#', 'https://img.shields.io/badge/F%23-378BBA?style=for-the-badge&logo=fsharp&logoColor=white', 'Langages Fonctionnels & Déclaratifs'),
     'elm.md': ('Elm', 'https://img.shields.io/badge/Elm-1293D8?style=for-the-badge&logo=elm&logoColor=white', 'Langages Fonctionnels & Déclaratifs'),
     'purescript.md': ('PureScript', 'https://img.shields.io/badge/PureScript-1D222D?style=for-the-badge&logo=purescript&logoColor=white', 'Langages Fonctionnels & Déclaratifs'),
@@ -116,6 +140,8 @@ BADGE_META = {
 
     # Logic & Formal
     'prolog.md': ('Prolog', 'https://img.shields.io/badge/Prolog-E44D26?style=for-the-badge&logo=prolog&logoColor=white', 'Langages Logiques & Formels'),
+    'mercury.md': ('Mercury', 'https://img.shields.io/badge/Mercury-E44D26?style=for-the-badge&logo=prolog&logoColor=white', 'Langages Logiques & Formels'),
+    'curry.md': ('Curry', 'https://img.shields.io/badge/Curry-5D4F85?style=for-the-badge&logo=haskell&logoColor=white', 'Langages Logiques & Formels'),
     'lean.md': ('Lean', 'https://img.shields.io/badge/Lean-2B2B2B?style=for-the-badge&logo=lean&logoColor=white', 'Langages Logiques & Formels'),
     'coq.md': ('Coq', 'https://img.shields.io/badge/Coq-C73B28?style=for-the-badge&logo=inria&logoColor=white', 'Langages Logiques & Formels'),
     'agda.md': ('Agda', 'https://img.shields.io/badge/Agda-293241?style=for-the-badge&logo=haskell&logoColor=white', 'Langages Logiques & Formels'),
@@ -135,20 +161,51 @@ BADGE_META = {
     'foundry.md': ('Foundry', 'https://img.shields.io/badge/Foundry-1C1E24?style=for-the-badge&logo=ethereum&logoColor=white', 'Smart Contracts & Web3'),
     'viem.md': ('Viem', 'https://img.shields.io/badge/Viem-1E1E1E?style=for-the-badge&logo=ethereum&logoColor=white', 'Smart Contracts & Web3'),
 
+    # Hardware & Open Hardware
+    'vhdl.md': ('VHDL', 'https://img.shields.io/badge/VHDL-00629B?style=for-the-badge&logo=ieee&logoColor=white', 'Description Matérielle & Open Hardware'),
+    'verilog.md': ('Verilog', 'https://img.shields.io/badge/Verilog-00629B?style=for-the-badge&logo=ieee&logoColor=white', 'Description Matérielle & Open Hardware'),
+    'systemverilog.md': ('SystemVerilog', 'https://img.shields.io/badge/SystemVerilog-00629B?style=for-the-badge&logo=ieee&logoColor=white', 'Description Matérielle & Open Hardware'),
+    'chisel.md': ('Chisel', 'https://img.shields.io/badge/Chisel_HDL-DC322F?style=for-the-badge&logo=scala&logoColor=white', 'Description Matérielle & Open Hardware'),
+    'bluespec.md': ('Bluespec', 'https://img.shields.io/badge/Bluespec-003366?style=for-the-badge&logo=mit&logoColor=white', 'Description Matérielle & Open Hardware'),
+
+    # Modular & Wirth Family
+    'modula-2.md': ('Modula-2', 'https://img.shields.io/badge/Modula--2-00549D?style=for-the-badge&logo=gnu&logoColor=white', 'Systèmes Modulaires & Wirth'),
+    'oberon.md': ('Oberon', 'https://img.shields.io/badge/Oberon-003366?style=for-the-badge&logo=openaccess&logoColor=white', 'Systèmes Modulaires & Wirth'),
+
+    # Esoteric & CS Theory
+    'brainfuck.md': ('Brainfuck', 'https://img.shields.io/badge/Brainfuck-2B2B2B?style=for-the-badge&logo=codewars&logoColor=white', 'Ésotériques & Théorie Informatique'),
+    'befunge.md': ('Befunge', 'https://img.shields.io/badge/Befunge-4B0082?style=for-the-badge&logo=gameandwatch&logoColor=white', 'Ésotériques & Théorie Informatique'),
+    'whitespace.md': ('Whitespace', 'https://img.shields.io/badge/Whitespace-FFFFFF?style=for-the-badge&logo=ghost&logoColor=black', 'Ésotériques & Théorie Informatique'),
+    'malbolge.md': ('Malbolge', 'https://img.shields.io/badge/Malbolge-8B0000?style=for-the-badge&logo=hackthebox&logoColor=white', 'Ésotériques & Théorie Informatique'),
+
+    # Hybrid & Specialized
+    'ballerina.md': ('Ballerina', 'https://img.shields.io/badge/Ballerina-20B6B0?style=for-the-badge&logo=ballerina&logoColor=white', 'Langages Hybrides & Spécifiques'),
+    'vala.md': ('Vala', 'https://img.shields.io/badge/Vala-A56DE2?style=for-the-badge&logo=gnome&logoColor=white', 'Langages Hybrides & Spécifiques'),
+    'red.md': ('Red', 'https://img.shields.io/badge/Red-DE2B26?style=for-the-badge&logo=red&logoColor=white', 'Langages Hybrides & Spécifiques'),
+    'rebol.md': ('Rebol', 'https://img.shields.io/badge/Rebol-577788?style=for-the-badge&logo=amigaos&logoColor=white', 'Langages Hybrides & Spécifiques'),
+    'dylan.md': ('Dylan', 'https://img.shields.io/badge/Dylan-000000?style=for-the-badge&logo=apple&logoColor=white', 'Langages Hybrides & Spécifiques'),
+    'icon.md': ('Icon', 'https://img.shields.io/badge/Icon-1B365D?style=for-the-badge&logo=gnu&logoColor=white', 'Langages Hybrides & Spécifiques'),
+    'ceylon.md': ('Ceylon', 'https://img.shields.io/badge/Ceylon-D9531E?style=for-the-badge&logo=eclipseide&logoColor=white', 'Langages Hybrides & Spécifiques'),
+    'fantom.md': ('Fantom', 'https://img.shields.io/badge/Fantom-2B579A?style=for-the-badge&logo=java&logoColor=white', 'Langages Hybrides & Spécifiques'),
+    'nemerle.md': ('Nemerle', 'https://img.shields.io/badge/Nemerle-007ACC?style=for-the-badge&logo=dotnet&logoColor=white', 'Langages Hybrides & Spécifiques'),
+    'boo.md': ('Boo', 'https://img.shields.io/badge/Boo-000000?style=for-the-badge&logo=unity&logoColor=white', 'Langages Hybrides & Spécifiques'),
+    'pike.md': ('Pike', 'https://img.shields.io/badge/Pike-2C3E50?style=for-the-badge&logo=cplusplus&logoColor=white', 'Langages Hybrides & Spécifiques'),
+    'io.md': ('Io', 'https://img.shields.io/badge/Io-1E1E1E?style=for-the-badge&logo=ghost&logoColor=white', 'Langages Hybrides & Spécifiques'),
+    'ring.md': ('Ring', 'https://img.shields.io/badge/Ring-18BC9C?style=for-the-badge&logo=c&logoColor=white', 'Langages Hybrides & Spécifiques'),
+    'ur-web.md': ('Ur/Web', 'https://img.shields.io/badge/Ur_Web-1A365D?style=for-the-badge&logo=mit&logoColor=white', 'Langages Hybrides & Spécifiques'),
+
     # Historical & Pioneers
-    'cobol.md': ('COBOL', 'https://img.shields.io/badge/COBOL-003C71?style=for-the-badge&logo=ibm&logoColor=white', 'Langages Historiques & Pionniers'),
     'algol.md': ('ALGOL', 'https://img.shields.io/badge/ALGOL-1A1A1A?style=for-the-badge&logo=computerhistory&logoColor=white', 'Langages Historiques & Pionniers'),
     'basic.md': ('BASIC', 'https://img.shields.io/badge/BASIC-1976D2?style=for-the-badge&logo=visualstudio&logoColor=white', 'Langages Historiques & Pionniers'),
-    'smalltalk.md': ('Smalltalk', 'https://img.shields.io/badge/Smalltalk-57889C?style=for-the-badge&logo=smalltalk&logoColor=white', 'Langages Historiques & Pionniers'),
-    'simula.md': ('Simula', 'https://img.shields.io/badge/Simula-002D62?style=for-the-badge&logo=openaccess&logoColor=white', 'Langages Historiques & Pionniers'),
-    'logo.md': ('Logo', 'https://img.shields.io/badge/Logo-2B2B2B?style=for-the-badge&logo=mit&logoColor=white', 'Langages Historiques & Pionniers'),
+    'cobol.md': ('COBOL', 'https://img.shields.io/badge/COBOL-003C71?style=for-the-badge&logo=ibm&logoColor=white', 'Langages Historiques & Pionniers'),
     'forth.md': ('Forth', 'https://img.shields.io/badge/Forth-000000?style=for-the-badge&logo=forth&logoColor=white', 'Langages Historiques & Pionniers'),
+    'logo.md': ('Logo', 'https://img.shields.io/badge/Logo-2B2B2B?style=for-the-badge&logo=mit&logoColor=white', 'Langages Historiques & Pionniers'),
     'pli.md': ('PL/I', 'https://img.shields.io/badge/PL/I-052FAD?style=for-the-badge&logo=ibm&logoColor=white', 'Langages Historiques & Pionniers'),
-
-    # Hardware Description
-    'vhdl.md': ('VHDL', 'https://img.shields.io/badge/VHDL-00629B?style=for-the-badge&logo=ieee&logoColor=white', 'Description Matérielle & Domaines Spécifiques'),
-    'verilog.md': ('Verilog', 'https://img.shields.io/badge/Verilog-00629B?style=for-the-badge&logo=ieee&logoColor=white', 'Description Matérielle & Domaines Spécifiques'),
-    'systemverilog.md': ('SystemVerilog', 'https://img.shields.io/badge/SystemVerilog-00629B?style=for-the-badge&logo=ieee&logoColor=white', 'Description Matérielle & Domaines Spécifiques'),
+    'simula.md': ('Simula', 'https://img.shields.io/badge/Simula-002D62?style=for-the-badge&logo=openaccess&logoColor=white', 'Langages Historiques & Pionniers'),
+    'smalltalk.md': ('Smalltalk', 'https://img.shields.io/badge/Smalltalk-57889C?style=for-the-badge&logo=smalltalk&logoColor=white', 'Langages Historiques & Pionniers'),
+    'snobol.md': ('SNOBOL', 'https://img.shields.io/badge/SNOBOL-333333?style=for-the-badge&logo=bell&logoColor=white', 'Langages Historiques & Pionniers'),
+    'postscript.md': ('PostScript', 'https://img.shields.io/badge/PostScript-FF0000?style=for-the-badge&logo=adobe&logoColor=white', 'Langages Historiques & Pionniers'),
+    'tex.md': ('TeX LaTeX', 'https://img.shields.io/badge/TeX_LaTeX-008080?style=for-the-badge&logo=latex&logoColor=white', 'Langages Historiques & Pionniers'),
 
     # Desktop Automation & Scripting
     'applescript.md': ('AppleScript', 'https://img.shields.io/badge/AppleScript-999999?style=for-the-badge&logo=apple&logoColor=white', 'Automatisation Desktop & Web Scripting'),
@@ -199,15 +256,21 @@ CATEGORIES_ORDER = [
     'Entreprise, ERP & 4GL Métier',
     'Langages Web & Scripting Dynamique',
     'GPU, Shaders & Graphisme',
+    'Jeux Vidéo & Moteurs 3D',
+    'Audio, Musique & DSP Temps Réel',
+    'Requêtes de Données, Graphes & Schémas',
     'Shells & Outils de Flux Unix',
     'Spécification Formelle & Modélisation',
     'Langages Fonctionnels & Déclaratifs',
     'Langages Scientifiques & Données',
     'Langages Logiques & Formels',
     'Smart Contracts & Web3',
+    'Description Matérielle & Open Hardware',
+    'Systèmes Modulaires & Wirth',
+    'Langages Hybrides & Spécifiques',
     'Langages Historiques & Pionniers',
-    'Description Matérielle & Domaines Spécifiques',
     'Automatisation Desktop & Web Scripting',
+    'Ésotériques & Théorie Informatique',
     'Langages Émergents & Recherche',
     'Frameworks, Runtimes & Écosystèmes',
     'Autres Fiches'
@@ -242,7 +305,6 @@ def run():
         items = cats[cat_name]
         if not items:
             continue
-        # sort items alphabetically by name
         items.sort(key=lambda x: x[0].lower())
         badges_str = ' '.join([f'[![{name}]({badge})](languages/{fname})' for name, badge, fname in items])
         sections.append(f'### {cat_name} ({len(items)})\n\n{badges_str}\n')
